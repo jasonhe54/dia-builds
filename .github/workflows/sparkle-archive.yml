@@ -63,14 +63,11 @@ jobs:
           
           echo "Parsing feed for release items..."
           
-          # This is the new, more robust parsing logic.
-          # We will build a stream of JSON objects, then slurp them into an array.
           JSON_PAYLOADS=""
           
           # 1. Use xmlstarlet to output raw values separated by a NULL byte.
           # 2. Pipe this into a 'while read' loop that reads 4 values at a time.
           # 3. Use jq -n to safely build a JSON object from these shell variables.
-          #    jq handles all escaping (quotes, newlines, etc.) automatically.
           while IFS= read -r -d $'\0' build_num && \
                 IFS= read -r -d $'\0' short_version_str && \
                 IFS= read -r -d $'\0' description && \
@@ -83,22 +80,22 @@ jobs:
               --arg zu "$zip_url" \
               '{build_num: $bn, short_version_str: $svs, description: $desc, zip_url: $zu}')
             
-            # Append this new, safe JSON object to our stream
             JSON_PAYLOADS+="${JSON_OBJ}"
           done < <(xmlstarlet sel \
                     -N sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" \
-                    -t -m "//item" \
+                    -N rss="xmlns" \
+                    -t -m "//rss:item" \
                     -v "sparkle:version" -o $'\0' \
                     -v "sparkle:shortVersionString" -o $'\0' \
-                    -v "description" -o $'\0' \
-                    -v "enclosure/@url" -o $'\0' \
+                    -v "rss:description" -o $'\0' \
+                    -v "rss:enclosure[not(@sparkle:deltaFrom)]/@url" -o $'\0' \
                     feed.xml)
 
           # Now, take all the concatenated JSON objects and slurp them into a single array
           JSON_MATRIX=$(echo "${JSON_PAYLOADS}" | jq -s . | jq -c .)
           
           if [[ -z "${JSON_MATRIX}" || "${JSON_MATRIX}" == "[]" ]]; then
-            echo "::error::No <item> elements found in the XML feed."
+            echo "::error::No <item> elements found in the XML feed. Check namespace definitions."
             exit 1
           fi
           
