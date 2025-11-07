@@ -257,5 +257,5 @@ jobs:
             exit 0
           fi
           
-          # Use jq to iterate over the outputs object from the matrix
-          jq -r '.[] | "| \`\(.final_version_tag)\` | \`\(.asset_name)\` | \`\(.zip_filename)\` | \(.status) |"' outputs.json >> $GITHUB_STEP_SUMMARY
+          # Format the single object output (GitHub Actions matrix outputs only give you one job's output)
+          jq -r '"| `" + .final_version_tag + "` | `" + .asset_name + "` | `" + .zip_filename + "` | " + .status + " |"' outputs.json >> $GITHUB_STEP_SUMMARY
