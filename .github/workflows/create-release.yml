@@ -28,6 +28,11 @@ on:
         required: false
         type: string
         default: 'Manual Upload'
+      force_recreate:
+        required: false
+        type: boolean
+        default: false
+        description: "Force recreate even if release exists"
     secrets:
       download_url:
         required: true
@@ -60,6 +65,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-tags: true
+          fetch-depth: 0
+
+      - name: Sync Tags
+        run: |
+          git fetch --tags --force
 
       - name: Prepare Version Tag and Asset Name
         id: prep
@@ -152,43 +162,60 @@ jobs:
           ZIP_FILENAME: ${{ steps.prep.outputs.zip_filename }}
           FORMATTED_NOTES: ${{ steps.format_notes.outputs.formatted_notes }}
           ARCHIVE_SOURCE: ${{ inputs.feed_url }}
+          FORCE_RECREATE: ${{ inputs.force_recreate }}
         run: |
           set -euo pipefail
           
-          if git rev-parse "${VERSION_TAG}" >/dev/null 2>&1; then
-            echo "✅ Git tag ${VERSION_TAG} already exists. Skipping duplicate archival."
-            echo "status=SKIPPED" >> "$GITHUB_OUTPUT"
-          else
-            echo "Creating new Git tag and draft release for: ${VERSION_TAG}"
-            
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            
-            git tag "${VERSION_TAG}" -m "Archive release ${VERSION_TAG}"
-            git push origin "${VERSION_TAG}"
-            
-            # Build release notes without exposing full URL
-            if [[ "${ARCHIVE_SOURCE}" == "Manual Upload" ]]; then
-              printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source:** Manual Upload" "${ZIP_FILENAME}"
+          # Check if a RELEASE already exists (not just a tag)
+          if gh release view "${VERSION_TAG}" >/dev/null 2>&1; then
+            if [[ "${FORCE_RECREATE}" == "true" ]]; then
+              echo "🔄 Release ${VERSION_TAG} exists. Force recreating..."
+              gh release delete "${VERSION_TAG}" --yes --cleanup-tag
             else
-              printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source Feed:** \`%s\`" "${ZIP_FILENAME}" "${ARCHIVE_SOURCE}"
+              echo "✅ Release ${VERSION_TAG} already exists. Skipping duplicate archival."
+              echo "status=SKIPPED" >> "$GITHUB_OUTPUT"
+              exit 0
             fi
-            
-            if [[ -n "${FORMATTED_NOTES}" ]]; then
-              printf -v FINAL_NOTES "%s\n\n---\n\n%s" "${BASE_NOTES}" "${FORMATTED_NOTES}"
-            else
-              FINAL_NOTES="${BASE_NOTES}"
-            fi
-            
-            gh release create "${VERSION_TAG}" \
-               --title "App Version ${VERSION_TAG}" \
-               --notes "${FINAL_NOTES}" \
-               --draft \
-               "${DOWNLOAD_PATH}#${ASSET_NAME}"
-            
-            echo "New draft release created."
-            echo "status=CREATED" >> "$GITHUB_OUTPUT"
           fi
+          
+          echo "Creating release for: ${VERSION_TAG}"
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # If tag exists locally or remotely without a release, delete it first
+          if git rev-parse "${VERSION_TAG}" >/dev/null 2>&1; then
+            echo "⚠️  Tag ${VERSION_TAG} exists without a release. Removing old tag..."
+            git tag -d "${VERSION_TAG}" 2>/dev/null || true
+            git push origin ":refs/tags/${VERSION_TAG}" 2>/dev/null || true
+          fi
+          
+          # Create new tag
+          git tag "${VERSION_TAG}" -m "Archive release ${VERSION_TAG}"
+          git push origin "${VERSION_TAG}"
+          
+          # Build release notes without exposing full URL
+          if [[ "${ARCHIVE_SOURCE}" == "Manual Upload" ]]; then
+            printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source:** Manual Upload" "${ZIP_FILENAME}"
+          else
+            printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source Feed:** \`%s\`" "${ZIP_FILENAME}" "${ARCHIVE_SOURCE}"
+          fi
+          
+          if [[ -n "${FORMATTED_NOTES}" ]]; then
+            printf -v FINAL_NOTES "%s\n\n---\n\n%s" "${BASE_NOTES}" "${FORMATTED_NOTES}"
+          else
+            FINAL_NOTES="${BASE_NOTES}"
+          fi
+          
+          # Create the release
+          gh release create "${VERSION_TAG}" \
+             --title "App Version ${VERSION_TAG}" \
+             --notes "${FINAL_NOTES}" \
+             --draft \
+             "${DOWNLOAD_PATH}#${ASSET_NAME}"
+          
+          echo "✅ New draft release created."
+          echo "status=CREATED" >> "$GITHUB_OUTPUT"
 
       - name: Save Job Results
         if: always()

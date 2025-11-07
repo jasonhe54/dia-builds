@@ -29,6 +29,11 @@ on:
         required: false
         type: boolean
         default: false
+      force_recreate:
+        description: "Force recreate if release already exists?"
+        required: false
+        type: boolean
+        default: false
       release_notes:
         description: "Release notes (HTML or plain text, optional)"
         required: false
@@ -49,6 +54,7 @@ jobs:
       is_eb_build: ${{ inputs.is_early_bird }}
       app_name: ${{ inputs.app_name }}
       feed_url: "Manual Upload"
+      force_recreate: ${{ inputs.force_recreate }}
     secrets:
       download_url: ${{ inputs.zip_url }}
 
