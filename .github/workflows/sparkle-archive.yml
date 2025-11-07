@@ -156,23 +156,27 @@ jobs:
       - name: Format Release Notes
         id: format_notes
         if: matrix.item.description != ''
+        env:
+          RAW_NOTES: ${{ matrix.item.description }}
         run: |
           set -euo pipefail
           echo "Formatting release notes..."
-          RAW_NOTES='${{ matrix.item.description }}'
           
-          UNESCAPED_NOTES=$(echo "${RAW_NOTES}" | \
-            sed 's/&lt;/</g' | \
-            sed 's/&gt;/>/g' | \
-            sed 's/&#39;/'"'"'/g' | \
-            sed 's/&quot;/"/g' | \
-            sed 's/&amp;/\&/g')
+          # Write the raw notes to a temp file to avoid shell interpretation issues
+          echo "${RAW_NOTES}" > /tmp/raw_notes.html
           
-          MARKDOWN_NOTES=$(echo "${UNESCAPED_NOTES}" | pandoc -f html -t gfm)
+          # Unescape HTML entities
+          sed -i 's/&lt;/</g; s/&gt;/>/g; s/&#39;/'"'"'/g; s/&quot;/"/g; s/&amp;/\&/g' /tmp/raw_notes.html
           
-          echo "formatted_notes<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$MARKDOWN_NOTES" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          # Convert to markdown using pandoc
+          MARKDOWN_NOTES=$(pandoc -f html -t gfm /tmp/raw_notes.html)
+          
+          # Write to GitHub output
+          {
+            echo "formatted_notes<<EOF"
+            echo "$MARKDOWN_NOTES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Download Asset
         id: download
