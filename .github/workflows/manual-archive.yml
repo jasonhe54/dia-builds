@@ -7,6 +7,10 @@ on:
         description: "Direct URL to the .zip file"
         required: true
         type: string
+      zip_filename:
+        description: "Original filename (e.g., Dia-1.5.0-70554.zip)"
+        required: true
+        type: string
       short_version:
         description: "Short version string (e.g., 1.4.0)"
         required: true
@@ -41,10 +45,12 @@ jobs:
       build_num: ${{ inputs.build_number }}
       short_version_str: "${{ inputs.short_version }} (${{ inputs.build_number }})"
       description: ${{ inputs.release_notes }}
-      zip_url: ${{ inputs.zip_url }}
+      zip_filename: ${{ inputs.zip_filename }}
       is_eb_build: ${{ inputs.is_early_bird }}
       app_name: ${{ inputs.app_name }}
       feed_url: "Manual Upload"
+    secrets:
+      download_url: ${{ inputs.zip_url }}
 
   job-summary:
     name: Write Summary

@@ -108,10 +108,12 @@ jobs:
       build_num: ${{ matrix.item.build_num }}
       short_version_str: ${{ matrix.item.short_version_str }}
       description: ${{ matrix.item.description }}
-      zip_url: ${{ matrix.item.zip_url }}
+      zip_filename: ${{ matrix.item.zip_filename }}
       is_eb_build: ${{ needs.parse-feed.outputs.is_eb_build == 'true' }}
       app_name: ${{ inputs.app_name }}
       feed_url: ${{ needs.parse-feed.outputs.feed_url }}
+    secrets:
+      download_url: ${{ matrix.item.zip_url }}
 
   job-summary:
     name: Write Summary

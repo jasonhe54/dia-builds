@@ -13,9 +13,10 @@ on:
         required: false
         type: string
         default: ''
-      zip_url:
+      zip_filename:
         required: true
         type: string
+        description: "Just the filename (e.g., Dia-1.5.0-70554.zip)"
       is_eb_build:
         required: false
         type: boolean
@@ -27,6 +28,10 @@ on:
         required: false
         type: string
         default: 'Manual Upload'
+    secrets:
+      download_url:
+        required: true
+        description: "Full URL to download the zip file"
     outputs:
       final_version_tag:
         value: ${{ jobs.create-release.outputs.final_version_tag }}
@@ -64,10 +69,7 @@ jobs:
           SHORT_VERSION_STR="${{ inputs.short_version_str }}"
           IS_EB="${{ inputs.is_eb_build }}"
           APP_NAME="${{ inputs.app_name }}"
-          ZIP_URL="${{ inputs.zip_url }}"
-          
-          # Mask the URL to prevent it from appearing in logs
-          echo "::add-mask::${ZIP_URL}"
+          ZIP_FILENAME="${{ inputs.zip_filename }}"
           
           BASE_VERSION=$(echo "${SHORT_VERSION_STR}" | sed -E 's/ \([0-9]+\)$//' | sed 's/^/v/')
 
@@ -80,12 +82,10 @@ jobs:
           fi
           
           ASSET_NAME="${APP_NAME}-${FINAL_VERSION_TAG}.zip"
-          ZIP_FILENAME=$(basename "${ZIP_URL}")
 
           echo "final_version_tag=${FINAL_VERSION_TAG}" >> "$GITHUB_OUTPUT"
           echo "asset_name=${ASSET_NAME}" >> "$GITHUB_OUTPUT"
           echo "zip_filename=${ZIP_FILENAME}" >> "$GITHUB_OUTPUT"
-          echo "zip_url=${ZIP_URL}" >> "$GITHUB_OUTPUT"
 
       - name: Install Pandoc
         if: inputs.description != ''
@@ -121,14 +121,16 @@ jobs:
 
       - name: Download Asset
         id: download
+        env:
+          DOWNLOAD_URL: ${{ secrets.download_url }}
         run: |
           set -euo pipefail
           echo "Downloading asset..."
           mkdir -p ./work
           DOWNLOAD_PATH="./work/asset.zip"
           
-          # Download silently to avoid exposing URL in logs
-          curl -L --fail --show-error --progress-bar -o "${DOWNLOAD_PATH}" "${{ steps.prep.outputs.zip_url }}" 2>&1 | grep -v "http" || true
+          # Download using secret URL (won't appear in logs)
+          curl -L --fail --show-error --silent -o "${DOWNLOAD_PATH}" "${DOWNLOAD_URL}"
           
           if [ ! -f "${DOWNLOAD_PATH}" ]; then
             echo "::error::Failed to download asset"
@@ -136,7 +138,7 @@ jobs:
           fi
           
           FILE_SIZE=$(stat -f%z "${DOWNLOAD_PATH}" 2>/dev/null || stat -c%s "${DOWNLOAD_PATH}" 2>/dev/null || echo "unknown")
-          echo "Downloaded asset (${FILE_SIZE} bytes)"
+          echo "✅ Downloaded asset (${FILE_SIZE} bytes)"
           
           echo "download_path=${DOWNLOAD_PATH}" >> "$GITHUB_OUTPUT"
 
