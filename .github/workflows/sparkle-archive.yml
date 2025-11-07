@@ -83,12 +83,11 @@ jobs:
             JSON_PAYLOADS+="${JSON_OBJ}"
           done < <(xmlstarlet sel \
                     -N sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" \
-                    -N rss="xmlns" \
-                    -t -m "//rss:item" \
-                    -v "sparkle:version" -o $'\0' \
-                    -v "sparkle:shortVersionString" -o $'\0' \
-                    -v "rss:description" -o $'\0' \
-                    -v "rss:enclosure[not(@sparkle:deltaFrom)]/@url" -o $'\0' \
+                    -t -m "//*:item" \
+                    -v "*:version[namespace-uri()='http://www.andymatuschak.org/xml-namespaces/sparkle']" -o $'\0' \
+                    -v "*:shortVersionString[namespace-uri()='http://www.andymatuschak.org/xml-namespaces/sparkle']" -o $'\0' \
+                    -v "*:description" -o $'\0' \
+                    -v "*:enclosure[not(@sparkle:deltaFrom)]/@url" -o $'\0' \
                     feed.xml)
 
           # Now, take all the concatenated JSON objects and slurp them into a single array
