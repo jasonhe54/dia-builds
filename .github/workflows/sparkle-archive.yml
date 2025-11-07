@@ -1,0 +1,264 @@
+name: Archive Releases from Sparkle Feed
+
+on:
+  workflow_dispatch:
+    inputs:
+      feed_type:
+        description: "Which feed to parse for new builds?"
+        required: true
+        type: choice
+        options:
+        - Early Bird
+        - Release
+      app_name:
+        description: "The name of the app (e.g., Dia) for the asset filename"
+        required: true
+        type: string
+        default: "Dia"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ inputs.feed_type }}
+  cancel-in-progress: true
+
+jobs:
+  parse-feed:
+    name: Parse Sparkle Feed
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.parse.outputs.matrix }}
+      is_eb_build: ${{ steps.prep_env.outputs.is_eb_build }}
+      feed_url: ${{ steps.prep_env.outputs.feed_url }}
+    
+    steps:
+      - name: Prepare Environment
+        id: prep_env
+        env:
+          EB_URL: ${{ secrets.SPARKLE_FEED_URL_EB }}
+          RELEASE_URL: ${{ secrets.SPARKLE_FEED_URL_RELEASE }}
+        run: |
+          set -euo pipefail
+          if [[ "${{ inputs.feed_type }}" == "Early Bird" ]]; then
+            echo "Setting environment for Early Bird feed..."
+            echo "is_eb_build=true" >> "$GITHUB_OUTPUT"
+            echo "feed_url=${EB_URL}" >> "$GITHUB_OUTPUT"
+          else
+            echo "Setting environment for Release feed..."
+            echo "is_eb_build=false" >> "$GITHUB_OUTPUT"
+            echo "feed_url=${RELEASE_URL}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install XML/JSON Tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet jq
+
+      - name: Fetch and Parse Feed
+        id: parse
+        env:
+          # This FEED_URL comes from the previous step's output
+          # and will be masked in logs since it originates from a secret.
+          FEED_URL: ${{ steps.prep_env.outputs.feed_url }}
+        run: |
+          set -euo pipefail
+          echo "Fetching feed..."
+          curl -L --fail --show-error -o feed.xml "${FEED_URL}"
+          
+          echo "Parsing feed for release items..."
+          
+          JSON_MATRIX=$(xmlstarlet sel \
+            -N sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" \
+            -t -m "//item" \
+            -o "{" \
+            -o "\"build_num\":\"" -v "sparkle:version" -o "\"," \
+            -o "\"short_version_str\":\"" -v "sparkle:shortVersionString" -o "\"," \
+            -o "\"description\":\"" -v "description" -o "\"," \
+            -o "\"zip_url\":\"" -v "enclosure/@url" -o "\"" \
+            -o "}" \
+            feed.xml | jq -s . | jq -c .)
+          
+          if [[ -z "${JSON_MATRIX}" || "${JSON_MATRIX}" == "[]" ]]; then
+            echo "::error::No <item> elements found in the XML feed."
+            exit 1
+          fi
+          
+          echo "Found items: ${JSON_MATRIX}"
+          echo "matrix=${JSON_MATRIX}" >> "$GITHUB_OUTPUT"
+
+  archive-release:
+    name: Archive Release (${{ matrix.item.build_num }})
+    needs: parse-feed
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # To create releases and tags
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        item: ${{ fromJson(needs.parse-feed.outputs.matrix) }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-tags: true
+
+      - name: Prepare Version Tag and Asset Name
+        id: prep
+        run: |
+          set -euo pipefail
+          BUILD_NUM="${{ matrix.item.build_num }}"
+          SHORT_VERSION_STR="${{ matrix.item.short_version_str }}"
+          # This now comes from the 'parse-feed' job output
+          IS_EB="${{ needs.parse-feed.outputs.is_eb_build }}"
+          APP_NAME="${{ inputs.app_name }}"
+          ZIP_URL="${{ matrix.item.zip_url }}"
+          
+          BASE_VERSION=$(echo "${SHORT_VERSION_STR}" | sed -E 's/ \([0-9]+\)$//' | sed 's/^/v/')
+
+          FINAL_VERSION_TAG="${BASE_VERSION}"
+          if [[ -n "${BUILD_NUM}" ]]; then
+            FINAL_VERSION_TAG="${FINAL_VERSION_TAG}-${BUILD_NUM}"
+          fi
+          if [[ "${IS_EB}" == "true" ]]; then
+            FINAL_VERSION_TAG="${FINAL_VERSION_TAG}-EB"
+          fi
+          
+          ASSET_NAME="${APP_NAME}-${FINAL_VERSION_TAG}.zip"
+          ZIP_FILENAME=$(basename "${ZIP_URL}")
+
+          echo "final_version_tag=${FINAL_VERSION_TAG}" >> "$GITHUB_OUTPUT"
+          echo "asset_name=${ASSET_NAME}" >> "$GITHUB_OUTPUT"
+          echo "zip_filename=${ZIP_FILENAME}" >> "$GITHUB_OUTPUT"
+          echo "zip_url=${ZIP_URL}" >> "$GITHUB_OUTPUT"
+          echo "base_version_parsed=${BASE_VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Install Pandoc
+        if: matrix.item.description != ''
+        run: |
+          echo "Installing pandoc..."
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          
+      - name: Format Release Notes
+        id: format_notes
+        if: matrix.item.description != ''
+        run: |
+          set -euo pipefail
+          echo "Formatting release notes..."
+          RAW_NOTES='${{ matrix.item.description }}'
+          
+          UNESCAPED_NOTES=$(echo "${RAW_NOTES}" | \
+            sed 's/&lt;/</g' | \
+            sed 's/&gt;/>/g' | \
+            sed 's/&#39;/'"'"'/g' | \
+            sed 's/&quot;/"/g' | \
+            sed 's/&amp;/&/g')
+          
+          MARKDOWN_NOTES=$(echo "${UNESCAPED_NOTES}" | pandoc -f html -t gfm)
+          
+          echo "formatted_notes<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$MARKDOWN_NOTES" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Download Asset
+        id: download
+        run: |
+          set -euo pipefail
+          mkdir -p ./work
+          DOWNLOAD_PATH="./work/asset.zip"
+          
+          # This URL is public (from the XML) and will appear in logs
+          echo "Downloading asset from: ${{ steps.prep.outputs.zip_url }}"
+          echo "Saving to: ${DOWNLOAD_PATH}"
+          
+          curl -L --fail --show-error -o "${DOWNLOAD_PATH}" "${{ steps.prep.outputs.zip_url }}"
+          
+          echo "download_path=${DOWNLOAD_PATH}" >> "$GITHUB_OUTPUT"
+
+      - name: Create Draft Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
+          ASSET_NAME: ${{ steps.prep.outputs.asset_name }}
+          DOWNLOAD_PATH: ${{ steps.download.outputs.download_path }}
+          ZIP_URL: ${{ steps.prep.outputs.zip_url }}
+          FORMATTED_NOTES: ${{ steps.format_notes.outputs.formatted_notes }}
+          # This is the secret feed URL, passed from the 'needs' context.
+          # It will be masked as '***' in the build log.
+          ARCHIVE_SOURCE_URL: ${{ needs.parse-feed.outputs.feed_url }}
+        run: |
+          set -euo pipefail
+          
+          if git rev-parse "${VERSION_TAG}" >/dev/null 2>&1; then
+            echo "✅ Git tag ${VERSION_TAG} already exists. Skipping duplicate archival."
+          else
+            echo "Creating new Git tag and draft release for: ${VERSION_TAG}"
+            
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            
+            echo "Creating and pushing Git tag: ${VERSION_TAG}"
+            git tag "${VERSION_TAG}" -m "Archive release ${VERSION_TAG}"
+            git push origin "${VERSION_TAG}"
+            
+            # The release notes will contain the public ZIP_URL and the
+            # secret (masked in logs) ARCHIVE_SOURCE_URL.
+            printf -v BASE_NOTES "Archived from: \`%s\`\nSource Feed: \`%s\`" "${ZIP_URL}" "${ARCHIVE_SOURCE_URL}"
+            if [[ -n "${FORMATTED_NOTES}" ]]; then
+              printf -v FINAL_NOTES "%s\n\n---\n\n%s" "${BASE_NOTES}" "${FORMATTED_NOTES}"
+            else
+              FINAL_NOTES="${BASE_NOTES}"
+            fi
+            
+            gh release create "${VERSION_TAG}" \
+               --title "App Version ${VERSION_TAG}" \
+               --notes "${FINAL_NOTES}" \
+               --draft \
+               "${DOWNLOAD_PATH}#${ASSET_NAME}"
+            
+            echo "New draft release created."
+          fi
+
+      - name: Write to Job Summary
+        id: summary
+        env:
+          VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
+          ASSET_NAME: ${{ steps.prep.outputs.asset_name }}
+          REPO_URL: "[https://github.com/$](https://github.com/$){{ github.repository }}"
+          ZIP_FILENAME: ${{ steps.prep.outputs.zip_filename }}
+          BASE_VERSION: ${{ steps.prep.outputs.base_version_parsed }}
+          BUILD_NUM: ${{ matrix.item.build_num }}
+          FEED_TYPE: ${{ inputs.feed_type }}
+          IS_EB_BUILD: ${{ needs.parse-feed.outputs.is_eb_build }}
+        run: |
+          set -euo pipefail
+          echo "## 🚀 Archive Run Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Run Inputs" >> $GITHUB_STEP_SUMMARY
+          echo "| Parameter | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          # Updated to show the 'feed_type' input
+          echo "| **Feed Type** | \`${{ env.FEED_TYPE }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **App Name** | \`${{ inputs.app_name }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Parsed Item" >> $GITHUB_STEP_SUMMARY
+          echo "| Parameter | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Source Filename** | \`${{ env.ZIP_FILENAME }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Base Version** | \`${{ env.BASE_VERSION }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build Number** | \`${{ env.BUILD_NUM }}\` |" >> $GITHUB_STEP_SUMMARY
+          # Added the derived 'is_eb_build' status
+          echo "| **Is EB Build** | \`${{ env.IS_EB_BUILD }}\` |" >> $GITHUB_STEP_SUMMARY
+          if [[ -n "${{ matrix.item.description }}" ]]; then
+            echo "| **Release Notes** | \`(provided & formatted)\` |" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Assets" >> $GITHUB_STEP_SUMMARY
+          echo "| Asset | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Final Version Tag** | \`${VERSION_TAG}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Uploaded Asset Name** | \`${ASSET_NAME}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📦 Draft Release" >> $GITHUB_STEP_SUMMARY
+          echo "The asset has been uploaded to a new **draft release**." >> $GITHUB_STEP_SUMMARY
+          echo "The source URL and formatted release notes have been saved to the release notes." >> $GITHUB_STEP_SUMMARY
