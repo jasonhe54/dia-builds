@@ -2,58 +2,56 @@
 
 import sys
 import json
-import xml.etree.ElementTree as ET
+# Explicitly import lxml.etree
+from lxml import etree as ET
 
-def parse_cleaned_feed(xml_file):
+def parse_sparkle_feed(xml_file):
     """
-    Parses a "cleaned" Sparkle XML feed and prints a JSON array of items.
-    
-    This parser assumes the feed has been pre-processed to remove the
-    invalid root-level 'xmlns' attributes.
+    Parses a Sparkle XML feed using lxml's recovery mode
+    to handle malformed XML (like invalid xmlns attributes).
     """
     
-    # This is the namespace URI used by the <version> and <shortVersionString>
-    # tags, and also for the 'sparkle:' attributes.
-    SPARKLE_NS_URI = 'http://www.andymatuschak.org/xml-namespaces/sparkle'
-    
-    # We must register it with a prefix to find attributes like 'sparkle:deltaFrom'
-    ET.register_namespace('sparkle', SPARKLE_NS_URI)
-
-    # These are the keys we will use to find namespaced elements/attributes
-    SPARKLE_VERSION_TAG = f'{{{SPARKLE_NS_URI}}}version'
-    SPARKLE_SHORT_VER_TAG = f'{{{SPARKLE_NS_URI}}}shortVersionString'
-    SPARKLE_DELTA_ATTR = f'{{{SPARKLE_NS_URI}}}deltaFrom'
+    # Define the namespaces. 'rss' is our alias for the weird "xmlns"
+    # default namespace, and 'sparkle' is for Sparkle.
+    namespaces = {
+        'rss': 'xmlns',
+        'sparkle': 'http://www.andymatuschak.org/xml-namespaces/sparkle'
+    }
 
     try:
-        tree = ET.parse(xml_file)
-        root = tree.getroot()
+        # THIS IS THE KEY CHANGE:
+        # Create a parser that will attempt to recover from errors.
+        parser = ET.XMLParser(recover=True)
         
+        # Parse the file using the recovery-mode parser.
+        # We read the file as bytes, as lxml prefers this.
+        with open(xml_file, 'rb') as f:
+            tree = ET.parse(f, parser=parser)
+        
+        root = tree.getroot()
         items = []
         
-        # Find all <item> tags. Since we cleaned the file, these are in
-        # no namespace and can be found directly.
-        for item in root.findall('.//item'):
+        # Find all <item> tags (in the 'rss' namespace)
+        for item in root.findall('.//rss:item', namespaces):
             
-            # These tags define their own default namespace, so we
-            # must use the full {uri}name syntax to find them.
-            version_elem = item.find(SPARKLE_VERSION_TAG)
+            version_elem = item.find('sparkle:version', namespaces)
             version = version_elem.text if version_elem is not None else ''
 
-            short_version_elem = item.find(SPARKLE_SHORT_VER_TAG)
+            short_version_elem = item.find('sparkle:shortVersionString', namespaces)
             short_version = short_version_elem.text if short_version_elem is not None else ''
 
-            # 'description' is in no namespace
-            desc_elem = item.find('description')
+            desc_elem = item.find('rss:description', namespaces)
             description = desc_elem.text if desc_elem is not None else ''
 
-            # Find the main enclosure. This is the 'enclosure' tag
-            # that does NOT have a 'sparkle:deltaFrom' attribute.
+            # Find the main enclosure
             zip_url = ''
-            for enclosure in item.findall('enclosure'):
-                if SPARKLE_DELTA_ATTR not in enclosure.attrib:
-                    # This is not a delta. Get its 'url' attribute.
+            delta_attr_key = f"{{{namespaces['sparkle']}}}deltaFrom"
+            
+            # Find enclosure tags in the 'rss' namespace
+            for enclosure in item.findall('rss:enclosure', namespaces):
+                if delta_attr_key not in enclosure.attrib:
                     zip_url = enclosure.attrib.get('url', '')
-                    break  # Found the main download
+                    break 
 
             if version and short_version and zip_url:
                 items.append({
@@ -63,19 +61,13 @@ def parse_cleaned_feed(xml_file):
                     'zip_url': zip_url
                 })
 
-        # Print the final list as a compact JSON string to stdout
         print(json.dumps(items, separators=(',', ':')))
 
-    except ET.ParseError as e:
-        print(f"Error: Failed to parse the cleaned XML: {e}", file=sys.stderr)
-        sys.exit(1)
     except Exception as e:
-        print(f"An unexpected error occurred: {e}", file=sys.stderr)
+        print(f"An unexpected error occurred during lxml parsing: {e}", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python parse_feed.py <path_to_feed.xml>", file=sys.stderr)
         sys.exit(1)
-    
-    parse_cleaned_feed(sys.argv[1])
