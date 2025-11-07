@@ -30,6 +30,9 @@ jobs:
       feed_url: ${{ steps.prep_env.outputs.feed_url }}
     
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Prepare Environment
         id: prep_env
         env:
@@ -47,10 +50,10 @@ jobs:
             echo "feed_url=${RELEASE_URL}" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Install XML/JSON Tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y xmlstarlet jq
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
       - name: Fetch and Parse Feed
         id: parse
@@ -61,40 +64,16 @@ jobs:
           echo "Fetching feed..."
           curl -L --fail --show-error -o feed.xml "${FEED_URL}"
           
-          echo "Parsing feed for release items..."
+          echo "Parsing feed with Python script..."
           
-          JSON_PAYLOADS=""
+          # Make the script executable
+          chmod +x ./scripts/parse_feed.py
           
-          # 1. Use xmlstarlet to output raw values separated by a NULL byte.
-          # 2. Pipe this into a 'while read' loop that reads 4 values at a time.
-          # 3. Use jq -n to safely build a JSON object from these shell variables.
-          while IFS= read -r -d $'\0' build_num && \
-                IFS= read -r -d $'\0' short_version_str && \
-                IFS= read -r -d $'\0' description && \
-                IFS= read -r -d $'\0' zip_url
-          do
-            JSON_OBJ=$(jq -n \
-              --arg bn "$build_num" \
-              --arg svs "$short_version_str" \
-              --arg desc "$description" \
-              --arg zu "$zip_url" \
-              '{build_num: $bn, short_version_str: $svs, description: $desc, zip_url: $zu}')
-            
-            JSON_PAYLOADS+="${JSON_OBJ}"
-          done < <(xmlstarlet sel \
-                    -N sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" \
-                    -t -m "//*:item" \
-                    -v "*:version[namespace-uri()='http://www.andymatuschak.org/xml-namespaces/sparkle']" -o $'\0' \
-                    -v "*:shortVersionString[namespace-uri()='http://www.andymatuschak.org/xml-namespaces/sparkle']" -o $'\0' \
-                    -v "*:description" -o $'\0' \
-                    -v "*:enclosure[not(@sparkle:deltaFrom)]/@url" -o $'\0' \
-                    feed.xml)
-
-          # Now, take all the concatenated JSON objects and slurp them into a single array
-          JSON_MATRIX=$(echo "${JSON_PAYLOADS}" | jq -s . | jq -c .)
+          # Run the python script and capture its stdout
+          JSON_MATRIX=$(python3 ./scripts/parse_feed.py feed.xml)
           
           if [[ -z "${JSON_MATRIX}" || "${JSON_MATRIX}" == "[]" ]]; then
-            echo "::error::No <item> elements found in the XML feed. Check namespace definitions."
+            echo "::error::No <item> elements found in the XML feed. Python script failed to parse."
             exit 1
           fi
           
