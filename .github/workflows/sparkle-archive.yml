@@ -94,155 +94,24 @@ jobs:
           echo "matrix=${JSON_MATRIX}" >> "$GITHUB_OUTPUT"
 
   archive-release:
-    name: Archive Release (${{ matrix.item.build_num }})
+    name: Archive Release
     needs: parse-feed
     if: needs.parse-feed.outputs.matrix != '[]'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
     strategy:
       fail-fast: false
       matrix:
         item: ${{ fromJson(needs.parse-feed.outputs.matrix) }}
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-tags: true
-
-      - name: Prepare Version Tag and Asset Name
-        id: prep
-        run: |
-          set -euo pipefail
-          BUILD_NUM="${{ matrix.item.build_num }}"
-          SHORT_VERSION_STR="${{ matrix.item.short_version_str }}"
-          IS_EB="${{ needs.parse-feed.outputs.is_eb_build }}"
-          APP_NAME="${{ inputs.app_name }}"
-          ZIP_URL="${{ matrix.item.zip_url }}"
-          
-          BASE_VERSION=$(echo "${SHORT_VERSION_STR}" | sed -E 's/ \([0-9]+\)$//' | sed 's/^/v/')
-
-          FINAL_VERSION_TAG="${BASE_VERSION}"
-          if [[ -n "${BUILD_NUM}" ]]; then
-            FINAL_VERSION_TAG="${FINAL_VERSION_TAG}-${BUILD_NUM}"
-          fi
-          if [[ "${IS_EB}" == "true" ]]; then
-            FINAL_VERSION_TAG="${FINAL_VERSION_TAG}-EB"
-          fi
-          
-          ASSET_NAME="${APP_NAME}-${FINAL_VERSION_TAG}.zip"
-          ZIP_FILENAME=$(basename "${ZIP_URL}")
-
-          echo "final_version_tag=${FINAL_VERSION_TAG}" >> "$GITHUB_OUTPUT"
-          echo "asset_name=${ASSET_NAME}" >> "$GITHUB_OUTPUT"
-          echo "zip_filename=${ZIP_FILENAME}" >> "$GITHUB_OUTPUT"
-          echo "zip_url=${ZIP_URL}" >> "$GITHUB_OUTPUT"
-
-      - name: Install Pandoc
-        if: matrix.item.description != ''
-        run: |
-          echo "Installing pandoc..."
-          sudo apt-get update
-          sudo apt-get install -y pandoc
-          
-      - name: Format Release Notes
-        id: format_notes
-        if: matrix.item.description != ''
-        env:
-          RAW_NOTES: ${{ matrix.item.description }}
-        run: |
-          set -euo pipefail
-          echo "Formatting release notes..."
-          
-          # Write the raw notes to a temp file to avoid shell interpretation issues
-          echo "${RAW_NOTES}" > /tmp/raw_notes.html
-          
-          # Unescape HTML entities
-          sed -i 's/&lt;/</g; s/&gt;/>/g; s/&#39;/'"'"'/g; s/&quot;/"/g; s/&amp;/\&/g' /tmp/raw_notes.html
-          
-          # Convert to markdown using pandoc
-          MARKDOWN_NOTES=$(pandoc -f html -t gfm /tmp/raw_notes.html)
-          
-          # Write to GitHub output
-          {
-            echo "formatted_notes<<EOF"
-            echo "$MARKDOWN_NOTES"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-
-      - name: Download Asset
-        id: download
-        run: |
-          set -euo pipefail
-          mkdir -p ./work
-          DOWNLOAD_PATH="./work/asset.zip"
-          curl -L --fail --show-error -o "${DOWNLOAD_PATH}" "${{ steps.prep.outputs.zip_url }}"
-          echo "download_path=${DOWNLOAD_PATH}" >> "$GITHUB_OUTPUT"
-
-      - name: Create Draft Release
-        id: create_release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
-          ASSET_NAME: ${{ steps.prep.outputs.asset_name }}
-          DOWNLOAD_PATH: ${{ steps.download.outputs.download_path }}
-          ZIP_URL: ${{ steps.prep.outputs.zip_url }}
-          FORMATTED_NOTES: ${{ steps.format_notes.outputs.formatted_notes }}
-          ARCHIVE_SOURCE_URL: ${{ needs.parse-feed.outputs.feed_url }}
-        run: |
-          set -euo pipefail
-          
-          if git rev-parse "${VERSION_TAG}" >/dev/null 2>&1; then
-            echo "✅ Git tag ${VERSION_TAG} already exists. Skipping duplicate archival."
-            echo "status=SKIPPED" >> "$GITHUB_OUTPUT"
-          else
-            echo "Creating new Git tag and draft release for: ${VERSION_TAG}"
-            
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            
-            git tag "${VERSION_TAG}" -m "Archive release ${VERSION_TAG}"
-            git push origin "${VERSION_TAG}"
-            
-            printf -v BASE_NOTES "Archived from: \`%s\`\nSource Feed: \`%s\`" "${ZIP_URL}" "${ARCHIVE_SOURCE_URL}"
-            if [[ -n "${FORMATTED_NOTES}" ]]; then
-              printf -v FINAL_NOTES "%s\n\n---\n\n%s" "${BASE_NOTES}" "${FORMATTED_NOTES}"
-            else
-              FINAL_NOTES="${BASE_NOTES}"
-            fi
-            
-            gh release create "${VERSION_TAG}" \
-               --title "App Version ${VERSION_TAG}" \
-               --notes "${FINAL_NOTES}" \
-               --draft \
-               "${DOWNLOAD_PATH}#${ASSET_NAME}"
-            
-            echo "New draft release created."
-            echo "status=CREATED" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Save Job Results
-        if: always()
-        run: |
-          mkdir -p ./job-results
-          cat > ./job-results/result.json <<EOF
-          {
-            "final_version_tag": "${{ steps.prep.outputs.final_version_tag }}",
-            "asset_name": "${{ steps.prep.outputs.asset_name }}",
-            "zip_filename": "${{ steps.prep.outputs.zip_filename }}",
-            "status": "${{ steps.create_release.outputs.status }}"
-          }
-          EOF
-
-      - name: Upload Job Results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: job-result-${{ matrix.item.build_num }}
-          path: ./job-results/result.json
-          retention-days: 1
+    uses: ./.github/workflows/create-release.yml
+    permissions:
+      contents: write
+    with:
+      build_num: ${{ matrix.item.build_num }}
+      short_version_str: ${{ matrix.item.short_version_str }}
+      description: ${{ matrix.item.description }}
+      zip_url: ${{ matrix.item.zip_url }}
+      is_eb_build: ${{ needs.parse-feed.outputs.is_eb_build == 'true' }}
+      app_name: ${{ inputs.app_name }}
+      feed_url: ${{ needs.parse-feed.outputs.feed_url }}
 
   job-summary:
     name: Write Summary

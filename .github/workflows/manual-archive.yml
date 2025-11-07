@@ -1,0 +1,81 @@
+name: Manual Archive Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      zip_url:
+        description: "Direct URL to the .zip file"
+        required: true
+        type: string
+      short_version:
+        description: "Short version string (e.g., 1.4.0)"
+        required: true
+        type: string
+      build_number:
+        description: "Build number (e.g., 70498)"
+        required: true
+        type: string
+      app_name:
+        description: "The name of the app (e.g., Dia) for the asset filename"
+        required: true
+        type: string
+        default: "Dia"
+      is_early_bird:
+        description: "Is this an Early Bird build?"
+        required: false
+        type: boolean
+        default: false
+      release_notes:
+        description: "Release notes (HTML or plain text, optional)"
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  archive-release:
+    name: Archive Manual Release
+    uses: ./.github/workflows/create-release.yml
+    permissions:
+      contents: write
+    with:
+      build_num: ${{ inputs.build_number }}
+      short_version_str: "${{ inputs.short_version }} (${{ inputs.build_number }})"
+      description: ${{ inputs.release_notes }}
+      zip_url: ${{ inputs.zip_url }}
+      is_eb_build: ${{ inputs.is_early_bird }}
+      app_name: ${{ inputs.app_name }}
+      feed_url: "Manual Upload"
+
+  job-summary:
+    name: Write Summary
+    runs-on: ubuntu-latest
+    needs: archive-release
+    if: always()
+
+    steps:
+      - name: Download Job Results
+        uses: actions/download-artifact@v4
+        with:
+          name: job-result-${{ inputs.build_number }}
+          path: ./result
+          
+      - name: Install JQ
+        run: sudo apt-get install -y jq
+        
+      - name: Write Job Summary
+        run: |
+          set -euo pipefail
+          echo "## 📦 Manual Archive Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Version Tag | Asset Name | Source Filename | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          
+          if [ ! -f "./result/result.json" ]; then
+            echo "| *No release was created or data was unavailable.* | | | |" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          
+          jq -r '"| `" + .final_version_tag + "` | `" + .asset_name + "` | `" + .zip_filename + "` | " + .status + " |"' ./result/result.json >> $GITHUB_STEP_SUMMARY
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Source URL:** \`${{ inputs.zip_url }}\`" >> $GITHUB_STEP_SUMMARY
