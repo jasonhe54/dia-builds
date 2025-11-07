@@ -54,17 +54,25 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          
+      - name: Install Python XML requirement
+        run: |
+          # lxml is more robust; let's add it just in case
+          pip install lxml 
 
-      - name: Fetch and Parse Feed
+      - name: Fetch, Clean, and Parse Feed
         id: parse
         env:
           FEED_URL: ${{ steps.prep_env.outputs.feed_url }}
         run: |
           set -euo pipefail
           echo "Fetching feed..."
-          curl -L --fail --show-error -o feed.xml "${FEED_URL}"
+          # Fetch the feed and use 'sed' to remove the two invalid xmlns lines
+          curl -L --fail --show-error "${FEED_URL}" | \
+            sed 's/xmlns:_//' | \
+            sed 's/xmlns="xmlns" _//' > feed.xml
           
-          echo "Parsing feed with Python script..."
+          echo "Parsing cleaned feed with Python script..."
           
           # Make the script executable
           chmod +x ./scripts/parse_feed.py
@@ -83,6 +91,7 @@ jobs:
   archive-release:
     name: Archive Release (${{ matrix.item.build_num }})
     needs: parse-feed
+    if: needs.parse-feed.outputs.matrix != '[]'
     runs-on: ubuntu-latest
     permissions:
       contents: write # To create releases and tags
@@ -91,6 +100,13 @@ jobs:
       fail-fast: false
       matrix:
         item: ${{ fromJson(needs.parse-feed.outputs.matrix) }}
+    
+    # This 'outputs' section is new, for the job-summary
+    outputs:
+      final_version_tag: ${{ steps.prep.outputs.final_version_tag }}
+      asset_name: ${{ steps.prep.outputs.asset_name }}
+      zip_filename: ${{ steps.prep.outputs.zip_filename }}
+      status: ${{ steps.create_release.outputs.status }}
     
     steps:
       - name: Checkout repository
@@ -104,7 +120,6 @@ jobs:
           set -euo pipefail
           BUILD_NUM="${{ matrix.item.build_num }}"
           SHORT_VERSION_STR="${{ matrix.item.short_version_str }}"
-          # This now comes from the 'parse-feed' job output
           IS_EB="${{ needs.parse-feed.outputs.is_eb_build }}"
           APP_NAME="${{ inputs.app_name }}"
           ZIP_URL="${{ matrix.item.zip_url }}"
@@ -126,7 +141,6 @@ jobs:
           echo "asset_name=${ASSET_NAME}" >> "$GITHUB_OUTPUT"
           echo "zip_filename=${ZIP_FILENAME}" >> "$GITHUB_OUTPUT"
           echo "zip_url=${ZIP_URL}" >> "$GITHUB_OUTPUT"
-          echo "base_version_parsed=${BASE_VERSION}" >> "$GITHUB_OUTPUT"
 
       - name: Install Pandoc
         if: matrix.item.description != ''
@@ -162,16 +176,11 @@ jobs:
           set -euo pipefail
           mkdir -p ./work
           DOWNLOAD_PATH="./work/asset.zip"
-          
-          # This URL is public (from the XML) and will appear in logs
-          echo "Downloading asset from: ${{ steps.prep.outputs.zip_url }}"
-          echo "Saving to: ${DOWNLOAD_PATH}"
-          
           curl -L --fail --show-error -o "${DOWNLOAD_PATH}" "${{ steps.prep.outputs.zip_url }}"
-          
           echo "download_path=${DOWNLOAD_PATH}" >> "$GITHUB_OUTPUT"
 
       - name: Create Draft Release
+        id: create_release # Added an ID
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
@@ -179,26 +188,22 @@ jobs:
           DOWNLOAD_PATH: ${{ steps.download.outputs.download_path }}
           ZIP_URL: ${{ steps.prep.outputs.zip_url }}
           FORMATTED_NOTES: ${{ steps.format_notes.outputs.formatted_notes }}
-          # This is the secret feed URL, passed from the 'needs' context.
-          # It will be masked as '***' in the build log.
           ARCHIVE_SOURCE_URL: ${{ needs.parse-feed.outputs.feed_url }}
         run: |
           set -euo pipefail
           
-          if git rev-parse "${VERSION_TAG}" >/dev/null 2>&1; then
+          if git rev-parse "${VERSION_TAG}" >/dev/null 2%>&1; then
             echo "✅ Git tag ${VERSION_TAG} already exists. Skipping duplicate archival."
+            echo "status=SKIPPED" >> "$GITHUB_OUTPUT"
           else
             echo "Creating new Git tag and draft release for: ${VERSION_TAG}"
             
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             
-            echo "Creating and pushing Git tag: ${VERSION_TAG}"
             git tag "${VERSION_TAG}" -m "Archive release ${VERSION_TAG}"
             git push origin "${VERSION_TAG}"
             
-            # The release notes will contain the public ZIP_URL and the
-            # secret (masked in logs) ARCHIVE_SOURCE_URL.
             printf -v BASE_NOTES "Archived from: \`%s\`\nSource Feed: \`%s\`" "${ZIP_URL}" "${ARCHIVE_SOURCE_URL}"
             if [[ -n "${FORMATTED_NOTES}" ]]; then
               printf -v FINAL_NOTES "%s\n\n---\n\n%s" "${BASE_NOTES}" "${FORMATTED_NOTES}"
@@ -213,48 +218,41 @@ jobs:
                "${DOWNLOAD_PATH}#${ASSET_NAME}"
             
             echo "New draft release created."
+            echo "status=CREATED" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Write to Job Summary
-        id: summary
-        env:
-          VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
-          ASSET_NAME: ${{ steps.prep.outputs.asset_name }}
-          REPO_URL: "[https://github.com/$](https://github.com/$){{ github.repository }}"
-          ZIP_FILENAME: ${{ steps.prep.outputs.zip_filename }}
-          BASE_VERSION: ${{ steps.prep.outputs.base_version_parsed }}
-          BUILD_NUM: ${{ matrix.item.build_num }}
-          FEED_TYPE: ${{ inputs.feed_type }}
-          IS_EB_BUILD: ${{ needs.parse-feed.outputs.is_eb_build }}
+  job-summary:
+    name: Write Summary
+    runs-on: ubuntu-latest
+    needs: archive-release
+    if: always() # This job will run even if matrix jobs are skipped or fail
+
+    steps:
+      - name: Install JQ
+        run: sudo apt-get install -y jq
+        
+      - name: Write Job Summary
         run: |
           set -euo pipefail
-          echo "## 🚀 Archive Run Summary" >> $GITHUB_STEP_SUMMARY
+          echo "##  Batch Archive Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### Run Inputs" >> $GITHUB_STEP_SUMMARY
-          echo "| Parameter | Value |" >> $GITHUB_STEP_SUMMARY
-          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
-          # Updated to show the 'feed_type' input
-          echo "| **Feed Type** | \`${{ env.FEED_TYPE }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **App Name** | \`${{ inputs.app_name }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### Parsed Item" >> $GITHUB_STEP_SUMMARY
-          echo "| Parameter | Value |" >> $GITHUB_STEP_SUMMARY
-          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Source Filename** | \`${{ env.ZIP_FILENAME }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Base Version** | \`${{ env.BASE_VERSION }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Build Number** | \`${{ env.BUILD_NUM }}\` |" >> $GITHUB_STEP_SUMMARY
-          # Added the derived 'is_eb_build' status
-          echo "| **Is EB Build** | \`${{ env.IS_EB_BUILD }}\` |" >> $GITHUB_STEP_SUMMARY
-          if [[ -n "${{ matrix.item.description }}" ]]; then
-            echo "| **Release Notes** | \`(provided & formatted)\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Version Tag | Asset Name | Source Filename | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          
+          # This converts the 'needs' context into a JSON object
+          echo '${{ toJSON(needs.archive-release.outputs) }}' > outputs.json
+          
+          # Debug: Show what the outputs object looks like
+          echo "--- Matrix Outputs JSON ---"
+          cat outputs.json
+          echo "--- End Outputs JSON ---"
+
+          # Check if the outputs object is empty
+          if [[ $(cat outputs.json | jq 'length') -eq 0 ]]; then
+            echo "| *No archive jobs were run or data was unavailable.* | | | |" >> $GITHUB_STEP_SUMMARY
+            exit 0
           fi
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### Generated Assets" >> $GITHUB_STEP_SUMMARY
-          echo "| Asset | Value |" >> $GITHUB_STEP_SUMMARY
-          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Final Version Tag** | \`${VERSION_TAG}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Uploaded Asset Name** | \`${ASSET_NAME}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 📦 Draft Release" >> $GITHUB_STEP_SUMMARY
-          echo "The asset has been uploaded to a new **draft release**." >> $GITHUB_STEP_SUMMARY
-          echo "The source URL and formatted release notes have been saved to the release notes." >> $GITHUB_STEP_SUMMARY
+          
+          # Use jq to iterate over the outputs object from the matrix
+          # The '.[]' iterates over each job's output object
+          jq -r '.[] | "| \`\(.final_version_tag)\` | \`\(.asset_name)\` | \`\(.zip_filename)\` | \(.status) |"' outputs.json >> $GITHUB_STEP_SUMMARY

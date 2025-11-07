@@ -4,21 +4,25 @@ import sys
 import json
 import xml.etree.ElementTree as ET
 
-def parse_sparkle_feed(xml_file):
+def parse_cleaned_feed(xml_file):
     """
-    Parses a Sparkle XML feed and prints a JSON array of release items.
+    Parses a "cleaned" Sparkle XML feed and prints a JSON array of items.
     
-    This parser is designed to handle the specific (and unusual) namespace
-    declarations found in the user's feed, such as xmlns="xmlns".
+    This parser assumes the feed has been pre-processed to remove the
+    invalid root-level 'xmlns' attributes.
     """
     
-    # Define the namespaces we need to search for.
-    # 'rss' is our alias for the weird "xmlns" default namespace.
-    # 'sparkle' is the standard Sparkle namespace.
-    namespaces = {
-        'rss': 'xmlns',
-        'sparkle': 'http://www.andymatuschak.org/xml-namespaces/sparkle'
-    }
+    # This is the namespace URI used by the <version> and <shortVersionString>
+    # tags, and also for the 'sparkle:' attributes.
+    SPARKLE_NS_URI = 'http://www.andymatuschak.org/xml-namespaces/sparkle'
+    
+    # We must register it with a prefix to find attributes like 'sparkle:deltaFrom'
+    ET.register_namespace('sparkle', SPARKLE_NS_URI)
+
+    # These are the keys we will use to find namespaced elements/attributes
+    SPARKLE_VERSION_TAG = f'{{{SPARKLE_NS_URI}}}version'
+    SPARKLE_SHORT_VER_TAG = f'{{{SPARKLE_NS_URI}}}shortVersionString'
+    SPARKLE_DELTA_ATTR = f'{{{SPARKLE_NS_URI}}}deltaFrom'
 
     try:
         tree = ET.parse(xml_file)
@@ -26,35 +30,31 @@ def parse_sparkle_feed(xml_file):
         
         items = []
         
-        # Find all <item> tags (which are in the 'rss' namespace)
-        for item in root.findall('.//rss:item', namespaces):
+        # Find all <item> tags. Since we cleaned the file, these are in
+        # no namespace and can be found directly.
+        for item in root.findall('.//item'):
             
-            # Find sparkle:version (in the 'sparkle' namespace)
-            version_elem = item.find('sparkle:version', namespaces)
+            # These tags define their own default namespace, so we
+            # must use the full {uri}name syntax to find them.
+            version_elem = item.find(SPARKLE_VERSION_TAG)
             version = version_elem.text if version_elem is not None else ''
 
-            # Find sparkle:shortVersionString (in the 'sparkle' namespace)
-            short_version_elem = item.find('sparkle:shortVersionString', namespaces)
+            short_version_elem = item.find(SPARKLE_SHORT_VER_TAG)
             short_version = short_version_elem.text if short_version_elem is not None else ''
 
-            # Find description (in the 'rss' namespace)
-            desc_elem = item.find('rss:description', namespaces)
+            # 'description' is in no namespace
+            desc_elem = item.find('description')
             description = desc_elem.text if desc_elem is not None else ''
 
-            # Find the main enclosure. This is the one in the 'rss' namespace
+            # Find the main enclosure. This is the 'enclosure' tag
             # that does NOT have a 'sparkle:deltaFrom' attribute.
             zip_url = ''
-            
-            # Attributes with namespaces are formatted as: {namespace_uri}local_name
-            delta_attr_key = f"{{{namespaces['sparkle']}}}deltaFrom"
-            
-            for enclosure in item.findall('rss:enclosure', namespaces):
-                if delta_attr_key not in enclosure.attrib:
+            for enclosure in item.findall('enclosure'):
+                if SPARKLE_DELTA_ATTR not in enclosure.attrib:
                     # This is not a delta. Get its 'url' attribute.
                     zip_url = enclosure.attrib.get('url', '')
-                    break  # Found the main download, stop looking in this item
+                    break  # Found the main download
 
-            # Only add the item if we found all the key pieces
             if version and short_version and zip_url:
                 items.append({
                     'build_num': version.strip(),
@@ -63,12 +63,11 @@ def parse_sparkle_feed(xml_file):
                     'zip_url': zip_url
                 })
 
-        # Print the final list as a compact JSON string to stdout.
-        # This is what GitHub Actions will capture.
+        # Print the final list as a compact JSON string to stdout
         print(json.dumps(items, separators=(',', ':')))
 
     except ET.ParseError as e:
-        print(f"Error parsing XML: {e}", file=sys.stderr)
+        print(f"Error: Failed to parse the cleaned XML: {e}", file=sys.stderr)
         sys.exit(1)
     except Exception as e:
         print(f"An unexpected error occurred: {e}", file=sys.stderr)
@@ -79,4 +78,4 @@ if __name__ == "__main__":
         print("Usage: python parse_feed.py <path_to_feed.xml>", file=sys.stderr)
         sys.exit(1)
     
-    parse_sparkle_feed(sys.argv[1])
+    parse_cleaned_feed(sys.argv[1])
