@@ -159,9 +159,7 @@ jobs:
           VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
           ASSET_NAME: ${{ steps.prep.outputs.asset_name }}
           DOWNLOAD_PATH: ${{ steps.download.outputs.download_path }}
-          ZIP_FILENAME: ${{ steps.prep.outputs.zip_filename }}
           FORMATTED_NOTES: ${{ steps.format_notes.outputs.formatted_notes }}
-          ARCHIVE_SOURCE: ${{ inputs.feed_url }}
           FORCE_RECREATE: ${{ inputs.force_recreate }}
         run: |
           set -euo pipefail
@@ -194,17 +192,10 @@ jobs:
           git tag "${VERSION_TAG}" -m "Archive release ${VERSION_TAG}"
           git push origin "${VERSION_TAG}"
           
-          # Build release notes without exposing full URL
-          if [[ "${ARCHIVE_SOURCE}" == "Manual Upload" ]]; then
-            printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source:** Manual Upload" "${ZIP_FILENAME}"
-          else
-            printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source Feed:** \`%s\`" "${ZIP_FILENAME}" "${ARCHIVE_SOURCE}"
-          fi
-          
           if [[ -n "${FORMATTED_NOTES}" ]]; then
-            printf -v FINAL_NOTES "%s\n\n---\n\n%s" "${BASE_NOTES}" "${FORMATTED_NOTES}"
+            FINAL_NOTES="${FORMATTED_NOTES}"
           else
-            FINAL_NOTES="${BASE_NOTES}"
+            FINAL_NOTES=""
           fi
           
           # Create the release
