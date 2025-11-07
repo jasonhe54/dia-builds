@@ -39,7 +39,7 @@ on:
 
 jobs:
   create-release:
-    name: Create Release (${{ inputs.build_num }})
+    name: Create Release
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -65,6 +65,9 @@ jobs:
           IS_EB="${{ inputs.is_eb_build }}"
           APP_NAME="${{ inputs.app_name }}"
           ZIP_URL="${{ inputs.zip_url }}"
+          
+          # Mask the URL to prevent it from appearing in logs
+          echo "::add-mask::${ZIP_URL}"
           
           BASE_VERSION=$(echo "${SHORT_VERSION_STR}" | sed -E 's/ \([0-9]+\)$//' | sed 's/^/v/')
 
@@ -120,9 +123,21 @@ jobs:
         id: download
         run: |
           set -euo pipefail
+          echo "Downloading asset..."
           mkdir -p ./work
           DOWNLOAD_PATH="./work/asset.zip"
-          curl -L --fail --show-error -o "${DOWNLOAD_PATH}" "${{ steps.prep.outputs.zip_url }}"
+          
+          # Download silently to avoid exposing URL in logs
+          curl -L --fail --show-error --progress-bar -o "${DOWNLOAD_PATH}" "${{ steps.prep.outputs.zip_url }}" 2>&1 | grep -v "http" || true
+          
+          if [ ! -f "${DOWNLOAD_PATH}" ]; then
+            echo "::error::Failed to download asset"
+            exit 1
+          fi
+          
+          FILE_SIZE=$(stat -f%z "${DOWNLOAD_PATH}" 2>/dev/null || stat -c%s "${DOWNLOAD_PATH}" 2>/dev/null || echo "unknown")
+          echo "Downloaded asset (${FILE_SIZE} bytes)"
+          
           echo "download_path=${DOWNLOAD_PATH}" >> "$GITHUB_OUTPUT"
 
       - name: Create Draft Release
@@ -132,9 +147,9 @@ jobs:
           VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
           ASSET_NAME: ${{ steps.prep.outputs.asset_name }}
           DOWNLOAD_PATH: ${{ steps.download.outputs.download_path }}
-          ZIP_URL: ${{ steps.prep.outputs.zip_url }}
+          ZIP_FILENAME: ${{ steps.prep.outputs.zip_filename }}
           FORMATTED_NOTES: ${{ steps.format_notes.outputs.formatted_notes }}
-          ARCHIVE_SOURCE_URL: ${{ inputs.feed_url }}
+          ARCHIVE_SOURCE: ${{ inputs.feed_url }}
         run: |
           set -euo pipefail
           
@@ -150,7 +165,13 @@ jobs:
             git tag "${VERSION_TAG}" -m "Archive release ${VERSION_TAG}"
             git push origin "${VERSION_TAG}"
             
-            printf -v BASE_NOTES "Archived from: \`%s\`\nSource Feed: \`%s\`" "${ZIP_URL}" "${ARCHIVE_SOURCE_URL}"
+            # Build release notes without exposing full URL
+            if [[ "${ARCHIVE_SOURCE}" == "Manual Upload" ]]; then
+              printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source:** Manual Upload" "${ZIP_FILENAME}"
+            else
+              printf -v BASE_NOTES "**Original Filename:** \`%s\`\n**Source Feed:** \`%s\`" "${ZIP_FILENAME}" "${ARCHIVE_SOURCE}"
+            fi
+            
             if [[ -n "${FORMATTED_NOTES}" ]]; then
               printf -v FINAL_NOTES "%s\n\n---\n\n%s" "${BASE_NOTES}" "${FORMATTED_NOTES}"
             else

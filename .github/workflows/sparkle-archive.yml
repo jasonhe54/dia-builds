@@ -94,7 +94,7 @@ jobs:
           echo "matrix=${JSON_MATRIX}" >> "$GITHUB_OUTPUT"
 
   archive-release:
-    name: Archive Release
+    name: Archive v${{ matrix.item.short_version_str }}
     needs: parse-feed
     if: needs.parse-feed.outputs.matrix != '[]'
     strategy:

@@ -33,7 +33,7 @@ on:
 
 jobs:
   archive-release:
-    name: Archive Manual Release
+    name: Archive v${{ inputs.short_version }} (${{ inputs.build_number }})
     uses: ./.github/workflows/create-release.yml
     permissions:
       contents: write
@@ -78,4 +78,4 @@ jobs:
           jq -r '"| `" + .final_version_tag + "` | `" + .asset_name + "` | `" + .zip_filename + "` | " + .status + " |"' ./result/result.json >> $GITHUB_STEP_SUMMARY
           
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Source URL:** \`${{ inputs.zip_url }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Source:** Manual Upload" >> $GITHUB_STEP_SUMMARY
