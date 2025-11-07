@@ -2,54 +2,63 @@
 
 import sys
 import json
-# Explicitly import lxml.etree
 from lxml import etree as ET
 
 def parse_sparkle_feed(xml_file):
     """
     Parses a Sparkle XML feed using lxml's recovery mode
-    to handle malformed XML (like invalid xmlns attributes).
+    to handle malformed XML.
     """
     
-    # Define the namespaces. 'rss' is our alias for the weird "xmlns"
-    # default namespace, and 'sparkle' is for Sparkle.
+    # Define the Sparkle namespace
     namespaces = {
-        'rss': 'xmlns',
         'sparkle': 'http://www.andymatuschak.org/xml-namespaces/sparkle'
     }
 
     try:
-        # THIS IS THE KEY CHANGE:
-        # Create a parser that will attempt to recover from errors.
+        # Create a parser that will attempt to recover from errors
         parser = ET.XMLParser(recover=True)
         
-        # Parse the file using the recovery-mode parser.
-        # We read the file as bytes, as lxml prefers this.
+        # Parse the file using the recovery-mode parser
         with open(xml_file, 'rb') as f:
             tree = ET.parse(f, parser=parser)
         
         root = tree.getroot()
         items = []
         
-        # Find all <item> tags (in the 'rss' namespace)
-        for item in root.findall('.//rss:item', namespaces):
+        # Find all <item> tags (no namespace)
+        for item in root.findall('.//item'):
             
+            # Try to find version with sparkle namespace first, then check for xmlns attribute
             version_elem = item.find('sparkle:version', namespaces)
+            if version_elem is None:
+                # Look for version element with xmlns attribute
+                for elem in item.findall('version'):
+                    version_elem = elem
+                    break
             version = version_elem.text if version_elem is not None else ''
 
+            # Try to find shortVersionString with sparkle namespace first
             short_version_elem = item.find('sparkle:shortVersionString', namespaces)
+            if short_version_elem is None:
+                # Look for shortVersionString element with xmlns attribute
+                for elem in item.findall('shortVersionString'):
+                    short_version_elem = elem
+                    break
             short_version = short_version_elem.text if short_version_elem is not None else ''
 
-            desc_elem = item.find('rss:description', namespaces)
+            # Description has no namespace
+            desc_elem = item.find('description')
             description = desc_elem.text if desc_elem is not None else ''
 
-            # Find the main enclosure
+            # Find the main enclosure (not a delta)
             zip_url = ''
-            delta_attr_key = f"{{{namespaces['sparkle']}}}deltaFrom"
+            delta_attr = f"{{{namespaces['sparkle']}}}deltaFrom"
             
-            # Find enclosure tags in the 'rss' namespace
-            for enclosure in item.findall('rss:enclosure', namespaces):
-                if delta_attr_key not in enclosure.attrib:
+            # Find enclosure tags (no namespace)
+            for enclosure in item.findall('enclosure'):
+                # Skip if it has the deltaFrom attribute
+                if delta_attr not in enclosure.attrib:
                     zip_url = enclosure.attrib.get('url', '')
                     break 
 
@@ -71,3 +80,5 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python parse_feed.py <path_to_feed.xml>", file=sys.stderr)
         sys.exit(1)
+    
+    parse_sparkle_feed(sys.argv[1])

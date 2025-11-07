@@ -57,7 +57,6 @@ jobs:
           
       - name: Install Python XML requirement
         run: |
-          # lxml is more robust; let's add it just in case
           pip install lxml 
 
       - name: Fetch, Clean, and Parse Feed
@@ -67,10 +66,14 @@ jobs:
         run: |
           set -euo pipefail
           echo "Fetching feed..."
-          # Fetch the feed and use 'sed' to remove the two invalid xmlns lines
+          
+          # Fetch the feed and clean up the malformed xmlns attributes
           curl -L --fail --show-error "${FEED_URL}" | \
-            sed 's/xmlns:_//' | \
-            sed 's/xmlns="xmlns" _//' > feed.xml
+            sed 's/xmlns:_xmlns="xmlns" //' | \
+            sed 's/_xmlns:/xmlns:/g' > feed.xml
+          
+          echo "Contents of cleaned feed (first 50 lines):"
+          head -n 50 feed.xml
           
           echo "Parsing cleaned feed with Python script..."
           
@@ -82,6 +85,8 @@ jobs:
           
           if [[ -z "${JSON_MATRIX}" || "${JSON_MATRIX}" == "[]" ]]; then
             echo "::error::No <item> elements found in the XML feed. Python script failed to parse."
+            echo "Feed content:"
+            cat feed.xml
             exit 1
           fi
           
@@ -94,14 +99,13 @@ jobs:
     if: needs.parse-feed.outputs.matrix != '[]'
     runs-on: ubuntu-latest
     permissions:
-      contents: write # To create releases and tags
+      contents: write
     
     strategy:
       fail-fast: false
       matrix:
         item: ${{ fromJson(needs.parse-feed.outputs.matrix) }}
     
-    # This 'outputs' section is new, for the job-summary
     outputs:
       final_version_tag: ${{ steps.prep.outputs.final_version_tag }}
       asset_name: ${{ steps.prep.outputs.asset_name }}
@@ -162,7 +166,7 @@ jobs:
             sed 's/&gt;/>/g' | \
             sed 's/&#39;/'"'"'/g' | \
             sed 's/&quot;/"/g' | \
-            sed 's/&amp;/&/g')
+            sed 's/&amp;/\&/g')
           
           MARKDOWN_NOTES=$(echo "${UNESCAPED_NOTES}" | pandoc -f html -t gfm)
           
@@ -180,7 +184,7 @@ jobs:
           echo "download_path=${DOWNLOAD_PATH}" >> "$GITHUB_OUTPUT"
 
       - name: Create Draft Release
-        id: create_release # Added an ID
+        id: create_release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION_TAG: ${{ steps.prep.outputs.final_version_tag }}
@@ -192,7 +196,7 @@ jobs:
         run: |
           set -euo pipefail
           
-          if git rev-parse "${VERSION_TAG}" >/dev/null 2%>&1; then
+          if git rev-parse "${VERSION_TAG}" >/dev/null 2>&1; then
             echo "✅ Git tag ${VERSION_TAG} already exists. Skipping duplicate archival."
             echo "status=SKIPPED" >> "$GITHUB_OUTPUT"
           else
@@ -225,7 +229,7 @@ jobs:
     name: Write Summary
     runs-on: ubuntu-latest
     needs: archive-release
-    if: always() # This job will run even if matrix jobs are skipped or fail
+    if: always()
 
     steps:
       - name: Install JQ
@@ -234,12 +238,12 @@ jobs:
       - name: Write Job Summary
         run: |
           set -euo pipefail
-          echo "##  Batch Archive Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## 📦 Batch Archive Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Version Tag | Asset Name | Source Filename | Status |" >> $GITHUB_STEP_SUMMARY
           echo "| :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
           
-          # This converts the 'needs' context into a JSON object
+          # Convert the 'needs' context into a JSON object
           echo '${{ toJSON(needs.archive-release.outputs) }}' > outputs.json
           
           # Debug: Show what the outputs object looks like
@@ -254,5 +258,4 @@ jobs:
           fi
           
           # Use jq to iterate over the outputs object from the matrix
-          # The '.[]' iterates over each job's output object
           jq -r '.[] | "| \`\(.final_version_tag)\` | \`\(.asset_name)\` | \`\(.zip_filename)\` | \(.status) |"' outputs.json >> $GITHUB_STEP_SUMMARY
