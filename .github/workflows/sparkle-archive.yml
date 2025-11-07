@@ -106,12 +106,6 @@ jobs:
       matrix:
         item: ${{ fromJson(needs.parse-feed.outputs.matrix) }}
     
-    outputs:
-      final_version_tag: ${{ steps.prep.outputs.final_version_tag }}
-      asset_name: ${{ steps.prep.outputs.asset_name }}
-      zip_filename: ${{ steps.prep.outputs.zip_filename }}
-      status: ${{ steps.create_release.outputs.status }}
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -229,6 +223,27 @@ jobs:
             echo "status=CREATED" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Save Job Results
+        if: always()
+        run: |
+          mkdir -p ./job-results
+          cat > ./job-results/result.json <<EOF
+          {
+            "final_version_tag": "${{ steps.prep.outputs.final_version_tag }}",
+            "asset_name": "${{ steps.prep.outputs.asset_name }}",
+            "zip_filename": "${{ steps.prep.outputs.zip_filename }}",
+            "status": "${{ steps.create_release.outputs.status }}"
+          }
+          EOF
+
+      - name: Upload Job Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: job-result-${{ matrix.item.build_num }}
+          path: ./job-results/result.json
+          retention-days: 1
+
   job-summary:
     name: Write Summary
     runs-on: ubuntu-latest
@@ -236,6 +251,12 @@ jobs:
     if: always()
 
     steps:
+      - name: Download All Job Results
+        uses: actions/download-artifact@v4
+        with:
+          path: ./all-results
+          pattern: job-result-*
+          
       - name: Install JQ
         run: sudo apt-get install -y jq
         
@@ -247,19 +268,19 @@ jobs:
           echo "| Version Tag | Asset Name | Source Filename | Status |" >> $GITHUB_STEP_SUMMARY
           echo "| :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
           
-          # Convert the 'needs' context into a JSON object
-          echo '${{ toJSON(needs.archive-release.outputs) }}' > outputs.json
-          
-          # Debug: Show what the outputs object looks like
-          echo "--- Matrix Outputs JSON ---"
-          cat outputs.json
-          echo "--- End Outputs JSON ---"
-
-          # Check if the outputs object is empty
-          if [[ $(cat outputs.json | jq 'length') -eq 0 ]]; then
+          # Check if any results exist
+          if [ ! -d "./all-results" ] || [ -z "$(ls -A ./all-results)" ]; then
             echo "| *No archive jobs were run or data was unavailable.* | | | |" >> $GITHUB_STEP_SUMMARY
             exit 0
           fi
           
-          # Format the single object output (GitHub Actions matrix outputs only give you one job's output)
-          jq -r '"| `" + .final_version_tag + "` | `" + .asset_name + "` | `" + .zip_filename + "` | " + .status + " |"' outputs.json >> $GITHUB_STEP_SUMMARY
+          # Iterate through all downloaded artifact directories
+          for result_dir in ./all-results/job-result-*; do
+            if [ -f "$result_dir/result.json" ]; then
+              echo "Processing: $result_dir/result.json"
+              jq -r '"| `" + .final_version_tag + "` | `" + .asset_name + "` | `" + .zip_filename + "` | " + .status + " |"' "$result_dir/result.json" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total releases processed:** $(find ./all-results -name 'result.json' | wc -l)" >> $GITHUB_STEP_SUMMARY
