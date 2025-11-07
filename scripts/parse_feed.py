@@ -63,11 +63,15 @@ def parse_sparkle_feed(xml_file):
                     break 
 
             if version and short_version and zip_url:
+                # Extract just the filename from the URL
+                zip_filename = zip_url.split('/')[-1] if '/' in zip_url else zip_url
+                
                 items.append({
                     'build_num': version.strip(),
                     'short_version_str': short_version.strip(),
                     'description': description.strip(),
-                    'zip_url': zip_url
+                    'zip_url': zip_url,
+                    'zip_filename': zip_filename
                 })
 
         print(json.dumps(items, separators=(',', ':')))
