@@ -1,0 +1,69 @@
+name: Update Feature Flags
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  
+  workflow_dispatch:
+
+jobs:
+  update-flags:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '25'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Get feature flag version
+        id: get_version
+        run: |
+          VERSION_STRING=$(node ./scripts/dia-ff/fetch-flags.js --check-version 2>&1 | \
+            grep 'Feature Flag Version:' | \
+            sed 's/.*Feature Flag Version: //' | \
+            sed 's/\x1b\[[0-9;]*m//g')
+
+          if [ -z "$VERSION_STRING" ]; then
+            echo "::error::Could not parse version string from script output."
+            exit 1
+          fi
+
+          echo "Parsed version: $VERSION_STRING"
+          
+          echo "flag_version=$VERSION_STRING" >> $GITHUB_OUTPUT
+        env:
+          SSE_ENDPOINT: ${{ secrets.SSE_ENDPOINT }}
+          SSE_AUTH_KEY: ${{ secrets.SSE_AUTH_KEY }}
+          SSE_ID_TAGS: 'github-action-version-check'
+
+      - name: Fetch and update feature flags
+        run: node fetch-flags.js --update-ld-ff-json
+        env:
+          SSE_ENDPOINT: ${{ secrets.SSE_ENDPOINT }}
+          SSE_AUTH_KEY: ${{ secrets.SSE_AUTH_KEY }}
+          SSE_ID_TAGS: ${{ secrets.SSE_LD_ID_TAGS}}
+          WRITE_JSON_WITHOUT_FEAT_FLAG_VERSION: true
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add ./scripts/dia-ff/outputs/launchdarkly-feature-flags.json
+          git add ./scripts/dia-ff/outputs/darkly-feature-flags.no-version.json
+          
+          if git diff-index --quiet HEAD; then
+            echo "No changes to feature flags. Exiting."
+          else
+            echo "Detected changes. Committing and pushing..."
+            git commit -m "chore: automated feature flag update (Version ${{ steps.get_version.outputs.flag_version }})"
+            git push
+          fi

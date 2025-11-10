@@ -1,0 +1,28 @@
+{
+  "name": "dia-builds",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jasonhe54/dia-builds#readme",
+  "bugs": {
+    "url": "https://github.com/jasonhe54/dia-builds/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonhe54/dia-builds.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "genSSE": "node ./scripts/dia-ff/genSSE.js",
+    "genFF": "node ./scripts/dia-ff/fetch-flags.js",
+    "update-ff": "node ./scripts/dia-ff/fetch-flags.js --update-ff-json",
+    "update-all": "node ./scripts/dia-ff/fetch-flags.js --update-ff-json && node ./scripts/dia-ff/genSSE.js",
+    "latest-version": "node ./scripts/dia-ff/fetch-flags.js -v",
+    "decode-ld": "node ./scripts/dia-ff/launchdarkly-token.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
