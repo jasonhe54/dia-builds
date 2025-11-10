@@ -40,16 +40,14 @@ jobs:
           
           echo "flag_version=$VERSION_STRING" >> $GITHUB_OUTPUT
         env:
-          SSE_ENDPOINT: ${{ secrets.SSE_ENDPOINT }}
-          SSE_AUTH_KEY: ${{ secrets.SSE_AUTH_KEY }}
-          SSE_ID_TAGS: 'github-action-version-check'
+          SSE_ENDPOINT: ${{ secrets.DIA_FF_SSE_ENDPOINT }}
+          SSE_AUTH_KEY: ${{ secrets.DIA_FF_SSE_AUTH_KEY }}
 
       - name: Fetch and update feature flags
         run: node fetch-flags.js --update-ld-ff-json
         env:
-          SSE_ENDPOINT: ${{ secrets.SSE_ENDPOINT }}
-          SSE_AUTH_KEY: ${{ secrets.SSE_AUTH_KEY }}
-          SSE_ID_TAGS: ${{ secrets.SSE_LD_ID_TAGS}}
+          SSE_ENDPOINT: ${{ secrets.DIA_FF_SSE_ENDPOINT }}
+          SSE_AUTH_KEY: ${{ secrets.DIA_FF_SSE_AUTH_KEY }}
           WRITE_JSON_WITHOUT_FEAT_FLAG_VERSION: true
 
       - name: Commit and push changes
