@@ -55,8 +55,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git add ./scripts/dia-ff/outputs/launchdarkly-feature-flags.json
-          git add ./scripts/dia-ff/outputs/darkly-feature-flags.no-version.json
+          git add ./scripts/dia-ff/outputs/launchdarkly-feature-flags.json -f 
+          git add ./scripts/dia-ff/outputs/darkly-feature-flags.no-version.json -f
           
           if git diff-index --quiet HEAD; then
             echo "No changes to feature flags. Exiting."
