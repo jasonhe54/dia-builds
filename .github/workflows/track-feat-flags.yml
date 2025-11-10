@@ -26,7 +26,7 @@ jobs:
       - name: Get feature flag version
         id: get_version
         run: |
-          VERSION_STRING=$(node ./scripts/dia-ff/fetch-flags.js --check-version 2>&1 | \
+          VERSION_STRING=$(npm run latest-version 2>&1 | \
             grep 'Feature Flag Version:' | \
             sed 's/.*Feature Flag Version: //' | \
             sed 's/\x1b\[[0-9;]*m//g')
@@ -44,7 +44,7 @@ jobs:
           SSE_AUTH_KEY: ${{ secrets.DIA_FF_SSE_AUTH_KEY }}
 
       - name: Fetch and update feature flags
-        run: node fetch-flags.js --update-ld-ff-json
+        run: npm run update-ff
         env:
           SSE_ENDPOINT: ${{ secrets.DIA_FF_SSE_ENDPOINT }}
           SSE_AUTH_KEY: ${{ secrets.DIA_FF_SSE_AUTH_KEY }}
