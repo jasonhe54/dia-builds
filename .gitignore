@@ -6,9 +6,6 @@ node_modules/
 # ignore output directory
 outputs/
 
-# ignore package-lock.json
-package-lock.json
-
 # ignore .env file
 .env
 *.local
