@@ -2,7 +2,7 @@ name: Update Feature Flags
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/20 * * * *'
   
   workflow_dispatch:
 
@@ -58,10 +58,13 @@ jobs:
           git add ./scripts/dia-ff/outputs/launchdarkly-feature-flags.json -f 
           git add ./scripts/dia-ff/outputs/darkly-feature-flags.no-version.json -f
           
-          if git diff-index --quiet HEAD; then
-            echo "No changes to feature flags. Exiting."
+          if git diff --quiet --cached HEAD; then
+            echo "✅ No changes to feature flags. Exiting."
           else
-            echo "Detected changes. Committing and pushing..."
-            git commit -m "chore: automated feature flag update (Version ${{ steps.get_version.outputs.flag_version }})"
+            echo "🔥 Detected changes. Committing and pushing..."
+            COMMIT_MSG="chore: Automated feature flag update (Version ${{ steps.get_version.outputs.flag_version }})"
+            
+            echo "Commit message will be: $COMMIT_MSG"
+            git commit -m "$COMMIT_MSG"
             git push
           fi
