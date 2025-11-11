@@ -3968,6 +3968,14 @@
         "value": true,
         "variation": 0
     },
+    "top-band-color-sampling-in-arc-core-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "top-bar-color-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 2,
