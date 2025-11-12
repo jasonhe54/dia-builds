@@ -478,6 +478,14 @@
         "value": 120,
         "variation": 1
     },
+    "auto-update-background-exit-dialog-delay": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": 3,
+        "variation": 1
+    },
     "auto-update-ignoring-edits-domains-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
@@ -2581,6 +2589,14 @@
         "trackReason": false,
         "value": true,
         "variation": 0
+    },
+    "onboarding-sso-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
     },
     "onboarding-tab-layout-personalization-enabled": {
         "debugEventsUntilDate": 0,
