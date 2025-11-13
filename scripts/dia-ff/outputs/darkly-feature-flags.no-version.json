@@ -2472,6 +2472,14 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-default-browser-trial-dialog-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-dia-hacks-destination-url": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
