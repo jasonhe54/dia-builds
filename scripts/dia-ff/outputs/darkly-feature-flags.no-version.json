@@ -4176,6 +4176,14 @@
         "value": true,
         "variation": 0
     },
+    "voice-mode-v2-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "web-content-color-matching-lcp-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 9,
