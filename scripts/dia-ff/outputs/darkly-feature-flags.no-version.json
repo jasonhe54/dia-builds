@@ -2785,6 +2785,14 @@
         "value": false,
         "variation": 1
     },
+    "proactive-suggestions-include-previous-suggestions": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "proactive-suggestions-minimum-time-between-automatic-updates": {
         "debugEventsUntilDate": 0,
         "flagVersion": 2,
@@ -4066,7 +4074,7 @@
     },
     "update-banner-notes-url": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 3,
+        "flagVersion": 5,
         "trackEvents": false,
         "trackReason": false,
         "value": "https://diabrowser.com/updates",
