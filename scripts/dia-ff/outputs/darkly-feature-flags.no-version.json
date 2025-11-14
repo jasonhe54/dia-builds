@@ -4016,6 +4016,14 @@
         "value": false,
         "variation": 1
     },
+    "top-sites-icebreaker-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "tritone-theme-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
