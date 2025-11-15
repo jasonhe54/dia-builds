@@ -32,24 +32,16 @@ const OUTPUT_SSE_DATA_FILE_PATH = path.join(__dirname, './outputs/proxyman-local
  * Simply add the flag names to this array
  */
 const flagsToSetTrue = [
-    // June 11 Master Flag
-    "june-11-features-master-flag",
-    "referrals-links-enabled", // Working
-    "custom-skill-prompts-enabled", // Seems to be working though broken
-    "show-custom-skills-on-new-tab-page-enabled", // Working
-    "skills-ui-updates-enabled",
-
-    // Ask Dia Abount Image (Right Click Context Menu)
-    "ask-about-image-context-menu-option-enabled", // Working
-    
-    // Greeting on New Tab Page
-    "new-tab-page-greeting-enabled", // Working
-
-    // Command Bar New Redesign
-    "command-bar-redesign-enabled",
-
-    // sidebar
-    "sidebar-toggle-enabled"
+    // "tab-presentation-badge-enabled",
+    // "assistant-navigation-panel-enabled",
+    // "auto-tab-title-compaction-enabled",
+    // "command-bar-redesign-enabled",
+    // "display-function-call-debug-info-in-supertabs",
+    // "github-code-review-skill-enabled",
+    // "gradient-response-thinking-animation-enabled",
+    // "themed-chat-button-enabled",
+    // "tool-suggestions-enabled",
+    // "ultimate-notion-integration-enabled"
 ];
 
 /**
@@ -59,17 +51,16 @@ const flagsToSetTrue = [
 const flagsToSetFalse = [
     "enable-e2e-encryption", // Working
     "boost-encrypt-database",
-    // "new-tab-page-power-up-animation-enabled" // Working
 ];
 
 /**
  * Allows for settings flags with custom, non-boolean values.
  */
 const otherFlagsWithCustomValues = [
-    {
-        key: "services-referrals-invitation-limit",
-        value: 100
-    },
+    // {
+    //     key: "services-referrals-invitation-limit",
+    //     value: 100
+    // },
 ];
 
 /**
