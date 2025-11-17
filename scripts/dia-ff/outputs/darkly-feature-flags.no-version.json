@@ -4210,11 +4210,11 @@
     },
     "voice-mode-v2-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "web-content-color-matching-lcp-enabled": {
         "debugEventsUntilDate": 0,
