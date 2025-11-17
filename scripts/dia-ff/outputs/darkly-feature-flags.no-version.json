@@ -2571,6 +2571,14 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-personalized-pinned-tabs-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-pinned-tabs-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 4,
