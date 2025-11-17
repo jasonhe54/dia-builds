@@ -480,11 +480,11 @@
     },
     "auto-update-background-exit-dialog-delay": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": 3,
-        "variation": 1
+        "value": 0,
+        "variation": 0
     },
     "auto-update-ignoring-edits-domains-enabled": {
         "debugEventsUntilDate": 0,
