@@ -32,6 +32,7 @@ const OUTPUT_SSE_DATA_FILE_PATH = path.join(__dirname, './outputs/proxyman-local
  * Simply add the flag names to this array
  */
 const flagsToSetTrue = [
+    // "gpt-5-1-enabled"
     // "tab-presentation-badge-enabled",
     // "assistant-navigation-panel-enabled",
     // "auto-tab-title-compaction-enabled",
