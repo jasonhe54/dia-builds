@@ -542,6 +542,14 @@
         "value": true,
         "variation": 0
     },
+    "bookmarks-in-commandbar": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "boost-encrypt-database": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
