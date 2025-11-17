@@ -1999,6 +1999,14 @@
         "value": false,
         "variation": 1
     },
+    "gpt-5-1-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "gpt-5-non-reasoning-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 5,
