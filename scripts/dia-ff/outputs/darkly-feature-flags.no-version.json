@@ -2301,6 +2301,14 @@
         "value": true,
         "variation": 0
     },
+    "nav-bar-insecure-state-color-sampling-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "navigation-bar-ask-on-page-field-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 2,
