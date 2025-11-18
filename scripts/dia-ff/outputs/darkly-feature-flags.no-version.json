@@ -2047,6 +2047,14 @@
         "value": false,
         "variation": 1
     },
+    "grouped-proactive-suggestions-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "haptic-feedback-on-tab-moved-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
