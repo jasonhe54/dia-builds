@@ -2825,6 +2825,14 @@
         "value": "newTabPage",
         "variation": 0
     },
+    "proactive-suggestions-in-command-bar-placeholder-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "proactive-suggestions-include-previous-suggestions": {
         "debugEventsUntilDate": 0,
         "flagVersion": 2,
