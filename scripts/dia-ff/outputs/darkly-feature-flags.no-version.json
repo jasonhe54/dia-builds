@@ -957,6 +957,14 @@
         "value": 300,
         "variation": 1
     },
+    "calendar-meeting-links-max-count": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": 2,
+        "variation": 0
+    },
     "calendar-meeting-reminder-display-threshold": {
         "debugEventsUntilDate": 0,
         "flagVersion": 5,
