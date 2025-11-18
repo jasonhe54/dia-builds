@@ -4058,7 +4058,7 @@
     },
     "top-band-color-sampling-in-arc-core-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
