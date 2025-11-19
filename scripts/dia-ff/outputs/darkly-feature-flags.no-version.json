@@ -2311,7 +2311,7 @@
     },
     "nav-bar-insecure-state-color-sampling-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
@@ -2605,7 +2605,7 @@
     },
     "onboarding-personalized-pinned-tabs-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
@@ -3579,6 +3579,14 @@
         "variation": 0
     },
     "skills-v2-upload-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
+    "slack-activity-step-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 2,
         "trackEvents": false,
