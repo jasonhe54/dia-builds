@@ -1160,6 +1160,14 @@
         "value": true,
         "variation": 0
     },
+    "compositor-flashing-prevention": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "content-fetch-parse-pdf-with-llm": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
