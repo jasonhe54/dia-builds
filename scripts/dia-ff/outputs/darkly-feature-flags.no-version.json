@@ -4088,6 +4088,14 @@
         "value": false,
         "variation": 1
     },
+    "tool-suggestions-model": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 3,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": "gemini-2.5-flash-preview-09-2025",
+        "variation": 1
+    },
     "tools-persist-in-follow-up-queries-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
@@ -4095,6 +4103,14 @@
         "trackReason": false,
         "value": true,
         "variation": 0
+    },
+    "tools-ui-revision-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
     },
     "top-band-color-sampling-in-arc-core-enabled": {
         "debugEventsUntilDate": 0,
