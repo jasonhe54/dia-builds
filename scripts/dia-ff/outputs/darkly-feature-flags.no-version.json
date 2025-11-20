@@ -3933,6 +3933,14 @@
         "value": false,
         "variation": 1
     },
+    "tab-favorites-dock-edu-hint-enabled": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "tab-favorites-dock-enabled": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
