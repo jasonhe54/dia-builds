@@ -3959,7 +3959,7 @@
     },
     "tab-hover-menu-actions": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
