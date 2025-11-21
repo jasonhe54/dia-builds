@@ -2525,8 +2525,8 @@
         "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-dia-hacks-destination-url": {
         "debugEventsUntilDate": 0,
@@ -2616,8 +2616,8 @@
         "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-pinned-tabs-enabled": {
         "debugEventsUntilDate": 0,
@@ -2659,8 +2659,8 @@
         "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-tab-layout-personalization-enabled": {
         "debugEventsUntilDate": 0,
@@ -3086,8 +3086,8 @@
         "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "send-email-computer-use-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -3962,8 +3962,8 @@
         "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "tab-popover-menu-enabled": {
         "debugEventsUntilDate": 0,
