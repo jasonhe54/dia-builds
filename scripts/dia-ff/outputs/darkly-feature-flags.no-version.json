@@ -2466,7 +2466,7 @@
     },
     "new-window-dragging-external-window-inspection-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 4,
+        "flagVersion": 6,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
