@@ -544,11 +544,11 @@
     },
     "bookmarks-in-commandbar": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "boost-encrypt-database": {
         "debugEventsUntilDate": 0,
@@ -3943,7 +3943,7 @@
     },
     "tab-favorites-dock-edu-hint-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
