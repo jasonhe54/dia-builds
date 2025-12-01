@@ -1250,7 +1250,7 @@
     },
     "context-scoped-tab-store-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
@@ -3991,7 +3991,7 @@
     },
     "tab-groups-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "trackReason": false,
         "value": false,

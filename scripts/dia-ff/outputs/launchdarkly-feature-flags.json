@@ -6,7 +6,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "account-service-refresh-token-enabled": {
         "debugEventsUntilDate": 0,
@@ -15,7 +15,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "account-service-signIn-operation-enabled": {
         "debugEventsUntilDate": 0,
@@ -24,7 +24,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "account-service-signOut-operation-enabled": {
         "debugEventsUntilDate": 0,
@@ -33,7 +33,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "account-service-signUp-operation-enabled": {
         "debugEventsUntilDate": 0,
@@ -42,7 +42,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "account-settings-enabled": {
         "debugEventsUntilDate": 0,
@@ -51,7 +51,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "add-skill-from-url": {
         "debugEventsUntilDate": 0,
@@ -60,7 +60,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ai-service-chromium-implementation": {
         "debugEventsUntilDate": 0,
@@ -69,7 +69,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "ai-service-environment": {
         "debugEventsUntilDate": 0,
@@ -78,7 +78,7 @@
         "trackReason": false,
         "value": "production",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ai-service-v3-api-enabled": {
         "debugEventsUntilDate": 0,
@@ -87,7 +87,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "all-tabs-max-ranking-enabled": {
         "debugEventsUntilDate": 0,
@@ -96,7 +96,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "always-import-to-bookmark-bar-subfolder": {
         "debugEventsUntilDate": 0,
@@ -105,7 +105,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "always-show-bookmarks-bar-enabled": {
         "debugEventsUntilDate": 0,
@@ -114,7 +114,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "amp-prototype-enabled": {
         "debugEventsUntilDate": 0,
@@ -123,7 +123,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "analyze-response-for-memory-insights": {
         "debugEventsUntilDate": 0,
@@ -132,7 +132,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "app-build-switch-enabled": {
         "debugEventsUntilDate": 0,
@@ -141,7 +141,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "app-tokens-enabled": {
         "debugEventsUntilDate": 0,
@@ -150,7 +150,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "arc-core-logging-config": {
         "debugEventsUntilDate": 0,
@@ -159,7 +159,7 @@
         "trackReason": false,
         "value": {},
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "archive-hint-dismiss-interval-in-seconds": {
         "debugEventsUntilDate": 0,
@@ -168,7 +168,7 @@
         "trackReason": false,
         "value": 180,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "archive-upsell-threshold-in-hours": {
         "debugEventsUntilDate": 0,
@@ -177,7 +177,7 @@
         "trackReason": false,
         "value": 1,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-about-image-context-menu-option-enabled": {
         "debugEventsUntilDate": 0,
@@ -186,7 +186,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-for-inline-sources": {
         "debugEventsUntilDate": 0,
@@ -195,7 +195,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-if-memory-was-used-in-response": {
         "debugEventsUntilDate": 0,
@@ -204,7 +204,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-auto-archive-enabled": {
         "debugEventsUntilDate": 0,
@@ -213,7 +213,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-block-quotes-enabled": {
         "debugEventsUntilDate": 0,
@@ -222,7 +222,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-capture-tool-enabled": {
         "debugEventsUntilDate": 0,
@@ -231,7 +231,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-consistent-scrim-enabled": {
         "debugEventsUntilDate": 0,
@@ -240,7 +240,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-current-tab-attachment-enabled": {
         "debugEventsUntilDate": 0,
@@ -249,7 +249,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-dynamic-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -258,7 +258,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-empty-state-hints-enabled": {
         "debugEventsUntilDate": 0,
@@ -267,7 +267,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-restore-on-app-launch": {
         "debugEventsUntilDate": 0,
@@ -276,7 +276,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-selected-text-attachments-enabled": {
         "debugEventsUntilDate": 0,
@@ -285,7 +285,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -294,7 +294,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ask-on-page-update-attachments-enabled": {
         "debugEventsUntilDate": 0,
@@ -303,7 +303,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-capabilities-toolbar-enabled": {
         "debugEventsUntilDate": 0,
@@ -315,7 +315,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-force-default-prompt-magic-phrase": {
         "debugEventsUntilDate": 0,
@@ -324,7 +324,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "assistant-history-attachment-support-enabled": {
         "debugEventsUntilDate": 0,
@@ -333,7 +333,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-live-text-selection-propagation": {
         "debugEventsUntilDate": 0,
@@ -342,7 +342,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "assistant-navigation-panel-enabled": {
         "debugEventsUntilDate": 0,
@@ -351,7 +351,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "assistant-quote-response-text-enabled": {
         "debugEventsUntilDate": 0,
@@ -360,7 +360,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-rtl-text-layout-support-enabled": {
         "debugEventsUntilDate": 0,
@@ -369,7 +369,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-search-enabled": {
         "debugEventsUntilDate": 0,
@@ -378,7 +378,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-search-toggle-enabled": {
         "debugEventsUntilDate": 0,
@@ -387,7 +387,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-single-line-input-enabled": {
         "debugEventsUntilDate": 0,
@@ -396,7 +396,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -405,7 +405,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "assistant-tab-loading-animation-enabled": {
         "debugEventsUntilDate": 0,
@@ -414,7 +414,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-text-scale-customization-enabled": {
         "debugEventsUntilDate": 0,
@@ -423,7 +423,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-theme-colors-enabled": {
         "debugEventsUntilDate": 0,
@@ -432,7 +432,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "assistant-web-content-subscription-enabled": {
         "debugEventsUntilDate": 0,
@@ -441,7 +441,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "attachment-copy-paste-enabled": {
         "debugEventsUntilDate": 0,
@@ -450,7 +450,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "attachments-scrapes-include-urls": {
         "debugEventsUntilDate": 0,
@@ -459,7 +459,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auth-clean-up-keychain-item-enabled": {
         "debugEventsUntilDate": 0,
@@ -472,7 +472,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auth-key-value-store-persistence-enabled": {
         "debugEventsUntilDate": 0,
@@ -481,7 +481,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auto-accept-tools-enabled": {
         "debugEventsUntilDate": 0,
@@ -490,7 +490,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auto-archive-enabled": {
         "debugEventsUntilDate": 0,
@@ -499,7 +499,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "auto-attach-current-page-in-ask-on-page": {
         "debugEventsUntilDate": 0,
@@ -508,7 +508,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auto-pin-installed-extensions-enabled": {
         "debugEventsUntilDate": 0,
@@ -517,7 +517,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auto-tab-title-compaction-enabled": {
         "debugEventsUntilDate": 0,
@@ -526,7 +526,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "auto-update-background-delay": {
         "debugEventsUntilDate": 0,
@@ -535,7 +535,7 @@
         "trackReason": false,
         "value": 120,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "auto-update-background-exit-dialog-delay": {
         "debugEventsUntilDate": 0,
@@ -544,7 +544,7 @@
         "trackReason": false,
         "value": 0,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auto-update-ignoring-edits-domains-enabled": {
         "debugEventsUntilDate": 0,
@@ -553,7 +553,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "auto-updater-background-app-signal-enabled": {
         "debugEventsUntilDate": 0,
@@ -562,7 +562,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "automatic-link-retrieval-routing-enabled": {
         "debugEventsUntilDate": 0,
@@ -571,7 +571,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "automatic-reasoning-routing-enabled": {
         "debugEventsUntilDate": 0,
@@ -580,7 +580,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "automatic-summary-enabled": {
         "debugEventsUntilDate": 0,
@@ -589,7 +589,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "aws-brave-proxy-skip-cf-geodata": {
         "debugEventsUntilDate": 0,
@@ -598,7 +598,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "bookmark-interstitial-enabled": {
         "debugEventsUntilDate": 0,
@@ -607,7 +607,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "bookmarks-in-commandbar": {
         "debugEventsUntilDate": 0,
@@ -616,7 +616,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-encrypt-database": {
         "debugEventsUntilDate": 0,
@@ -625,7 +625,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-analysis-feedback-enabled": {
         "debugEventsUntilDate": 0,
@@ -634,7 +634,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-automatic-memory-search": {
         "debugEventsUntilDate": 0,
@@ -643,7 +643,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-automatic-summarization-enabled": {
         "debugEventsUntilDate": 0,
@@ -652,7 +652,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-bookmarks-donations": {
         "debugEventsUntilDate": 0,
@@ -661,7 +661,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-bookmarks-inject-keyword": {
         "debugEventsUntilDate": 0,
@@ -670,7 +670,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-chat-summaries-1-day": {
         "debugEventsUntilDate": 0,
@@ -679,7 +679,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-chat-summaries-1-week": {
         "debugEventsUntilDate": 0,
@@ -688,7 +688,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-chat-wrapped-experiment-phrase": {
         "debugEventsUntilDate": 0,
@@ -697,7 +697,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-chats-history-enabled": {
         "debugEventsUntilDate": 0,
@@ -706,7 +706,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-chats-mentions-enabled": {
         "debugEventsUntilDate": 0,
@@ -715,7 +715,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-conditionally-skip-scrapes": {
         "debugEventsUntilDate": 0,
@@ -727,7 +727,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-conversation-donation-enabled": {
         "debugEventsUntilDate": 0,
@@ -736,7 +736,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-deleted-memories-enabled": {
         "debugEventsUntilDate": 0,
@@ -745,7 +745,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-enable-chatgpt-import": {
         "debugEventsUntilDate": 0,
@@ -754,7 +754,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-enable-chatgpt-import-in-onboarding": {
         "debugEventsUntilDate": 0,
@@ -763,7 +763,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-enable-tag-search": {
         "debugEventsUntilDate": 0,
@@ -772,7 +772,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-enable-tagging": {
         "debugEventsUntilDate": 0,
@@ -781,7 +781,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-enabled": {
         "debugEventsUntilDate": 0,
@@ -790,7 +790,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-export-database-early-birds": {
         "debugEventsUntilDate": 0,
@@ -799,7 +799,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-force-mention-bookmarks": {
         "debugEventsUntilDate": 0,
@@ -808,7 +808,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-force-mention-chats": {
         "debugEventsUntilDate": 0,
@@ -817,7 +817,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-force-mention-history": {
         "debugEventsUntilDate": 0,
@@ -826,7 +826,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-hide-history-autocomplete": {
         "debugEventsUntilDate": 0,
@@ -838,7 +838,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-history-mentions-enabled": {
         "debugEventsUntilDate": 0,
@@ -847,7 +847,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-internal-auto-enable-history": {
         "debugEventsUntilDate": 0,
@@ -856,7 +856,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-knowledge-graph-auto-update-enabled": {
         "debugEventsUntilDate": 0,
@@ -865,7 +865,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-knowledge-graph-enabled": {
         "debugEventsUntilDate": 0,
@@ -874,7 +874,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-knowledge-graph-injection": {
         "debugEventsUntilDate": 0,
@@ -883,7 +883,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-knowledge-graph-refresh-interval-hours": {
         "debugEventsUntilDate": 0,
@@ -892,7 +892,7 @@
         "trackReason": false,
         "value": 18,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-mention-bookmarks": {
         "debugEventsUntilDate": 0,
@@ -901,7 +901,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-mention-chats": {
         "debugEventsUntilDate": 0,
@@ -910,7 +910,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-mention-history": {
         "debugEventsUntilDate": 0,
@@ -919,7 +919,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-navigation-donation-enabled": {
         "debugEventsUntilDate": 0,
@@ -931,7 +931,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-navigation-history-by-content-enabled": {
         "debugEventsUntilDate": 0,
@@ -940,7 +940,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-navigation-summaries-1-day": {
         "debugEventsUntilDate": 0,
@@ -949,7 +949,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-navigation-summaries-1-week": {
         "debugEventsUntilDate": 0,
@@ -958,7 +958,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-optin-mention-history": {
         "debugEventsUntilDate": 0,
@@ -970,7 +970,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-page-classifier-enabled": {
         "debugEventsUntilDate": 0,
@@ -979,7 +979,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-per-profile-enabling": {
         "debugEventsUntilDate": 0,
@@ -988,7 +988,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-prefs-learn-more-url": {
         "debugEventsUntilDate": 0,
@@ -997,7 +997,7 @@
         "trackReason": false,
         "value": "https://public.diabrowser.com/what-is-dia-memory",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-query-function-call-enabled": {
         "debugEventsUntilDate": 0,
@@ -1009,7 +1009,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-refresh-enabled": {
         "debugEventsUntilDate": 0,
@@ -1018,7 +1018,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-scrape-cache": {
         "debugEventsUntilDate": 0,
@@ -1027,7 +1027,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-sensitivity-classifier-enabled": {
         "debugEventsUntilDate": 0,
@@ -1036,7 +1036,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-use-llm-reranker": {
         "debugEventsUntilDate": 0,
@@ -1045,7 +1045,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-memory-vector-search-enabled-everywhere": {
         "debugEventsUntilDate": 0,
@@ -1054,7 +1054,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "boost-store-memory-content-snapshot-enabled": {
         "debugEventsUntilDate": 0,
@@ -1063,7 +1063,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "calendar-data-controller-enabled": {
         "debugEventsUntilDate": 0,
@@ -1072,7 +1072,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "calendar-data-refresh-throttle-interval": {
         "debugEventsUntilDate": 0,
@@ -1081,7 +1081,7 @@
         "trackReason": false,
         "value": 300,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "calendar-meeting-links-max-count": {
         "debugEventsUntilDate": 0,
@@ -1090,7 +1090,7 @@
         "trackReason": false,
         "value": 2,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "calendar-meeting-reminder-display-threshold": {
         "debugEventsUntilDate": 0,
@@ -1099,7 +1099,7 @@
         "trackReason": false,
         "value": 60,
         "variation": 3,
-        "version": 2620
+        "version": 2625
     },
     "calendar-meeting-reminder-enabled": {
         "debugEventsUntilDate": 0,
@@ -1108,7 +1108,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "calendar-meeting-reminder-front-and-center": {
         "debugEventsUntilDate": 0,
@@ -1117,7 +1117,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "calendar-meeting-reminder-show-prep-links": {
         "debugEventsUntilDate": 0,
@@ -1126,7 +1126,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "calendar-tab-preview-enabled": {
         "debugEventsUntilDate": 0,
@@ -1135,7 +1135,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chat-button-dynamic-title-enabled": {
         "debugEventsUntilDate": 0,
@@ -1144,7 +1144,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chat-color-citations-enabled": {
         "debugEventsUntilDate": 0,
@@ -1153,7 +1153,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chat-inline-link-navigation-enabled": {
         "debugEventsUntilDate": 0,
@@ -1162,7 +1162,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chat-response-architecture-v2-enabled": {
         "debugEventsUntilDate": 0,
@@ -1171,7 +1171,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chat-tab-release-notes-enabled": {
         "debugEventsUntilDate": 0,
@@ -1180,7 +1180,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "check-reachability-in-assistant-enabled": {
         "debugEventsUntilDate": 0,
@@ -1189,7 +1189,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chromium-auto-pip-enabled": {
         "debugEventsUntilDate": 0,
@@ -1198,7 +1198,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chromium-auto-pip-enabled-only-for-google-meet": {
         "debugEventsUntilDate": 0,
@@ -1207,7 +1207,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chromium-bookmarks-enabled": {
         "debugEventsUntilDate": 0,
@@ -1216,7 +1216,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "chromium-disabled-features": {
         "debugEventsUntilDate": 0,
@@ -1225,7 +1225,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "classification-for-memory-donations-enabled": {
         "debugEventsUntilDate": 0,
@@ -1234,7 +1234,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "classification-time-lora-enabled": {
         "debugEventsUntilDate": 0,
@@ -1243,7 +1243,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "close-tabs-tool-enabled": {
         "debugEventsUntilDate": 0,
@@ -1252,7 +1252,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "close-windows-on-quit": {
         "debugEventsUntilDate": 0,
@@ -1264,7 +1264,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "command-bar-attachment-restoration-enabled": {
         "debugEventsUntilDate": 0,
@@ -1273,7 +1273,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "command-bar-auto-assistant-routing-for-initial-queries-enabled": {
         "debugEventsUntilDate": 0,
@@ -1282,7 +1282,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "command-bar-keyboard-routing-modifier-enabled": {
         "debugEventsUntilDate": 0,
@@ -1291,7 +1291,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "command-bar-new-document-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -1300,7 +1300,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "command-bar-redesign-enabled": {
         "debugEventsUntilDate": 0,
@@ -1309,7 +1309,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "command-bar-ticker-placeholder-enabled": {
         "debugEventsUntilDate": 0,
@@ -1318,7 +1318,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "compositor-flashing-prevention": {
         "debugEventsUntilDate": 0,
@@ -1327,7 +1327,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "content-fetch-parse-pdf-with-llm": {
         "debugEventsUntilDate": 0,
@@ -1336,7 +1336,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "content-fetch-parse-pdf-with-ocr": {
         "debugEventsUntilDate": 0,
@@ -1345,7 +1345,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "content-fetch-timeout-seconds-for-extract-html": {
         "debugEventsUntilDate": 0,
@@ -1354,7 +1354,7 @@
         "trackReason": false,
         "value": 5,
         "variation": 2,
-        "version": 2620
+        "version": 2625
     },
     "content-fetch-use-integration-controller": {
         "debugEventsUntilDate": 0,
@@ -1363,7 +1363,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "content-fetch-use-swift-canvas-integration": {
         "debugEventsUntilDate": 0,
@@ -1372,7 +1372,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "content-fetch-use-swift-google-docs-integration": {
         "debugEventsUntilDate": 0,
@@ -1381,7 +1381,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "content-lifetime-optimizer": {
         "debugEventsUntilDate": 0,
@@ -1390,7 +1390,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "content-pane-native-content-url-navigation-enabled": {
         "debugEventsUntilDate": 0,
@@ -1399,16 +1399,16 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "context-scoped-tab-store-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "conversation-starters-to-assistant": {
         "debugEventsUntilDate": 0,
@@ -1417,7 +1417,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "coolest-friend-scheduled-tab-enabled": {
         "debugEventsUntilDate": 0,
@@ -1426,7 +1426,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "copy-custom-skill-as-image-enabled": {
         "debugEventsUntilDate": 0,
@@ -1435,7 +1435,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "create-transparent-window-for-dialogs-if-needed": {
         "debugEventsUntilDate": 0,
@@ -1447,7 +1447,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "custom-skill-domain-targeting-enabled": {
         "debugEventsUntilDate": 0,
@@ -1456,7 +1456,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "custom-skill-inline-editing-enabled": {
         "debugEventsUntilDate": 0,
@@ -1465,7 +1465,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "custom-skill-prompt-enabled": {
         "debugEventsUntilDate": 0,
@@ -1474,7 +1474,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "custom-skill-prompts-enabled": {
         "debugEventsUntilDate": 0,
@@ -1486,7 +1486,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "database-corruption-recovery-enabled": {
         "debugEventsUntilDate": 0,
@@ -1495,7 +1495,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "datadog-traces-sampling-rate": {
         "debugEventsUntilDate": 0,
@@ -1504,7 +1504,7 @@
         "trackReason": false,
         "value": 100,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "debug-sentry-nsexception-enabled": {
         "debugEventsUntilDate": 0,
@@ -1513,7 +1513,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dedupe-chromium-history-results-by-canonical-uri-enabled": {
         "debugEventsUntilDate": 0,
@@ -1522,7 +1522,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "default-browser-3-day-follow-up-after-prompt-bail-enabled": {
         "debugEventsUntilDate": 0,
@@ -1531,7 +1531,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "default-browser-banner": {
         "debugEventsUntilDate": 0,
@@ -1540,7 +1540,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "default-browser-upsell-dismiss-cooldown-seconds": {
         "debugEventsUntilDate": 0,
@@ -1549,7 +1549,7 @@
         "trackReason": false,
         "value": 86400,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dia-pro-subscribe-url": {
         "debugEventsUntilDate": 0,
@@ -1558,7 +1558,7 @@
         "trackReason": false,
         "value": "https://www.diabrowser.com/pro#subscribe",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dia-subscription-success-url": {
         "debugEventsUntilDate": 0,
@@ -1567,7 +1567,7 @@
         "trackReason": false,
         "value": "https://www.diabrowser.com/pro/welcome",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dia-subscription-version": {
         "debugEventsUntilDate": 0,
@@ -1576,7 +1576,7 @@
         "trackReason": false,
         "value": "v0",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dictation-overlay-enabled": {
         "debugEventsUntilDate": 0,
@@ -1585,7 +1585,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dictation-use-m4a-enabled": {
         "debugEventsUntilDate": 0,
@@ -1594,7 +1594,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "disable-ai-request-retry": {
         "debugEventsUntilDate": 0,
@@ -1603,7 +1603,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dismissed-proactive-suggestions-exclusion-window": {
         "debugEventsUntilDate": 0,
@@ -1612,7 +1612,7 @@
         "trackReason": false,
         "value": 172800,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "display-function-call-debug-info-in-supertabs": {
         "debugEventsUntilDate": 0,
@@ -1621,7 +1621,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "display-page-title-in-url-bar-enabled": {
         "debugEventsUntilDate": 0,
@@ -1630,7 +1630,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "distill-bert-router-enabled": {
         "debugEventsUntilDate": 0,
@@ -1639,7 +1639,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "distillability-service-enabled": {
         "debugEventsUntilDate": 0,
@@ -1648,7 +1648,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dont-show-update-dialog-if-user-active": {
         "debugEventsUntilDate": 0,
@@ -1657,7 +1657,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "dont-show-update-dialog-when-no-windows": {
         "debugEventsUntilDate": 0,
@@ -1669,7 +1669,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "download-protection-suspicious-extension-heuristic-enabled": {
         "debugEventsUntilDate": 0,
@@ -1678,7 +1678,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "downloads-clickjacking-prevention-enabled": {
         "debugEventsUntilDate": 0,
@@ -1687,7 +1687,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "draft-app-custom-prompt-enabled": {
         "debugEventsUntilDate": 0,
@@ -1696,7 +1696,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "draft-app-uses-4o-alpha": {
         "debugEventsUntilDate": 0,
@@ -1705,7 +1705,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "draft-calendar-event-computer-use-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -1714,7 +1714,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "draft-email-response-computer-use-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -1723,7 +1723,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "drag-destination-overlay-enabled": {
         "debugEventsUntilDate": 0,
@@ -1732,7 +1732,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dynamic-assistant-personality-enabled": {
         "debugEventsUntilDate": 0,
@@ -1741,7 +1741,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "dynamic-personality-settings-migration-enabled": {
         "debugEventsUntilDate": 0,
@@ -1750,7 +1750,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "early-bird-access-enabled": {
         "debugEventsUntilDate": 0,
@@ -1759,7 +1759,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "edit-memories-enabled": {
         "debugEventsUntilDate": 0,
@@ -1768,7 +1768,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-adk-text-selection-geometry": {
         "debugEventsUntilDate": 0,
@@ -1777,7 +1777,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-ai-service-paywall-testing": {
         "debugEventsUntilDate": 0,
@@ -1786,7 +1786,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-ai-service-subscriptions-free-tier-cap": {
         "debugEventsUntilDate": 0,
@@ -1795,7 +1795,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-ask-on-page-new-chat-button": {
         "debugEventsUntilDate": 0,
@@ -1804,7 +1804,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-ask-on-page-text-selection-handle-entrypoints": {
         "debugEventsUntilDate": 0,
@@ -1813,7 +1813,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-assistant-query-history-suggestions": {
         "debugEventsUntilDate": 0,
@@ -1822,7 +1822,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-aws-ai-proxy": {
         "debugEventsUntilDate": 0,
@@ -1831,7 +1831,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-aws-ai-proxy-for-audio": {
         "debugEventsUntilDate": 0,
@@ -1840,7 +1840,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-aws-assistant-feedback": {
         "debugEventsUntilDate": 0,
@@ -1849,7 +1849,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-aws-proxy-for-brave-search-api": {
         "debugEventsUntilDate": 0,
@@ -1858,7 +1858,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-computer-use-confirmation-step": {
         "debugEventsUntilDate": 0,
@@ -1867,7 +1867,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-continuous-new-tab-to-assistant-transition": {
         "debugEventsUntilDate": 0,
@@ -1876,7 +1876,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-draft-tool-history": {
         "debugEventsUntilDate": 0,
@@ -1885,7 +1885,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-draft-tool-new-ui": {
         "debugEventsUntilDate": 0,
@@ -1894,7 +1894,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-draft-tool-text-cursor-entrypoint": {
         "debugEventsUntilDate": 0,
@@ -1903,7 +1903,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-draft-tool-text-cursor-tooltip-entrypoint": {
         "debugEventsUntilDate": 0,
@@ -1912,7 +1912,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-draft-tool-text-selection-handle-entrypoints": {
         "debugEventsUntilDate": 0,
@@ -1921,7 +1921,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-dynamic-ask-draft-button": {
         "debugEventsUntilDate": 0,
@@ -1930,7 +1930,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-e2e-encryption": {
         "debugEventsUntilDate": 0,
@@ -1939,7 +1939,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-gemini-on-aws": {
         "debugEventsUntilDate": 0,
@@ -1948,7 +1948,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-input-attached-assistant-pip": {
         "debugEventsUntilDate": 0,
@@ -1957,7 +1957,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-memory-optout-menu-item": {
         "debugEventsUntilDate": 0,
@@ -1969,7 +1969,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-new-context-window": {
         "debugEventsUntilDate": 0,
@@ -1978,7 +1978,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-new-text-selection-controller": {
         "debugEventsUntilDate": 0,
@@ -1987,7 +1987,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-open-ask-on-page-by-default": {
         "debugEventsUntilDate": 0,
@@ -1996,7 +1996,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-personality-button-shimmer-effect": {
         "debugEventsUntilDate": 0,
@@ -2005,7 +2005,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-personality-classification-step": {
         "debugEventsUntilDate": 0,
@@ -2014,7 +2014,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-personality-upsell-cta": {
         "debugEventsUntilDate": 0,
@@ -2023,7 +2023,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-prompt-safety-checks": {
         "debugEventsUntilDate": 0,
@@ -2032,7 +2032,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-query-logging": {
         "debugEventsUntilDate": 0,
@@ -2041,7 +2041,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-supertabs-to-do-generator": {
         "debugEventsUntilDate": 0,
@@ -2050,7 +2050,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-text-cursor-menu": {
         "debugEventsUntilDate": 0,
@@ -2059,7 +2059,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-text-proposal-import-to-web-content": {
         "debugEventsUntilDate": 0,
@@ -2068,7 +2068,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enable-unsupported-capability-assistant-logging": {
         "debugEventsUntilDate": 0,
@@ -2077,7 +2077,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "enable-unusable-web-attachment-assistant-logging": {
         "debugEventsUntilDate": 0,
@@ -2086,7 +2086,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "enforce-csp-sandbox-for-downloads": {
         "debugEventsUntilDate": 0,
@@ -2095,7 +2095,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "extension-permissions-dialog-via-browser-enabled": {
         "debugEventsUntilDate": 0,
@@ -2104,7 +2104,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "fancy-memory-history-attachments-enabled": {
         "debugEventsUntilDate": 0,
@@ -2116,7 +2116,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "fast-notion-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -2125,7 +2125,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "favicon-appearance-handling-enabled": {
         "debugEventsUntilDate": 0,
@@ -2134,7 +2134,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "favorites-window-tint-enabled": {
         "debugEventsUntilDate": 0,
@@ -2143,7 +2143,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "fetch-web-content-enabled": {
         "debugEventsUntilDate": 0,
@@ -2152,7 +2152,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "fill-forms-enabled": {
         "debugEventsUntilDate": 0,
@@ -2161,7 +2161,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "first-assistant-experience-new-tab-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -2170,7 +2170,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "first-assistant-experience-new-tab-suggestions-presentation-count": {
         "debugEventsUntilDate": 0,
@@ -2179,7 +2179,7 @@
         "trackReason": false,
         "value": 3,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "first-assistant-experience-self-driving-intro-messages-enabled": {
         "debugEventsUntilDate": 0,
@@ -2188,7 +2188,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "first-assistant-experience-self-driving-onboarding-enabled": {
         "debugEventsUntilDate": 0,
@@ -2197,7 +2197,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "first-assistant-experience-self-driving-start-button-enabled": {
         "debugEventsUntilDate": 0,
@@ -2206,7 +2206,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "fixed-assistant-tools-icon-enabled": {
         "debugEventsUntilDate": 0,
@@ -2215,7 +2215,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "focus-mode-enabled": {
         "debugEventsUntilDate": 0,
@@ -2224,7 +2224,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "fullscreen-ui-improvements-enabled": {
         "debugEventsUntilDate": 0,
@@ -2233,7 +2233,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "ga-oct-7-master-flag": {
         "debugEventsUntilDate": 0,
@@ -2242,7 +2242,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "gcal-scraping-via-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -2251,7 +2251,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "github-code-review-skill-enabled": {
         "debugEventsUntilDate": 0,
@@ -2260,7 +2260,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "gmail-full-message-text-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -2269,7 +2269,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "gmail-search-use-full-message-enabled": {
         "debugEventsUntilDate": 0,
@@ -2278,7 +2278,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "gpt-5-1-enabled": {
         "debugEventsUntilDate": 0,
@@ -2287,7 +2287,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "gpt-5-non-reasoning-enabled": {
         "debugEventsUntilDate": 0,
@@ -2296,7 +2296,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "gpt-5-non-reasoning-prompt-enabled": {
         "debugEventsUntilDate": 0,
@@ -2305,7 +2305,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "gpt-5-response-enabled": {
         "debugEventsUntilDate": 0,
@@ -2314,7 +2314,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "gpt-5-skills-enabled": {
         "debugEventsUntilDate": 0,
@@ -2323,7 +2323,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "gradient-response-thinking-animation-enabled": {
         "debugEventsUntilDate": 0,
@@ -2332,7 +2332,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "grouped-proactive-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -2341,7 +2341,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "haptic-feedback-on-tab-moved-enabled": {
         "debugEventsUntilDate": 0,
@@ -2350,7 +2350,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "hero-use-case-skills-enabled": {
         "debugEventsUntilDate": 0,
@@ -2359,7 +2359,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "hidden-webcontent-scraping-timeout-in-seconds": {
         "debugEventsUntilDate": 0,
@@ -2371,7 +2371,7 @@
         "trackReason": false,
         "value": 5,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "html-extraction-unroll-shadow-dom": {
         "debugEventsUntilDate": 0,
@@ -2380,7 +2380,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "info-bar": {
         "debugEventsUntilDate": 0,
@@ -2389,7 +2389,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "inline-memory-web-previews-enabled": {
         "debugEventsUntilDate": 0,
@@ -2398,7 +2398,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "insertion-cursor-open-sidebar": {
         "debugEventsUntilDate": 0,
@@ -2407,7 +2407,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "interaction-instrumentation-enabled": {
         "debugEventsUntilDate": 0,
@@ -2416,7 +2416,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "interaction-instrumentation-sampling-rate": {
         "debugEventsUntilDate": 0,
@@ -2425,7 +2425,7 @@
         "trackReason": false,
         "value": 1,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "is-function-calling-execution-in-step-one-enabled": {
         "debugEventsUntilDate": 0,
@@ -2434,7 +2434,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "is-function-calling-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -2443,7 +2443,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "is-student-for-dia-server": {
         "debugEventsUntilDate": 0,
@@ -2452,7 +2452,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "june-11-features-master-flag": {
         "debugEventsUntilDate": 0,
@@ -2461,7 +2461,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "keyboard-shortcut-remapping-enabled": {
         "debugEventsUntilDate": 0,
@@ -2470,7 +2470,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "konami-code-onboarding-intro-trigger-enabled": {
         "debugEventsUntilDate": 0,
@@ -2479,7 +2479,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "link-routing-enabled": {
         "debugEventsUntilDate": 0,
@@ -2488,7 +2488,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "live-calendar-meet-ur-ls-as-tabs": {
         "debugEventsUntilDate": 0,
@@ -2497,7 +2497,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "load-all-profiles-at-startup": {
         "debugEventsUntilDate": 0,
@@ -2506,7 +2506,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "log-pinned-tab-selects": {
         "debugEventsUntilDate": 0,
@@ -2515,7 +2515,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "login-protocol-for-account-service": {
         "debugEventsUntilDate": 0,
@@ -2524,7 +2524,7 @@
         "trackReason": false,
         "value": "password",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "manual-skill-routing-enabled": {
         "debugEventsUntilDate": 0,
@@ -2536,7 +2536,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "markdown-table-attachments-enabled": {
         "debugEventsUntilDate": 0,
@@ -2545,7 +2545,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "meeting-tab-group-enabled": {
         "debugEventsUntilDate": 0,
@@ -2554,7 +2554,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "memory-button-in-url-bar-enabled": {
         "debugEventsUntilDate": 0,
@@ -2563,7 +2563,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "memory-distilled-html-enabled": {
         "debugEventsUntilDate": 0,
@@ -2572,7 +2572,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "memory-donate-main-content-only": {
         "debugEventsUntilDate": 0,
@@ -2581,7 +2581,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "middle-click-support-for-bookmarks": {
         "debugEventsUntilDate": 0,
@@ -2590,7 +2590,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "mouse-up-on-text-suggestions-disabled": {
         "debugEventsUntilDate": 0,
@@ -2599,7 +2599,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "move-tabs-to-other-window-context-menu-option-enabled": {
         "debugEventsUntilDate": 0,
@@ -2608,7 +2608,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "native-bookmarks-page-enabled": {
         "debugEventsUntilDate": 0,
@@ -2617,7 +2617,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "native-content-blocking-enabled": {
         "debugEventsUntilDate": 0,
@@ -2626,7 +2626,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "nav-bar-insecure-state-color-sampling-enabled": {
         "debugEventsUntilDate": 0,
@@ -2635,7 +2635,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "navigation-bar-ask-on-page-field-enabled": {
         "debugEventsUntilDate": 0,
@@ -2644,7 +2644,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "navigation-bar-pin-button-enabled": {
         "debugEventsUntilDate": 0,
@@ -2653,7 +2653,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "new-loading-state-for-response-bylines": {
         "debugEventsUntilDate": 0,
@@ -2662,7 +2662,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-memory-settings-page-enabled": {
         "debugEventsUntilDate": 0,
@@ -2671,7 +2671,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "new-nav-bar-title-view-enabled": {
         "debugEventsUntilDate": 0,
@@ -2680,7 +2680,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-onboarding-default-browser-screen-enabled": {
         "debugEventsUntilDate": 0,
@@ -2689,7 +2689,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-right-click-photo-menu-enabled": {
         "debugEventsUntilDate": 0,
@@ -2698,7 +2698,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-site-settings-menu-enabled": {
         "debugEventsUntilDate": 0,
@@ -2707,7 +2707,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "new-skills-window-esc-key-behavior-enabled": {
         "debugEventsUntilDate": 0,
@@ -2716,7 +2716,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-tab-page-greeting-enabled": {
         "debugEventsUntilDate": 0,
@@ -2725,7 +2725,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "new-tab-page-power-up-animation-enabled": {
         "debugEventsUntilDate": 0,
@@ -2734,7 +2734,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-tab-page-skills-ui-enabled": {
         "debugEventsUntilDate": 0,
@@ -2746,7 +2746,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-tab-saved-queries-enabled": {
         "debugEventsUntilDate": 0,
@@ -2755,7 +2755,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "new-tab-ticker-placeholders-enabled": {
         "debugEventsUntilDate": 0,
@@ -2764,7 +2764,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "new-tabs-menu-enabled": {
         "debugEventsUntilDate": 0,
@@ -2773,7 +2773,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "new-translate-menu-enabled": {
         "debugEventsUntilDate": 0,
@@ -2782,7 +2782,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "new-window-dragging-external-window-inspection-enabled": {
         "debugEventsUntilDate": 0,
@@ -2791,7 +2791,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "notion-html-export-integration": {
         "debugEventsUntilDate": 0,
@@ -2800,7 +2800,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "oct-2025-onboarding-edu-skill-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -2809,7 +2809,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "oct-2025-onboarding-updated-background-tabs-enabled": {
         "debugEventsUntilDate": 0,
@@ -2818,7 +2818,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "on-device-router-enabled": {
         "debugEventsUntilDate": 0,
@@ -2827,7 +2827,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "on-device-routing-in-command-bar-enabled": {
         "debugEventsUntilDate": 0,
@@ -2836,7 +2836,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "on-quit-cleanup-improvements-enabled": {
         "debugEventsUntilDate": 0,
@@ -2845,7 +2845,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-can-present-disclosure-step": {
         "debugEventsUntilDate": 0,
@@ -2854,7 +2854,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-default-browser-trial-dialog-enabled": {
         "debugEventsUntilDate": 0,
@@ -2863,7 +2863,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-dia-hacks-destination-url": {
         "debugEventsUntilDate": 0,
@@ -2872,7 +2872,7 @@
         "trackReason": false,
         "value": "https://www.youtube.com/watch?v=okcCdFWtFns",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-dia-tour-destination-url": {
         "debugEventsUntilDate": 0,
@@ -2884,7 +2884,7 @@
         "trackReason": false,
         "value": "https://www.youtube.com/watch?v=W0m-Qnb7r7Q",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-enabled": {
         "debugEventsUntilDate": 0,
@@ -2893,7 +2893,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-import-extensions-enabled": {
         "debugEventsUntilDate": 0,
@@ -2902,7 +2902,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-import-pinned-tabs-enabled": {
         "debugEventsUntilDate": 0,
@@ -2911,7 +2911,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-import-skip-enabled": {
         "debugEventsUntilDate": 0,
@@ -2920,7 +2920,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-intro-enabled": {
         "debugEventsUntilDate": 0,
@@ -2929,7 +2929,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-new-import-ui-enabled": {
         "debugEventsUntilDate": 0,
@@ -2938,7 +2938,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-open-dia-tour-enabled": {
         "debugEventsUntilDate": 0,
@@ -2947,7 +2947,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-open-new-tab-enabled": {
         "debugEventsUntilDate": 0,
@@ -2956,7 +2956,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-outro-enabled": {
         "debugEventsUntilDate": 0,
@@ -2965,7 +2965,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-personalized-pinned-tabs-enabled": {
         "debugEventsUntilDate": 0,
@@ -2974,7 +2974,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-pinned-tabs-enabled": {
         "debugEventsUntilDate": 0,
@@ -2983,7 +2983,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-restore-tabs-enabled": {
         "debugEventsUntilDate": 0,
@@ -2992,7 +2992,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-show-chat-memory-step": {
         "debugEventsUntilDate": 0,
@@ -3001,7 +3001,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-skills-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -3013,7 +3013,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-sso-enabled": {
         "debugEventsUntilDate": 0,
@@ -3022,7 +3022,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-tab-layout-personalization-enabled": {
         "debugEventsUntilDate": 0,
@@ -3031,7 +3031,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "onboarding-try-for-a-week-banner": {
         "debugEventsUntilDate": 0,
@@ -3040,7 +3040,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "oopif-exclusion-propagation": {
         "debugEventsUntilDate": 0,
@@ -3049,7 +3049,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "open-assistant-follow-ups-in-new-tab-enabled": {
         "debugEventsUntilDate": 0,
@@ -3058,7 +3058,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "open-tabs-tool-enabled": {
         "debugEventsUntilDate": 0,
@@ -3067,7 +3067,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "openai-uses-universal-client": {
         "debugEventsUntilDate": 0,
@@ -3076,7 +3076,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "out-of-process-classification-enabled": {
         "debugEventsUntilDate": 0,
@@ -3085,7 +3085,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "override-ai-service-free-tier-cooldown-time": {
         "debugEventsUntilDate": 0,
@@ -3094,7 +3094,7 @@
         "trackReason": false,
         "value": 0,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "override-ai-service-free-tier-token-limit": {
         "debugEventsUntilDate": 0,
@@ -3103,7 +3103,7 @@
         "trackReason": false,
         "value": 1500000,
         "variation": 11,
-        "version": 2620
+        "version": 2625
     },
     "paste-urls-as-attachments": {
         "debugEventsUntilDate": 0,
@@ -3112,7 +3112,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "per-chat-personalization-toggle-enabled": {
         "debugEventsUntilDate": 0,
@@ -3121,7 +3121,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "pop-up-blocker-enabled": {
         "debugEventsUntilDate": 0,
@@ -3130,7 +3130,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "popup-window-support-enabled": {
         "debugEventsUntilDate": 0,
@@ -3139,7 +3139,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "preferences-editing-name-enabled": {
         "debugEventsUntilDate": 0,
@@ -3151,7 +3151,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "preferences-enabled": {
         "debugEventsUntilDate": 0,
@@ -3160,7 +3160,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "preinstalled-custom-skills-enabled": {
         "debugEventsUntilDate": 0,
@@ -3169,7 +3169,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "present-computer-use-in-overlay": {
         "debugEventsUntilDate": 0,
@@ -3178,7 +3178,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "pretty-dialogs": {
         "debugEventsUntilDate": 0,
@@ -3187,7 +3187,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "pretty-onboarding-import": {
         "debugEventsUntilDate": 0,
@@ -3196,7 +3196,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "pretty-sign-up-in": {
         "debugEventsUntilDate": 0,
@@ -3205,7 +3205,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "prioritize-tools-over-tabs-in-autocomplete-enabled": {
         "debugEventsUntilDate": 0,
@@ -3214,7 +3214,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "proactive-suggestions-automatic-update-interval": {
         "debugEventsUntilDate": 0,
@@ -3223,7 +3223,7 @@
         "trackReason": false,
         "value": 1200,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "proactive-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -3232,7 +3232,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "proactive-suggestions-entry-point": {
         "debugEventsUntilDate": 0,
@@ -3241,7 +3241,7 @@
         "trackReason": false,
         "value": "newTabPage",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "proactive-suggestions-in-command-bar-placeholder-enabled": {
         "debugEventsUntilDate": 0,
@@ -3250,7 +3250,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "proactive-suggestions-include-previous-suggestions": {
         "debugEventsUntilDate": 0,
@@ -3259,7 +3259,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "proactive-suggestions-minimum-time-between-automatic-updates": {
         "debugEventsUntilDate": 0,
@@ -3268,7 +3268,7 @@
         "trackReason": false,
         "value": 900,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "prompt-packing-enabled": {
         "debugEventsUntilDate": 0,
@@ -3277,7 +3277,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "read-calendar-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -3286,7 +3286,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "read-tabs-tool-enabled": {
         "debugEventsUntilDate": 0,
@@ -3295,7 +3295,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "reasoning-classification-flywheel-enabled": {
         "debugEventsUntilDate": 0,
@@ -3304,7 +3304,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "reasoning-skill-enabled": {
         "debugEventsUntilDate": 0,
@@ -3313,7 +3313,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "reasoning-streams-enabled": {
         "debugEventsUntilDate": 0,
@@ -3322,7 +3322,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "record-trace-ui-enabled": {
         "debugEventsUntilDate": 0,
@@ -3331,7 +3331,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "referrals-banner-enabled": {
         "debugEventsUntilDate": 0,
@@ -3340,7 +3340,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "referrals-enabled": {
         "debugEventsUntilDate": 0,
@@ -3349,7 +3349,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "referrals-links-enabled": {
         "debugEventsUntilDate": 0,
@@ -3361,7 +3361,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "reload-menu-enabled": {
         "debugEventsUntilDate": 0,
@@ -3370,7 +3370,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "render-latex-equations-in-assistant": {
         "debugEventsUntilDate": 0,
@@ -3379,7 +3379,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "replace-url-patterns-with-regex": {
         "debugEventsUntilDate": 0,
@@ -3388,7 +3388,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "reply-to-web-content-uses-screenshot": {
         "debugEventsUntilDate": 0,
@@ -3397,7 +3397,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "request-supplementary-assets": {
         "debugEventsUntilDate": 0,
@@ -3406,7 +3406,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "research-skill-enabled": {
         "debugEventsUntilDate": 0,
@@ -3415,7 +3415,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "ruleset-to-enforce": {
         "debugEventsUntilDate": 0,
@@ -3424,7 +3424,7 @@
         "trackReason": false,
         "value": "safetools2",
         "variation": 4,
-        "version": 2620
+        "version": 2625
     },
     "sad-tab-enabled": {
         "debugEventsUntilDate": 0,
@@ -3433,7 +3433,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "safari-import-exported-data-enabled": {
         "debugEventsUntilDate": 0,
@@ -3442,7 +3442,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "safari-import-install-icloud-passwords-enabled": {
         "debugEventsUntilDate": 0,
@@ -3451,7 +3451,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "script-skill": {
         "debugEventsUntilDate": 0,
@@ -3460,7 +3460,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "search-all-tabs-enabled": {
         "debugEventsUntilDate": 0,
@@ -3469,7 +3469,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "search-email-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -3478,7 +3478,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "search-engines-for-scraping": {
         "debugEventsUntilDate": 0,
@@ -3492,7 +3492,7 @@
             ]
         },
         "variation": 2,
-        "version": 2620
+        "version": 2625
     },
     "search-slack-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -3501,7 +3501,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "send-email-computer-use-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -3510,7 +3510,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "services-account-service-max-turbo-sport-mode-enabled": {
         "debugEventsUntilDate": 0,
@@ -3519,7 +3519,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "services-ai-service-enable-counterabuse-dataurls": {
         "debugEventsUntilDate": 0,
@@ -3528,7 +3528,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "services-ai-service-enable-counterabuse-globalcompletiontokens": {
         "debugEventsUntilDate": 0,
@@ -3537,7 +3537,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "services-ai-service-enable-counterabuse-outputtokens": {
         "debugEventsUntilDate": 0,
@@ -3546,7 +3546,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "services-referrals-invitation-limit": {
         "debugEventsUntilDate": 0,
@@ -3555,7 +3555,7 @@
         "trackReason": false,
         "value": 500,
         "variation": 9,
-        "version": 2620
+        "version": 2625
     },
     "services-referrals-link-code-enabled": {
         "debugEventsUntilDate": 0,
@@ -3564,7 +3564,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "session-restoration-data-write-enabled": {
         "debugEventsUntilDate": 0,
@@ -3573,7 +3573,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "session-restoration-enabled": {
         "debugEventsUntilDate": 0,
@@ -3582,7 +3582,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "set-as-default-show-follow-up-dialog-after-days": {
         "debugEventsUntilDate": 0,
@@ -3591,7 +3591,7 @@
         "trackReason": false,
         "value": 1,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "share-usage-data": {
         "debugEventsUntilDate": 0,
@@ -3600,7 +3600,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "should-force-search-google-result-query-aop": {
         "debugEventsUntilDate": 0,
@@ -3609,7 +3609,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-bookmark-folders-in-attachment-suggestions": {
         "debugEventsUntilDate": 0,
@@ -3618,7 +3618,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-browsing-context-is-memory-prompt-below-footer": {
         "debugEventsUntilDate": 0,
@@ -3627,7 +3627,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-custom-skills-on-new-tab-page-enabled": {
         "debugEventsUntilDate": 0,
@@ -3639,7 +3639,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-dialog-before-quit-enabled": {
         "debugEventsUntilDate": 0,
@@ -3648,7 +3648,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-domain-groups-in-attachment-suggestions": {
         "debugEventsUntilDate": 0,
@@ -3657,7 +3657,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-memory-citations-above-footer": {
         "debugEventsUntilDate": 0,
@@ -3666,7 +3666,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "show-memory-citations-in-popover": {
         "debugEventsUntilDate": 0,
@@ -3675,7 +3675,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-memory-edu-tooltip-below-footer": {
         "debugEventsUntilDate": 0,
@@ -3684,7 +3684,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-memory-feedback-below-footer": {
         "debugEventsUntilDate": 0,
@@ -3693,7 +3693,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "show-response-footers-on-hover-enabled": {
         "debugEventsUntilDate": 0,
@@ -3702,7 +3702,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "sidebar-power-up-animation-enabled": {
         "debugEventsUntilDate": 0,
@@ -3711,7 +3711,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "sidebar-toggle-enabled": {
         "debugEventsUntilDate": 0,
@@ -3720,7 +3720,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "sidebar-upsell-dialog-enabled": {
         "debugEventsUntilDate": 0,
@@ -3729,7 +3729,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skill-auto-fire-enabled": {
         "debugEventsUntilDate": 0,
@@ -3738,7 +3738,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-branding": {
         "debugEventsUntilDate": 0,
@@ -3747,7 +3747,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-branding-command-bar-input": {
         "debugEventsUntilDate": 0,
@@ -3756,7 +3756,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-builder-creation-flow-enabled": {
         "debugEventsUntilDate": 0,
@@ -3765,7 +3765,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skill-builder-creation-flow-use-memory-enabled": {
         "debugEventsUntilDate": 0,
@@ -3774,7 +3774,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-builder-input-enabled": {
         "debugEventsUntilDate": 0,
@@ -3783,7 +3783,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-builder-v2-enabled": {
         "debugEventsUntilDate": 0,
@@ -3795,7 +3795,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skill-creator-mode-enabled": {
         "debugEventsUntilDate": 0,
@@ -3804,7 +3804,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-recommendations-from-similar-prompts-enabled": {
         "debugEventsUntilDate": 0,
@@ -3813,7 +3813,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-selection-power-up-effect": {
         "debugEventsUntilDate": 0,
@@ -3822,7 +3822,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skill-suggestion-focus-enabled": {
         "debugEventsUntilDate": 0,
@@ -3831,7 +3831,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-and-mention-upsell-cards-content": {
         "debugEventsUntilDate": 0,
@@ -3886,7 +3886,7 @@
             }
         },
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-and-mention-upsell-on-new-tab-page-enabled": {
         "debugEventsUntilDate": 0,
@@ -3898,7 +3898,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-and-mention-upsell-on-new-tab-page-v2-enabled": {
         "debugEventsUntilDate": 0,
@@ -3907,7 +3907,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-fuzzy-search-enabled": {
         "debugEventsUntilDate": 0,
@@ -3919,7 +3919,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-gallery-url": {
         "debugEventsUntilDate": 0,
@@ -3928,7 +3928,7 @@
         "trackReason": false,
         "value": "https://www.diabrowser.com/skills",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-hub-window-enabled": {
         "debugEventsUntilDate": 0,
@@ -3940,7 +3940,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-manager-grid-layout-enabled": {
         "debugEventsUntilDate": 0,
@@ -3949,7 +3949,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-nav-button-enabled": {
         "debugEventsUntilDate": 0,
@@ -3958,7 +3958,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-outputs-opt-in-enabled": {
         "debugEventsUntilDate": 0,
@@ -3967,7 +3967,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skills-routing-enabled": {
         "debugEventsUntilDate": 0,
@@ -3976,7 +3976,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-sharing-enabled": {
         "debugEventsUntilDate": 0,
@@ -3985,7 +3985,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "skills-shortcuts-enabled": {
         "debugEventsUntilDate": 0,
@@ -3994,7 +3994,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-shortcuts-on-new-tab-page-enabled": {
         "debugEventsUntilDate": 0,
@@ -4003,7 +4003,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-typeahead-enabled": {
         "debugEventsUntilDate": 0,
@@ -4015,7 +4015,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-ui-updates-enabled": {
         "debugEventsUntilDate": 0,
@@ -4027,7 +4027,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-v2-backend-enabled": {
         "debugEventsUntilDate": 0,
@@ -4039,7 +4039,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-v2-install-from-gallery-enabled": {
         "debugEventsUntilDate": 0,
@@ -4051,7 +4051,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "skills-v2-upload-enabled": {
         "debugEventsUntilDate": 0,
@@ -4060,7 +4060,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "slack-activity-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -4069,7 +4069,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "small-window-handling-enabled": {
         "debugEventsUntilDate": 0,
@@ -4078,7 +4078,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "split-view-improvements": {
         "debugEventsUntilDate": 0,
@@ -4087,7 +4087,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "student-skill-pack-url": {
         "debugEventsUntilDate": 0,
@@ -4096,7 +4096,7 @@
         "trackReason": false,
         "value": "https://diabrowser.com/skills/packs/back-to-school",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-dia-timestamp-tag-enabled": {
         "debugEventsUntilDate": 0,
@@ -4105,7 +4105,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-fast-web-search-query-generation-enabled": {
         "debugEventsUntilDate": 0,
@@ -4114,7 +4114,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-fast-web-search-query-generation-minimum-words": {
         "debugEventsUntilDate": 0,
@@ -4126,7 +4126,7 @@
         "trackReason": false,
         "value": 10,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-file-attachments-enabled": {
         "debugEventsUntilDate": 0,
@@ -4135,7 +4135,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-function-calling-with-gemini-flash": {
         "debugEventsUntilDate": 0,
@@ -4144,7 +4144,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-grdb-persistence-enabled": {
         "debugEventsUntilDate": 0,
@@ -4153,7 +4153,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-image-attachments-enabled": {
         "debugEventsUntilDate": 0,
@@ -4162,7 +4162,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-new-message-transition-enabled": {
         "debugEventsUntilDate": 0,
@@ -4171,7 +4171,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-on-device-function-call-classifier-enabled": {
         "debugEventsUntilDate": 0,
@@ -4180,7 +4180,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-on-device-function-call-classifier-followups-enabled": {
         "debugEventsUntilDate": 0,
@@ -4189,7 +4189,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-paginated-cards-response-enabled": {
         "debugEventsUntilDate": 0,
@@ -4198,7 +4198,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-enabled": {
         "debugEventsUntilDate": 0,
@@ -4207,7 +4207,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-entrypoint-chat-sidebar-enabled": {
         "debugEventsUntilDate": 0,
@@ -4216,7 +4216,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-entrypoint-chat-tab-enabled": {
         "debugEventsUntilDate": 0,
@@ -4225,7 +4225,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-entrypoint-new-tab-enabled": {
         "debugEventsUntilDate": 0,
@@ -4234,7 +4234,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-entrypoint-new-tab-navbar-enabled": {
         "debugEventsUntilDate": 0,
@@ -4243,7 +4243,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-free-form-enabled": {
         "debugEventsUntilDate": 0,
@@ -4252,7 +4252,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-live-update-previews-enabled": {
         "debugEventsUntilDate": 0,
@@ -4261,7 +4261,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-personality-update-on-popup-closed-enabled": {
         "debugEventsUntilDate": 0,
@@ -4270,7 +4270,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-query-editing-enabled": {
         "debugEventsUntilDate": 0,
@@ -4279,7 +4279,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-read-calendar-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -4288,7 +4288,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-read-documents-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -4297,7 +4297,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "supertab-read-email-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -4306,7 +4306,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-request-symbol-with-title": {
         "debugEventsUntilDate": 0,
@@ -4315,7 +4315,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "supertab-retry-in-footer-enabled": {
         "debugEventsUntilDate": 0,
@@ -4324,7 +4324,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-skill-thinking-ui-enabled": {
         "debugEventsUntilDate": 0,
@@ -4333,7 +4333,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-skip-final-function-call": {
         "debugEventsUntilDate": 0,
@@ -4342,7 +4342,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-stop-button-enabled": {
         "debugEventsUntilDate": 0,
@@ -4351,7 +4351,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-text-snippet-attachments-enabled": {
         "debugEventsUntilDate": 0,
@@ -4360,7 +4360,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-thinking-ui-skip-enabled": {
         "debugEventsUntilDate": 0,
@@ -4369,7 +4369,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-tiles-response-enabled": {
         "debugEventsUntilDate": 0,
@@ -4378,7 +4378,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "supertab-translation-response-enabled": {
         "debugEventsUntilDate": 0,
@@ -4387,7 +4387,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "supertab-unsupported-capabilities-helpCenter": {
         "debugEventsUntilDate": 0,
@@ -4396,7 +4396,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-write-calendar-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -4405,7 +4405,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "supertab-write-documents-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -4414,7 +4414,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "supertab-write-email-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -4423,7 +4423,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-attachment-distilled-html-enabled": {
         "debugEventsUntilDate": 0,
@@ -4432,7 +4432,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-attachment-prefetch-enabled": {
         "debugEventsUntilDate": 0,
@@ -4441,7 +4441,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "tab-favorites-dock-edu-hint-enabled": {
         "debugEventsUntilDate": 0,
@@ -4450,7 +4450,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "tab-favorites-dock-edu-hint-when-zero-favorites-enabled": {
         "debugEventsUntilDate": 0,
@@ -4459,7 +4459,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-favorites-dock-enabled": {
         "debugEventsUntilDate": 0,
@@ -4468,16 +4468,16 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-groups-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "tab-hover-menu-actions": {
         "debugEventsUntilDate": 0,
@@ -4486,7 +4486,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-popover-menu-enabled": {
         "debugEventsUntilDate": 0,
@@ -4495,7 +4495,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-presentation-badge-enabled": {
         "debugEventsUntilDate": 0,
@@ -4504,7 +4504,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-renaming-enabled": {
         "debugEventsUntilDate": 0,
@@ -4513,7 +4513,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-scoped-dialogs-enabled": {
         "debugEventsUntilDate": 0,
@@ -4522,7 +4522,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tab-selection-animation-enabled": {
         "debugEventsUntilDate": 0,
@@ -4531,7 +4531,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "talent-brief-skill-enabled": {
         "debugEventsUntilDate": 0,
@@ -4540,7 +4540,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "team-availability-tool-enabled": {
         "debugEventsUntilDate": 0,
@@ -4549,7 +4549,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "terms-of-service-dialogs-enabled": {
         "debugEventsUntilDate": 0,
@@ -4558,7 +4558,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "terms-of-service-required-timestamp": {
         "debugEventsUntilDate": 0,
@@ -4567,7 +4567,7 @@
         "trackReason": false,
         "value": 1746417600,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "text-attachment-shimmer-enabled": {
         "debugEventsUntilDate": 0,
@@ -4579,7 +4579,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "themed-chat-bubble-enabled": {
         "debugEventsUntilDate": 0,
@@ -4588,7 +4588,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "themed-chat-button-debug-tools-enabled": {
         "debugEventsUntilDate": 0,
@@ -4597,7 +4597,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "themed-chat-button-enabled": {
         "debugEventsUntilDate": 0,
@@ -4606,7 +4606,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "toasts-enabled": {
         "debugEventsUntilDate": 0,
@@ -4615,7 +4615,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tool-suggestions-enabled": {
         "debugEventsUntilDate": 0,
@@ -4624,7 +4624,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "tool-suggestions-model": {
         "debugEventsUntilDate": 0,
@@ -4633,7 +4633,7 @@
         "trackReason": false,
         "value": "gemini-2.5-flash-preview-09-2025",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "tools-persist-in-follow-up-queries-enabled": {
         "debugEventsUntilDate": 0,
@@ -4642,7 +4642,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "tools-ui-revision-enabled": {
         "debugEventsUntilDate": 0,
@@ -4651,7 +4651,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "top-band-color-sampling-in-arc-core-enabled": {
         "debugEventsUntilDate": 0,
@@ -4660,7 +4660,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "top-bar-color-enabled": {
         "debugEventsUntilDate": 0,
@@ -4669,7 +4669,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "top-sites-icebreaker-enabled": {
         "debugEventsUntilDate": 0,
@@ -4678,7 +4678,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "tritone-theme-enabled": {
         "debugEventsUntilDate": 0,
@@ -4687,7 +4687,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "try-skill-enabled": {
         "debugEventsUntilDate": 0,
@@ -4696,7 +4696,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "ultimate-notion-integration-enabled": {
         "debugEventsUntilDate": 0,
@@ -4705,7 +4705,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "unboxing-flow-enabled": {
         "debugEventsUntilDate": 0,
@@ -4714,7 +4714,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "update-banner-effect-delay": {
         "debugEventsUntilDate": 0,
@@ -4723,7 +4723,7 @@
         "trackReason": false,
         "value": 86400,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "update-banner-enabled": {
         "debugEventsUntilDate": 0,
@@ -4732,7 +4732,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "update-banner-icon-name": {
         "debugEventsUntilDate": 0,
@@ -4741,7 +4741,7 @@
         "trackReason": false,
         "value": "symbol:sparkles",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "update-banner-message": {
         "debugEventsUntilDate": 0,
@@ -4750,7 +4750,7 @@
         "trackReason": false,
         "value": "See what's new",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "update-banner-notes-url": {
         "debugEventsUntilDate": 0,
@@ -4759,7 +4759,7 @@
         "trackReason": false,
         "value": "https://diabrowser.com/release-notes/latest",
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "update-dialog-show-active-tabs": {
         "debugEventsUntilDate": 0,
@@ -4768,7 +4768,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "update-use-user-presence-heuristics": {
         "debugEventsUntilDate": 0,
@@ -4777,7 +4777,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "update-whats-new-page-url": {
         "debugEventsUntilDate": 0,
@@ -4786,7 +4786,7 @@
         "trackReason": false,
         "value": "",
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "updated-photo-viewer-enabled": {
         "debugEventsUntilDate": 0,
@@ -4795,7 +4795,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "url-loading-animation-v2-enabled": {
         "debugEventsUntilDate": 0,
@@ -4804,7 +4804,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "use-4o-alpha-snapshot-for-assistant-response-enabled": {
         "debugEventsUntilDate": 0,
@@ -4813,7 +4813,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "use-assistant-input-for-skills": {
         "debugEventsUntilDate": 0,
@@ -4822,7 +4822,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "use-chromium-tab-loading-policy": {
         "debugEventsUntilDate": 0,
@@ -4831,7 +4831,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "use-custom-assistant-response-parser": {
         "debugEventsUntilDate": 0,
@@ -4840,7 +4840,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "use-has-dirty-text-fields-for-preventing-auto-close": {
         "debugEventsUntilDate": 0,
@@ -4849,7 +4849,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "use-url-params-for-calendar-draft": {
         "debugEventsUntilDate": 0,
@@ -4858,7 +4858,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "use-url-params-for-email-draft": {
         "debugEventsUntilDate": 0,
@@ -4867,7 +4867,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "user-input-footer-updates-enabled": {
         "debugEventsUntilDate": 0,
@@ -4876,7 +4876,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "voice-input-ui-updates-enabled": {
         "debugEventsUntilDate": 0,
@@ -4885,7 +4885,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "voice-mode-v2-enabled": {
         "debugEventsUntilDate": 0,
@@ -4894,7 +4894,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-content-color-matching-lcp-enabled": {
         "debugEventsUntilDate": 0,
@@ -4903,7 +4903,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-content-window-dragging-enabled": {
         "debugEventsUntilDate": 0,
@@ -4912,7 +4912,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "web-search-bing-enabled": {
         "debugEventsUntilDate": 0,
@@ -4921,7 +4921,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "web-search-client-enabled": {
         "debugEventsUntilDate": 0,
@@ -4930,7 +4930,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-search-google-adk-enabled": {
         "debugEventsUntilDate": 0,
@@ -4939,7 +4939,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-search-google-filter-hidden-links": {
         "debugEventsUntilDate": 0,
@@ -4948,7 +4948,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "web-search-google-use-udm-14": {
         "debugEventsUntilDate": 0,
@@ -4957,7 +4957,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-search-im-feeling-lucky-enabled": {
         "debugEventsUntilDate": 0,
@@ -4966,7 +4966,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-search-maximum-result-scrape-count": {
         "debugEventsUntilDate": 0,
@@ -4975,7 +4975,7 @@
         "trackReason": false,
         "value": 6,
         "variation": 2,
-        "version": 2620
+        "version": 2625
     },
     "web-search-minimum-result-scrape-count": {
         "debugEventsUntilDate": 0,
@@ -4984,7 +4984,7 @@
         "trackReason": false,
         "value": 3,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "web-search-remove-query-generation-step-enabled": {
         "debugEventsUntilDate": 0,
@@ -4993,7 +4993,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "web-search-result-count": {
         "debugEventsUntilDate": 0,
@@ -5002,7 +5002,7 @@
         "trackReason": false,
         "value": 8,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "web-search-scrape-main-content-only": {
         "debugEventsUntilDate": 0,
@@ -5011,7 +5011,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-search-scrape-twitter": {
         "debugEventsUntilDate": 0,
@@ -5020,7 +5020,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-search-scrapes-include-urls": {
         "debugEventsUntilDate": 0,
@@ -5029,7 +5029,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "web-url-attachment-fetch-from-memory-enabled": {
         "debugEventsUntilDate": 0,
@@ -5038,7 +5038,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "web-url-attachment-prefetch-enabled": {
         "debugEventsUntilDate": 0,
@@ -5047,7 +5047,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "win-detour-user-32-handle-delegated-input-before-os-version": {
         "debugEventsUntilDate": 0,
@@ -5056,7 +5056,7 @@
         "trackReason": false,
         "value": -1,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "window-background-opaque-frame-enabled": {
         "debugEventsUntilDate": 0,
@@ -5065,7 +5065,7 @@
         "trackReason": false,
         "value": true,
         "variation": 0,
-        "version": 2620
+        "version": 2625
     },
     "write-like-me-enabled": {
         "debugEventsUntilDate": 0,
@@ -5074,7 +5074,7 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     },
     "you-tube-transcript-legacy-first": {
         "debugEventsUntilDate": 0,
@@ -5083,6 +5083,6 @@
         "trackReason": false,
         "value": false,
         "variation": 1,
-        "version": 2620
+        "version": 2625
     }
 }
