@@ -1154,7 +1154,7 @@
     },
     "command-bar-new-document-suggestions-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
         "value": false,
@@ -4354,11 +4354,11 @@
     },
     "voice-input-ui-updates-enabled": {
         "debugEventsUntilDate": 0,
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "trackReason": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "voice-mode-v2-enabled": {
         "debugEventsUntilDate": 0,
