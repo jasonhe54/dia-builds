@@ -566,6 +566,14 @@
         "value": true,
         "variation": 0
     },
+    "boost-memory-auto-attach-projects": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
+        "variation": 1
+    },
     "boost-memory-automatic-memory-search": {
         "debugEventsUntilDate": 0,
         "flagVersion": 3,
@@ -612,6 +620,14 @@
         "trackEvents": false,
         "trackReason": false,
         "value": "",
+        "variation": 1
+    },
+    "boost-memory-chat-with-projects-data": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": false,
         "variation": 1
     },
     "boost-memory-chat-wrapped-experiment-phrase": {
