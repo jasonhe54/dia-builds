@@ -4192,7 +4192,47 @@
         "value": false,
         "variation": 1
     },
+    "top-sites-heuristic-bookmark-boost": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": 0,
+        "variation": 1
+    },
+    "top-sites-heuristic-favorite-boost": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": 0,
+        "variation": 1
+    },
+    "top-sites-heuristic-frequency-weight": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 2,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": 0,
+        "variation": 1
+    },
     "top-sites-heuristic-recency-half-life": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 3,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": 0,
+        "variation": 1
+    },
+    "top-sites-heuristic-recency-weight": {
+        "debugEventsUntilDate": 0,
+        "flagVersion": 3,
+        "trackEvents": false,
+        "trackReason": false,
+        "value": 0,
+        "variation": 1
+    },
+    "top-sites-heuristic-typed-weight": {
         "debugEventsUntilDate": 0,
         "flagVersion": 2,
         "trackEvents": false,
