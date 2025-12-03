@@ -2253,6 +2253,12 @@
         "value": false,
         "variation": 1
     },
+    "reasoning-classifier-prompt-gepa-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "reasoning-skill-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3374,6 +3380,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "use-memory-for-meeting-reminder-links": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "use-url-params-for-calendar-draft": {
         "flagVersion": 3,
