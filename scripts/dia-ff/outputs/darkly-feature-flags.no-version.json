@@ -1434,6 +1434,12 @@
         "value": true,
         "variation": 0
     },
+    "extension-side-panel-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "fancy-memory-history-attachments-enabled": {
         "flagVersion": 4,
         "prerequisites": [
@@ -3187,15 +3193,21 @@
         "variation": 1
     },
     "top-sites-heuristic-bookmark-boost": {
-        "flagVersion": 3,
+        "flagVersion": 5,
+        "prerequisites": [
+            "onboarding-heuristic-based-pinned-tabs"
+        ],
         "trackEvents": false,
-        "value": 0,
+        "value": 0.7,
         "variation": 1
     },
     "top-sites-heuristic-favorite-boost": {
-        "flagVersion": 2,
+        "flagVersion": 4,
+        "prerequisites": [
+            "onboarding-heuristic-based-pinned-tabs"
+        ],
         "trackEvents": false,
-        "value": 0,
+        "value": 1.3,
         "variation": 1
     },
     "top-sites-heuristic-frequency-weight": {
@@ -3208,12 +3220,12 @@
         "variation": 1
     },
     "top-sites-heuristic-recency-half-life": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "prerequisites": [
             "onboarding-heuristic-based-pinned-tabs"
         ],
         "trackEvents": false,
-        "value": 0,
+        "value": 30,
         "variation": 1
     },
     "top-sites-heuristic-recency-weight": {
@@ -3225,10 +3237,22 @@
         "value": 0.7,
         "variation": 1
     },
-    "top-sites-heuristic-typed-weight": {
-        "flagVersion": 2,
+    "top-sites-heuristic-time-range": {
+        "flagVersion": 4,
+        "prerequisites": [
+            "onboarding-heuristic-based-pinned-tabs"
+        ],
         "trackEvents": false,
-        "value": 0,
+        "value": "week",
+        "variation": 0
+    },
+    "top-sites-heuristic-typed-weight": {
+        "flagVersion": 4,
+        "prerequisites": [
+            "onboarding-heuristic-based-pinned-tabs"
+        ],
+        "trackEvents": false,
+        "value": 0.2,
         "variation": 1
     },
     "top-sites-icebreaker-enabled": {
