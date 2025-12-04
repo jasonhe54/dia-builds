@@ -2489,6 +2489,12 @@
         "value": true,
         "variation": 0
     },
+    "show-calendar-pin-promo": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "show-custom-skills-on-new-tab-page-enabled": {
         "flagVersion": 4,
         "prerequisites": [
