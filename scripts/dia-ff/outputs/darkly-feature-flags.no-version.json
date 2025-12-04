@@ -2130,6 +2130,12 @@
         "value": true,
         "variation": 0
     },
+    "pinned-tab-badge-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "pop-up-blocker-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
