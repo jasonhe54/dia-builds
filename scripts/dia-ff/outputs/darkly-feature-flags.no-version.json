@@ -65,6 +65,12 @@
         "value": true,
         "variation": 0
     },
+    "allow-version-downgrade-in-prototype-canary-transition": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "always-import-to-bookmark-bar-subfolder": {
         "flagVersion": 3,
         "trackEvents": false,
