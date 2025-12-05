@@ -778,7 +778,7 @@
         "variation": 1
     },
     "calendar-meeting-reminder-show-prep-links": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2143,7 +2143,7 @@
         "variation": 0
     },
     "pinned-tab-badge-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
