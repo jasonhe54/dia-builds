@@ -3193,9 +3193,9 @@
         "variation": 1
     },
     "tool-suggestions-model": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": "gemini-2.5-flash-preview-09-2025",
+        "value": "gemini-2.5-flash",
         "variation": 1
     },
     "tools-persist-in-follow-up-queries-enabled": {
