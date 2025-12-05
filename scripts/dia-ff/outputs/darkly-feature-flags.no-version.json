@@ -3187,13 +3187,13 @@
         "variation": 0
     },
     "tool-suggestions-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
     },
     "tool-suggestions-model": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": "gemini-2.5-flash",
         "variation": 1
