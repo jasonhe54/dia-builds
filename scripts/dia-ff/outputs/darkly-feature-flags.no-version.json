@@ -918,6 +918,12 @@
         "value": false,
         "variation": 1
     },
+    "confirm-before-closing-meet-tabs": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "content-fetch-parse-pdf-with-llm": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3056,6 +3062,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "switch-build-prototype-menu-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "tab-attachment-distilled-html-enabled": {
         "flagVersion": 3,
