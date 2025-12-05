@@ -23,6 +23,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Update encode.json with latest EB app version
+        run: node ./scripts/dia-ff/outputs/ld-token/updateEncode.js
+        env:
+          SPARKLE_FEED_URL_EB: ${{ secrets.SPARKLE_FEED_URL_EB }}
+          SSE_ENDPOINT: ${{ secrets.DIA_FF_SSE_ENDPOINT }}
+          SSE_AUTH_KEY: ${{ secrets.DIA_FF_SSE_AUTH_KEY }}
+          WRITE_JSON_WITHOUT_FEAT_FLAG_VERSION: true
+
       - name: Get feature flag version
         id: get_version
         run: |
@@ -57,6 +65,7 @@ jobs:
           
           git add ./scripts/dia-ff/outputs/launchdarkly-feature-flags.json -f 
           git add ./scripts/dia-ff/outputs/darkly-feature-flags.no-version.json -f
+          git add ./scripts/dia-ff/outputs/ld-token/gen/encode.json -f
           
           if git diff --quiet --cached HEAD; then
             echo "✅ No changes to feature flags. Exiting."
