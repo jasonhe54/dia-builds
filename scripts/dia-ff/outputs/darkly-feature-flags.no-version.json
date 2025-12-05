@@ -191,6 +191,12 @@
         "value": true,
         "variation": 0
     },
+    "ask-on-page-links-open-in-new-tab-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "ask-on-page-restore-on-app-launch": {
         "flagVersion": 3,
         "trackEvents": false,
