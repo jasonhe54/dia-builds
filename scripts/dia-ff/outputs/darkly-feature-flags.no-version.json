@@ -3141,6 +3141,12 @@
         "value": true,
         "variation": 0
     },
+    "tab-search-memory-suggestion-enabled": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": true,
+        "variation": 0
+    },
     "tab-selection-animation-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
