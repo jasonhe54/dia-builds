@@ -747,6 +747,18 @@
         "value": false,
         "variation": 1
     },
+    "calendar-badge-past-due-threshold": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 0,
+        "variation": 1
+    },
+    "calendar-badge-upcoming-threshold": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 0,
+        "variation": 1
+    },
     "calendar-data-controller-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
