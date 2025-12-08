@@ -748,15 +748,15 @@
         "variation": 1
     },
     "calendar-badge-past-due-threshold": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": 0,
+        "value": 5,
         "variation": 1
     },
     "calendar-badge-upcoming-threshold": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": 0,
+        "value": 30,
         "variation": 1
     },
     "calendar-data-controller-enabled": {
@@ -1780,7 +1780,10 @@
         "variation": 0
     },
     "meeting-tab-group-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
+        "prerequisites": [
+            "tab-groups-enabled"
+        ],
         "trackEvents": false,
         "value": false,
         "variation": 1
