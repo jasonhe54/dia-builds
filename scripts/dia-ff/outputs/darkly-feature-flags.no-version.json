@@ -114,7 +114,7 @@
         "variation": 0
     },
     "arc-core-logging-config": {
-        "flagVersion": 11,
+        "flagVersion": 12,
         "trackEvents": false,
         "value": {},
         "variation": 1
