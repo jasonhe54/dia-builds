@@ -894,6 +894,12 @@
         "value": true,
         "variation": 0
     },
+    "cmd-click-creates-tab-group": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "command-bar-attachment-restoration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -1562,6 +1568,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "form-icebreaker-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "fullscreen-ui-improvements-enabled": {
         "flagVersion": 2,
