@@ -747,6 +747,12 @@
         "value": false,
         "variation": 1
     },
+    "calendar-auto-pin-visit-threshold": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 3,
+        "variation": 1
+    },
     "calendar-badge-past-due-threshold": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -2545,6 +2551,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "show-calendar-auto-pin-promo": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "show-calendar-pin-promo": {
         "flagVersion": 3,
