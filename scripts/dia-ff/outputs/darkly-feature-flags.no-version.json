@@ -2053,7 +2053,7 @@
         "variation": 1
     },
     "onboarding-heuristic-based-pinned-tabs": {
-        "flagVersion": 4,
+        "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1
