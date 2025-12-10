@@ -967,7 +967,7 @@
         "variation": 2
     },
     "content-fetch-use-google-sheets-integration": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
