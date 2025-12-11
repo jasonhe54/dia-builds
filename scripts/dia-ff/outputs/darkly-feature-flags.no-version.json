@@ -1747,7 +1747,8 @@
         "variation": 0
     },
     "is-student-for-dia-server": {
-        "flagVersion": 11,
+        "debugEventsUntilDate": 1765468708910,
+        "flagVersion": 12,
         "trackEvents": false,
         "value": false,
         "variation": 1
