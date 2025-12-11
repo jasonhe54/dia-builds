@@ -1747,7 +1747,6 @@
         "variation": 0
     },
     "is-student-for-dia-server": {
-        "debugEventsUntilDate": 1765468708910,
         "flagVersion": 12,
         "trackEvents": false,
         "value": false,
@@ -2643,6 +2642,12 @@
         "value": true,
         "variation": 0
     },
+    "site-search-in-command-bar-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "skill-auto-fire-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -3215,6 +3220,12 @@
         "variation": 0
     },
     "tab-selection-animation-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "tab-web-app-analytics-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
