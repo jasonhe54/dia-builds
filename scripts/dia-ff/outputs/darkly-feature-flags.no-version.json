@@ -360,6 +360,12 @@
         "value": true,
         "variation": 0
     },
+    "auto-close-meet-tabs": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "auto-pin-installed-extensions-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
