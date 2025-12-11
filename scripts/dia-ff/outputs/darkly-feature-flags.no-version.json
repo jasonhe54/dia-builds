@@ -1816,10 +1816,7 @@
         "variation": 0
     },
     "meeting-tab-group-enabled": {
-        "flagVersion": 4,
-        "prerequisites": [
-            "tab-groups-enabled"
-        ],
+        "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1
