@@ -778,10 +778,10 @@
         "variation": 1
     },
     "calendar-badge-upcoming-threshold": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": 30,
-        "variation": 1
+        "value": 10,
+        "variation": 0
     },
     "calendar-data-controller-enabled": {
         "flagVersion": 3,
