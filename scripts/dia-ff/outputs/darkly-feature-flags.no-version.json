@@ -961,7 +961,7 @@
         "variation": 0
     },
     "compositor-flashing-prevention": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1129,7 +1129,7 @@
         "variation": 1
     },
     "default-browser-perk-state": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": "used",
         "variation": 2
