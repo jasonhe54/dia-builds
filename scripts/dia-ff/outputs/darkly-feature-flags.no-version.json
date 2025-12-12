@@ -2074,7 +2074,7 @@
         "variation": 0
     },
     "onboarding-import-pinned-tabs-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1
