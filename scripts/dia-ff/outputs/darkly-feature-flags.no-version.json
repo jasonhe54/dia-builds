@@ -2028,6 +2028,12 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-chat-from-url-bar-step-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-default-browser-trial-dialog-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
