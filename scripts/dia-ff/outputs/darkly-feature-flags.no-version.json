@@ -3698,5 +3698,11 @@
         "trackEvents": false,
         "value": false,
         "variation": 1
+    },
+    "youtube-transcript-enable-html-fallback": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     }
 }
