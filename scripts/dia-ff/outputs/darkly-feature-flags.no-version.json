@@ -366,6 +366,12 @@
         "value": false,
         "variation": 1
     },
+    "auto-open-related-links-when-joining-meeting": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "auto-pin-installed-extensions-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
