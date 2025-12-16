@@ -1506,6 +1506,12 @@
         "value": false,
         "variation": 1
     },
+    "end-meeting-when-closing-google-meet-tab": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "enforce-csp-sandbox-for-downloads": {
         "flagVersion": 5,
         "trackEvents": false,
@@ -3278,6 +3284,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "tear-down-meeting-group-at-meeting-end": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "terms-of-service-dialogs-enabled": {
         "flagVersion": 3,
