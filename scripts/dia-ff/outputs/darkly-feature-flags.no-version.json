@@ -2672,6 +2672,12 @@
         "value": true,
         "variation": 0
     },
+    "show-minute-countdown-on-meeting-group": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "show-response-footers-on-hover-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
