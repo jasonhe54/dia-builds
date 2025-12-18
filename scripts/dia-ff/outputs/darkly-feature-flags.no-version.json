@@ -2709,10 +2709,10 @@
         "variation": 0
     },
     "site-search-in-command-bar-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "skill-auto-fire-enabled": {
         "flagVersion": 2,
