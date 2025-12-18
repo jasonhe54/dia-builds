@@ -2226,6 +2226,12 @@
         "value": true,
         "variation": 0
     },
+    "only-show-meeting-reminder-to-invitees": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "oopif-exclusion-propagation": {
         "flagVersion": 3,
         "trackEvents": false,
