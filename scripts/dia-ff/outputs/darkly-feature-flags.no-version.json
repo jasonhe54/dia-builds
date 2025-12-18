@@ -873,6 +873,12 @@
         "value": true,
         "variation": 0
     },
+    "chat-with-tab-group-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "check-reachability-in-assistant-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
