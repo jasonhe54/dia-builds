@@ -1647,6 +1647,12 @@
         "value": false,
         "variation": 1
     },
+    "github-live-folder-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "gmail-full-message-text-integration-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
