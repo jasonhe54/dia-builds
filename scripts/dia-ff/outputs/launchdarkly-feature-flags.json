@@ -4,259 +4,259 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "account-service-refresh-token-enabled": {
         "flagVersion": 9,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "account-service-signIn-operation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "account-service-signOut-operation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "account-service-signUp-operation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "account-settings-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "add-skill-from-url": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ai-service-chromium-implementation": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "ai-service-environment": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "production",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ai-service-v3-api-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "all-tabs-max-ranking-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "allow-version-downgrade-in-prototype-canary-transition": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "always-import-to-bookmark-bar-subfolder": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "always-show-bookmarks-bar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "amp-prototype-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "analyze-response-for-memory-insights": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "app-build-switch-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "app-skills-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "app-tokens-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "arc-core-logging-config": {
         "flagVersion": 12,
         "trackEvents": false,
         "value": {},
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "archive-hint-dismiss-interval-in-seconds": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 180,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "archive-upsell-threshold-in-hours": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": 1,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-about-image-context-menu-option-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-for-inline-sources": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-if-memory-was-used-in-response": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-auto-archive-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-block-quotes-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-capture-tool-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-consistent-scrim-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-current-tab-attachment-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-dynamic-suggestions-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-empty-state-hints-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-links-open-in-new-tab-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-restore-on-app-launch": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-selected-text-attachments-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-suggestions-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ask-on-page-update-attachments-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-capabilities-toolbar-enabled": {
         "flagVersion": 7,
@@ -266,119 +266,119 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-force-default-prompt-magic-phrase": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "assistant-history-attachment-support-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-live-text-selection-propagation": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "assistant-navigation-panel-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "assistant-quote-response-text-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-rtl-text-layout-support-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-search-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-search-toggle-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-single-line-input-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-suggestions-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "assistant-tab-loading-animation-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-text-scale-customization-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-theme-colors-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "assistant-web-content-subscription-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "attachment-copy-paste-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "attachments-scrapes-include-urls": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auth-clean-up-keychain-item-enabled": {
         "flagVersion": 3,
@@ -389,231 +389,238 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auth-key-value-store-persistence-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auto-accept-tools-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auto-archive-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "auto-attach-current-page-in-ask-on-page": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auto-close-meet-tabs": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "auto-open-related-links-when-joining-meeting": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "auto-pin-installed-extensions-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auto-tab-title-compaction-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
+    },
+    "auto-ungroup-tab-groups-created-via-cmd-click": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1,
+        "version": 2796
     },
     "auto-update-background-delay": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": 120,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "auto-update-background-exit-dialog-delay": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 0,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auto-update-ignoring-edits-domains-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "auto-updater-background-app-signal-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "automatic-link-retrieval-routing-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "automatic-reasoning-routing-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "automatic-summary-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "aws-brave-proxy-skip-cf-geodata": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "bookmark-interstitial-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "bookmark-interstitial-full-folder-tree-ui-for-selection-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "bookmarks-in-commandbar": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-encrypt-database": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-analysis-feedback-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-auto-attach-projects": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-automatic-memory-search": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-automatic-summarization-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-bookmarks-donations": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-bookmarks-inject-keyword": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-chat-summaries-1-day": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-chat-summaries-1-week": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-chat-with-projects-data": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-chat-wrapped-experiment-phrase": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-chats-history-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-chats-mentions-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-conditionally-skip-scrapes": {
         "flagVersion": 3,
@@ -623,84 +630,84 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-conversation-donation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-deleted-memories-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-enable-chatgpt-import": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-enable-chatgpt-import-in-onboarding": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-enable-tag-search": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-enable-tagging": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-enabled": {
         "flagVersion": 13,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-export-database-early-birds": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-force-mention-bookmarks": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-force-mention-chats": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-force-mention-history": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-hide-history-autocomplete": {
         "flagVersion": 6,
@@ -710,70 +717,70 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-history-mentions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-internal-auto-enable-history": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-knowledge-graph-auto-update-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-knowledge-graph-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-knowledge-graph-injection": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-knowledge-graph-refresh-interval-hours": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": 18,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-mention-bookmarks": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-mention-chats": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-mention-history": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-navigation-donation-enabled": {
         "flagVersion": 5,
@@ -783,28 +790,28 @@
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-navigation-history-by-content-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-navigation-summaries-1-day": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-navigation-summaries-1-week": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-optin-mention-history": {
         "flagVersion": 5,
@@ -814,28 +821,28 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-page-classifier-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-per-profile-enabling": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-prefs-learn-more-url": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": "https://public.diabrowser.com/what-is-dia-memory",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-query-function-call-enabled": {
         "flagVersion": 7,
@@ -845,245 +852,245 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-refresh-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-scrape-cache": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-sensitivity-classifier-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-tab-group-data-collection": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-tab-group-suggestions": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-use-llm-reranker": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-memory-vector-search-enabled-everywhere": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "boost-store-memory-content-snapshot-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "calendar-auto-pin-visit-threshold": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": 3,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "calendar-badge-past-due-threshold": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 5,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "calendar-badge-upcoming-threshold": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": 10,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "calendar-data-controller-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "calendar-data-refresh-throttle-interval": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": 300,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "calendar-meeting-links-max-count": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": 2,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "calendar-meeting-reminder-display-threshold": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": 60,
         "variation": 3,
-        "version": 2795
+        "version": 2796
     },
     "calendar-meeting-reminder-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "calendar-meeting-reminder-front-and-center": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "calendar-meeting-reminder-show-prep-links": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "calendar-selection-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "calendar-tab-preview-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chat-button-dynamic-title-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chat-color-citations-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chat-inline-link-navigation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chat-response-architecture-v2-enabled": {
         "flagVersion": 8,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chat-tab-release-notes-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chat-with-tab-group-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "check-reachability-in-assistant-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chromium-auto-pip-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chromium-auto-pip-enabled-only-for-google-meet": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chromium-bookmarks-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "chromium-disabled-features": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "classification-for-memory-donations-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "classification-time-lora-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "close-tabs-tool-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "close-windows-on-quit": {
         "flagVersion": 5,
@@ -1093,168 +1100,168 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "cmd-click-creates-tab-group": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "command-bar-attachment-restoration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "command-bar-auto-assistant-routing-for-initial-queries-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "command-bar-keyboard-routing-modifier-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "command-bar-new-document-suggestions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "command-bar-redesign-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "command-bar-ticker-placeholder-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "compositor-flashing-prevention": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "confirm-before-closing-meet-tabs": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "content-fetch-parse-pdf-with-llm": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "content-fetch-parse-pdf-with-ocr": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "content-fetch-timeout-seconds-for-extract-html": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 5,
         "variation": 2,
-        "version": 2795
+        "version": 2796
     },
     "content-fetch-use-google-sheets-integration": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "content-fetch-use-integration-controller": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "content-fetch-use-swift-canvas-integration": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "content-fetch-use-swift-google-docs-integration": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "content-lifetime-optimizer": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "content-pane-native-content-url-navigation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "context-scoped-tab-store-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "conversation-starters-to-assistant": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "coolest-friend-scheduled-tab-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "copy-custom-skill-as-image-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "create-meeting-tab-group-when-opening-join-link": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "create-transparent-window-for-dialogs-if-needed": {
         "flagVersion": 5,
@@ -1264,28 +1271,28 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "custom-skill-domain-targeting-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "custom-skill-inline-editing-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "custom-skill-prompt-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "custom-skill-prompts-enabled": {
         "flagVersion": 5,
@@ -1295,147 +1302,147 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "database-corruption-recovery-enabled": {
         "flagVersion": 11,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "datadog-traces-sampling-rate": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": 100,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "debug-sentry-nsexception-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dedupe-chromium-history-results-by-canonical-uri-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "default-browser-3-day-follow-up-after-prompt-bail-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "default-browser-banner": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "default-browser-perk-state": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": "used",
         "variation": 2,
-        "version": 2795
+        "version": 2796
     },
     "default-browser-upsell-dismiss-cooldown-seconds": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 86400,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dia-pro-subscribe-url": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": "https://www.diabrowser.com/pro#subscribe",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dia-subscription-success-url": {
         "flagVersion": 9,
         "trackEvents": false,
         "value": "https://www.diabrowser.com/pro/welcome",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dia-subscription-version": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": "v0",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dictation-overlay-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dictation-use-m4a-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "disable-ai-request-retry": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dismissed-proactive-suggestions-exclusion-window": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": 172800,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "display-function-call-debug-info-in-supertabs": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "display-page-title-in-url-bar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "distill-bert-router-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "distillability-service-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dont-show-update-dialog-if-user-active": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "dont-show-update-dialog-when-no-windows": {
         "flagVersion": 6,
@@ -1445,231 +1452,231 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "download-protection-suspicious-extension-heuristic-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "downloads-clickjacking-prevention-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "draft-app-custom-prompt-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "draft-app-uses-4o-alpha": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "draft-calendar-event-computer-use-step-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "draft-email-response-computer-use-step-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "drag-destination-overlay-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dynamic-assistant-personality-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "dynamic-personality-settings-migration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "early-bird-access-enabled": {
         "flagVersion": 12,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "edit-memories-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-adk-text-selection-geometry": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-ai-service-paywall-testing": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-ai-service-subscriptions-free-tier-cap": {
         "flagVersion": 23,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-ask-on-page-new-chat-button": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-ask-on-page-text-selection-handle-entrypoints": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-assistant-query-history-suggestions": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-aws-ai-proxy": {
         "flagVersion": 10,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-aws-ai-proxy-for-audio": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-aws-assistant-feedback": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-aws-proxy-for-brave-search-api": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-computer-use-confirmation-step": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-continuous-new-tab-to-assistant-transition": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-draft-tool-history": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-draft-tool-new-ui": {
         "flagVersion": 8,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-draft-tool-text-cursor-entrypoint": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-draft-tool-text-cursor-tooltip-entrypoint": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-draft-tool-text-selection-handle-entrypoints": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-dynamic-ask-draft-button": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-e2e-encryption": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-gemini-on-aws": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-input-attached-assistant-pip": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-memory-optout-menu-item": {
         "flagVersion": 4,
@@ -1679,126 +1686,126 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-new-context-window": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-new-text-selection-controller": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-open-ask-on-page-by-default": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-personality-button-shimmer-effect": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-personality-classification-step": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-personality-upsell-cta": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-prompt-safety-checks": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-query-logging": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-supertabs-to-do-generator": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-text-cursor-menu": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-text-proposal-import-to-web-content": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enable-unsupported-capability-assistant-logging": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "enable-unusable-web-attachment-assistant-logging": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "end-meeting-when-closing-google-meet-tab": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "enforce-csp-sandbox-for-downloads": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "extension-permissions-dialog-via-browser-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "extension-side-panel-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "fancy-memory-history-attachments-enabled": {
         "flagVersion": 4,
@@ -1808,210 +1815,210 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "fast-notion-integration-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "favicon-appearance-handling-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "favorites-window-tint-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "fetch-web-content-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "fill-forms-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "first-assistant-experience-new-tab-suggestions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "first-assistant-experience-new-tab-suggestions-presentation-count": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 3,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "first-assistant-experience-self-driving-intro-messages-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "first-assistant-experience-self-driving-onboarding-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "first-assistant-experience-self-driving-start-button-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "fixed-assistant-tools-icon-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "focus-mode-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "form-icebreaker-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "fullscreen-ui-improvements-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "ga-oct-7-master-flag": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "gcal-scraping-via-integration-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "github-code-review-skill-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "github-live-folder-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "gmail-full-message-text-integration-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "gmail-search-use-full-message-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "gpt-5-1-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "gpt-5-non-reasoning-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "gpt-5-non-reasoning-prompt-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "gpt-5-response-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "gpt-5-skills-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "gradient-response-thinking-animation-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "grouped-proactive-suggestions-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "haptic-feedback-on-tab-moved-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "hero-use-case-skills-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "hidden-webcontent-scraping-timeout-in-seconds": {
         "flagVersion": 9,
@@ -2021,133 +2028,133 @@
         "trackEvents": false,
         "value": 5,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "html-extraction-unroll-shadow-dom": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "info-bar": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "inline-memory-web-previews-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "inline-tab-renaming-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "insertion-cursor-open-sidebar": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "interaction-instrumentation-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "interaction-instrumentation-sampling-rate": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": 1,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "is-function-calling-execution-in-step-one-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "is-function-calling-step-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "is-student-for-dia-server": {
         "flagVersion": 12,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "june-11-features-master-flag": {
         "flagVersion": 17,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "keyboard-shortcut-remapping-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "konami-code-onboarding-intro-trigger-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "link-routing-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "live-calendar-meet-ur-ls-as-tabs": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "load-all-profiles-at-startup": {
         "flagVersion": 14,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "log-pinned-tab-selects": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "login-protocol-for-account-service": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "password",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "manual-skill-routing-enabled": {
         "flagVersion": 7,
@@ -2157,175 +2164,175 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "markdown-table-attachments-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "meeting-reminder-brand-colors": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "meeting-tab-group-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "memory-button-in-url-bar-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "memory-distilled-html-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "memory-donate-main-content-only": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "middle-click-support-for-bookmarks": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "mouse-up-on-text-suggestions-disabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "move-tabs-to-other-window-context-menu-option-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "native-bookmarks-page-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "native-content-blocking-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "nav-bar-insecure-state-color-sampling-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "navigation-bar-ask-on-page-field-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "navigation-bar-pin-button-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-loading-state-for-response-bylines": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-memory-settings-page-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-nav-bar-title-view-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-onboarding-default-browser-screen-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-right-click-photo-menu-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-site-settings-menu-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-skills-window-esc-key-behavior-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-tab-page-gradient-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-tab-page-greeting-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-tab-page-power-up-animation-enabled": {
         "flagVersion": 8,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-tab-page-skills-ui-enabled": {
         "flagVersion": 5,
@@ -2335,119 +2342,119 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-tab-saved-queries-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "new-tab-ticker-placeholders-enabled": {
         "flagVersion": 10,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-tabs-menu-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-translate-menu-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "new-window-dragging-external-window-inspection-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "notion-html-export-integration": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "oct-2025-onboarding-edu-skill-suggestions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "oct-2025-onboarding-updated-background-tabs-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "on-device-router-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "on-device-routing-in-command-bar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "on-quit-cleanup-improvements-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-can-present-disclosure-step": {
         "flagVersion": 12,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-chat-from-url-bar-step-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-combined-memory-chatgpt-step-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-default-browser-trial-dialog-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-dia-hacks-destination-url": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": "https://www.youtube.com/watch?v=okcCdFWtFns",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-dia-tour-destination-url": {
         "flagVersion": 10,
@@ -2457,105 +2464,105 @@
         "trackEvents": false,
         "value": "https://www.youtube.com/watch?v=W0m-Qnb7r7Q",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-heuristic-based-pinned-tabs": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-import-extensions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-import-pinned-tabs-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-import-skip-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-intro-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-new-import-ui-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-open-dia-tour-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-open-new-tab-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-outro-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-personalized-pinned-tabs-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-pinned-tabs-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-restore-tabs-enabled": {
         "flagVersion": 17,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-show-chat-memory-step": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-skills-step-enabled": {
         "flagVersion": 5,
@@ -2565,119 +2572,119 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-sso-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-tab-layout-personalization-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "onboarding-try-for-a-week-banner": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "only-show-meeting-reminder-to-invitees": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "oopif-exclusion-propagation": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "open-assistant-follow-ups-in-new-tab-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "open-tabs-tool-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "openai-uses-universal-client": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "out-of-process-classification-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "override-ai-service-free-tier-cooldown-time": {
         "flagVersion": 12,
         "trackEvents": false,
         "value": 0,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "override-ai-service-free-tier-token-limit": {
         "flagVersion": 40,
         "trackEvents": false,
         "value": 1500000,
         "variation": 11,
-        "version": 2795
+        "version": 2796
     },
     "paste-urls-as-attachments": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "per-chat-personalization-toggle-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "pinned-tab-badge-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "pop-up-blocker-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "popup-window-support-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "preferences-editing-name-enabled": {
         "flagVersion": 4,
@@ -2687,182 +2694,182 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "preferences-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "preinstalled-custom-skills-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "present-computer-use-in-overlay": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "pretty-dialogs": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "pretty-onboarding-import": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "pretty-sign-up-in": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "prioritize-tools-over-tabs-in-autocomplete-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "proactive-suggestions-automatic-update-interval": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": 1200,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "proactive-suggestions-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "proactive-suggestions-entry-point": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "newTabPage",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "proactive-suggestions-in-command-bar-placeholder-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "proactive-suggestions-include-previous-suggestions": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "proactive-suggestions-minimum-time-between-automatic-updates": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": 900,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "prompt-packing-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "prototype-crash-report-dialog": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "prototype-site-search": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "read-calendar-step-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "read-tabs-tool-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "reasoning-classification-flywheel-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "reasoning-classifier-prompt-gepa-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "reasoning-skill-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "reasoning-streams-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "record-trace-ui-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "referrals-banner-enabled": {
         "flagVersion": 9,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "referrals-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "referrals-links-enabled": {
         "flagVersion": 3,
@@ -2872,98 +2879,98 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "reload-menu-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "render-latex-equations-in-assistant": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "replace-url-patterns-with-regex": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "reply-to-web-content-uses-screenshot": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "request-supplementary-assets": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "research-skill-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "ruleset-to-enforce": {
         "flagVersion": 16,
         "trackEvents": false,
         "value": "safetools2",
         "variation": 4,
-        "version": 2795
+        "version": 2796
     },
     "sad-tab-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "safari-import-exported-data-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "safari-import-install-icloud-passwords-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "script-skill": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "search-all-tabs-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "search-email-step-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "search-engines-for-scraping": {
         "flagVersion": 6,
@@ -2975,126 +2982,126 @@
             ]
         },
         "variation": 2,
-        "version": 2795
+        "version": 2796
     },
     "search-slack-step-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "send-email-computer-use-step-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "services-account-service-max-turbo-sport-mode-enabled": {
         "flagVersion": 21,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "services-ai-service-enable-counterabuse-dataurls": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "services-ai-service-enable-counterabuse-globalcompletiontokens": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "services-ai-service-enable-counterabuse-outputtokens": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "services-referrals-invitation-limit": {
         "flagVersion": 287,
         "trackEvents": false,
         "value": 500,
         "variation": 9,
-        "version": 2795
+        "version": 2796
     },
     "services-referrals-link-code-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "session-restoration-data-write-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "session-restoration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "set-as-default-show-follow-up-dialog-after-days": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 1,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "share-usage-data": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "should-force-search-google-result-query-aop": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-bookmark-folders-in-attachment-suggestions": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-browsing-context-is-memory-prompt-below-footer": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-calendar-auto-pin-promo": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "show-calendar-pin-promo": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "show-custom-skills-on-new-tab-page-enabled": {
         "flagVersion": 4,
@@ -3104,133 +3111,133 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-dialog-before-quit-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-domain-groups-in-attachment-suggestions": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-memory-citations-above-footer": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "show-memory-citations-in-popover": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-memory-edu-tooltip-below-footer": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-memory-feedback-below-footer": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "show-minute-countdown-on-meeting-group": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "show-response-footers-on-hover-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "sidebar-power-up-animation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "sidebar-toggle-enabled": {
         "flagVersion": 10,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "sidebar-upsell-dialog-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "site-search-in-command-bar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skill-auto-fire-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-branding": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-branding-command-bar-input": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-builder-creation-flow-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skill-builder-creation-flow-use-memory-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-builder-input-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-builder-v2-enabled": {
         "flagVersion": 7,
@@ -3240,35 +3247,35 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skill-creator-mode-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-recommendations-from-similar-prompts-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-selection-power-up-effect": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skill-suggestion-focus-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-and-mention-upsell-cards-content": {
         "flagVersion": 11,
@@ -3321,7 +3328,7 @@
             }
         },
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-and-mention-upsell-on-new-tab-page-enabled": {
         "flagVersion": 3,
@@ -3331,14 +3338,14 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-and-mention-upsell-on-new-tab-page-v2-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-fuzzy-search-enabled": {
         "flagVersion": 7,
@@ -3348,14 +3355,14 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-gallery-url": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": "https://www.diabrowser.com/skills",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-hub-window-enabled": {
         "flagVersion": 7,
@@ -3365,56 +3372,56 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-manager-grid-layout-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-nav-button-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-outputs-opt-in-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skills-routing-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-sharing-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "skills-shortcuts-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-shortcuts-on-new-tab-page-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-typeahead-enabled": {
         "flagVersion": 4,
@@ -3424,7 +3431,7 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-ui-updates-enabled": {
         "flagVersion": 7,
@@ -3434,7 +3441,7 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-v2-backend-enabled": {
         "flagVersion": 9,
@@ -3444,7 +3451,7 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-v2-install-from-gallery-enabled": {
         "flagVersion": 7,
@@ -3454,56 +3461,56 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "skills-v2-upload-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "slack-activity-step-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "small-window-handling-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "split-view-improvements": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "student-skill-pack-url": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": "https://diabrowser.com/skills/packs/back-to-school",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-dia-timestamp-tag-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-fast-web-search-query-generation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-fast-web-search-query-generation-minimum-words": {
         "flagVersion": 4,
@@ -3513,385 +3520,385 @@
         "trackEvents": false,
         "value": 10,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-file-attachments-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-function-calling-with-gemini-flash": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-grdb-persistence-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-image-attachments-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-new-message-transition-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-on-device-function-call-classifier-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-on-device-function-call-classifier-followups-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-paginated-cards-response-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-entrypoint-chat-sidebar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-entrypoint-chat-tab-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-entrypoint-new-tab-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-entrypoint-new-tab-navbar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-free-form-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-live-update-previews-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-personality-update-on-popup-closed-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-query-editing-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-read-calendar-integration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-read-documents-integration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "supertab-read-email-integration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-request-symbol-with-title": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "supertab-retry-in-footer-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-skill-thinking-ui-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-skip-final-function-call": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-stop-button-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-text-snippet-attachments-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-thinking-ui-skip-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-tiles-response-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "supertab-translation-response-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "supertab-unsupported-capabilities-helpCenter": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-write-calendar-integration-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "supertab-write-documents-integration-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "supertab-write-email-integration-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "switch-build-prototype-menu-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tab-attachment-distilled-html-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-attachment-prefetch-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tab-favorites-dock-edu-hint-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tab-favorites-dock-edu-hint-when-zero-favorites-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-favorites-dock-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-group-color-derivation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tab-groups-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tab-hover-menu-actions": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-popover-menu-enabled": {
         "flagVersion": 8,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-presentation-badge-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-renaming-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-scoped-dialogs-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-search-memory-suggestion-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tab-selection-animation-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tab-web-app-analytics-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "talent-brief-skill-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "team-availability-tool-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tear-down-meeting-group-at-meeting-end": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "terms-of-service-dialogs-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "terms-of-service-required-timestamp": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": 1746417600,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "text-attachment-shimmer-enabled": {
         "flagVersion": 7,
@@ -3901,77 +3908,77 @@
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "themed-chat-bubble-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "themed-chat-button-debug-tools-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "themed-chat-button-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "toasts-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tool-suggestions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tool-suggestions-model": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": "gemini-2.5-flash",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tools-persist-in-follow-up-queries-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "tools-ui-revision-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-band-color-sampling-in-arc-core-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-bar-color-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-heuristic-bookmark-boost": {
         "flagVersion": 5,
@@ -3981,7 +3988,7 @@
         "trackEvents": false,
         "value": 0.7,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-heuristic-favorite-boost": {
         "flagVersion": 4,
@@ -3991,7 +3998,7 @@
         "trackEvents": false,
         "value": 1.3,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-heuristic-frequency-weight": {
         "flagVersion": 5,
@@ -4001,7 +4008,7 @@
         "trackEvents": false,
         "value": 0.7,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-heuristic-recency-half-life": {
         "flagVersion": 5,
@@ -4011,7 +4018,7 @@
         "trackEvents": false,
         "value": 30,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-heuristic-recency-weight": {
         "flagVersion": 5,
@@ -4021,7 +4028,7 @@
         "trackEvents": false,
         "value": 0.7,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-heuristic-time-range": {
         "flagVersion": 4,
@@ -4031,7 +4038,7 @@
         "trackEvents": false,
         "value": "week",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-heuristic-typed-weight": {
         "flagVersion": 4,
@@ -4041,356 +4048,356 @@
         "trackEvents": false,
         "value": 0.2,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "top-sites-icebreaker-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "tritone-theme-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "try-skill-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "ultimate-notion-integration-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "unboxing-flow-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "update-banner-effect-delay": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": 86400,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "update-banner-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "update-banner-icon-name": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "symbol:sparkles",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "update-banner-message": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": "See what's new",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "update-banner-notes-url": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": "https://diabrowser.com/release-notes/latest",
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "update-dialog-show-active-tabs": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "update-use-user-presence-heuristics": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "update-whats-new-page-url": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": "",
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "updated-photo-viewer-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "url-loading-animation-v2-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "use-4o-alpha-snapshot-for-assistant-response-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "use-assistant-input-for-skills": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "use-chromium-tab-loading-policy": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "use-custom-assistant-response-parser": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "use-has-dirty-text-fields-for-preventing-auto-close": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "use-memory-for-meeting-reminder-links": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "use-url-params-for-calendar-draft": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "use-url-params-for-email-draft": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "user-input-footer-updates-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "video-icebreaker-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "voice-input-ui-updates-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "voice-mode-v2-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-content-color-matching-lcp-enabled": {
         "flagVersion": 9,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-content-window-dragging-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "web-search-bing-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "web-search-client-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-search-google-adk-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-search-google-filter-hidden-links": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "web-search-google-use-udm-14": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-search-im-feeling-lucky-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-search-maximum-result-scrape-count": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": 6,
         "variation": 2,
-        "version": 2795
+        "version": 2796
     },
     "web-search-minimum-result-scrape-count": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": 3,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "web-search-remove-query-generation-step-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "web-search-result-count": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": 8,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "web-search-scrape-main-content-only": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-search-scrape-twitter": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-search-scrapes-include-urls": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "web-url-attachment-fetch-from-memory-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "web-url-attachment-prefetch-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "win-detour-user-32-handle-delegated-input-before-os-version": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": -1,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "window-background-opaque-frame-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0,
-        "version": 2795
+        "version": 2796
     },
     "write-like-me-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "writing-icebreaker-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "you-tube-transcript-legacy-first": {
         "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     },
     "youtube-transcript-enable-html-fallback": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1,
-        "version": 2795
+        "version": 2796
     }
 }
