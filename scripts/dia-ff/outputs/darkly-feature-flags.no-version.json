@@ -354,6 +354,12 @@
         "value": false,
         "variation": 1
     },
+    "auto-attach-apps-on-home-tabs": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "auto-attach-current-page-in-ask-on-page": {
         "flagVersion": 3,
         "trackEvents": false,
