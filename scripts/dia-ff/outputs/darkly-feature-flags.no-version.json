@@ -2007,6 +2007,12 @@
         "value": false,
         "variation": 1
     },
+    "new-tab-page-lighting-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "new-tab-page-power-up-animation-enabled": {
         "flagVersion": 8,
         "trackEvents": false,
