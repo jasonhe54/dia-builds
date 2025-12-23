@@ -2175,6 +2175,12 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-open-bundled-assistant-tab": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-open-dia-tour-enabled": {
         "flagVersion": 7,
         "trackEvents": false,
