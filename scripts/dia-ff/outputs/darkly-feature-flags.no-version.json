@@ -65,6 +65,12 @@
         "value": true,
         "variation": 0
     },
+    "allow-deleting-initial-browser-context": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "allow-version-downgrade-in-prototype-canary-transition": {
         "flagVersion": 2,
         "trackEvents": false,
