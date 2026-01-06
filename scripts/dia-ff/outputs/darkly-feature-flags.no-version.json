@@ -361,7 +361,7 @@
         "variation": 1
     },
     "auto-attach-apps-on-home-tabs": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
