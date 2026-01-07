@@ -3042,6 +3042,12 @@
         "value": true,
         "variation": 0
     },
+    "spotify-mini-player-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "student-skill-pack-url": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3679,6 +3685,12 @@
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
+        "variation": 1
+    },
+    "video-icebreaker-jump-count-threshold": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": 0,
         "variation": 1
     },
     "voice-input-ui-updates-enabled": {
