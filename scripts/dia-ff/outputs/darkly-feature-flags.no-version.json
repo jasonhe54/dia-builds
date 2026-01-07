@@ -3285,6 +3285,12 @@
         "value": false,
         "variation": 1
     },
+    "tab-custom-icons-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "tab-favorites-dock-edu-hint-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
