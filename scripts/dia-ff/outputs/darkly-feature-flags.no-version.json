@@ -1953,6 +1953,12 @@
         "value": false,
         "variation": 1
     },
+    "navigation-bar-delete-chat-button-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "navigation-bar-pin-button-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -2428,6 +2434,12 @@
         "variation": 0
     },
     "prototype-crash-report-dialog": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "prototype-diagrams-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
