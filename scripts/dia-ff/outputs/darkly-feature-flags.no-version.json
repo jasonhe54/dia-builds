@@ -1009,10 +1009,10 @@
         "variation": 1
     },
     "confirm-before-closing-meet-tabs": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": true,
-        "variation": 0
+        "value": false,
+        "variation": 1
     },
     "content-fetch-parse-pdf-with-llm": {
         "flagVersion": 3,
@@ -3362,6 +3362,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "tab-search-profile-scoped-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "tab-selection-animation-enabled": {
         "flagVersion": 2,
