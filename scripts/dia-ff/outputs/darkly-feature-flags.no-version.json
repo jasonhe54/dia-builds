@@ -1731,7 +1731,25 @@
         "value": false,
         "variation": 1
     },
+    "group-attachment-type-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "grouped-proactive-suggestions-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "groups-in-tab-overflow-menu-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "groups-inline-close-button-sidebar-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
