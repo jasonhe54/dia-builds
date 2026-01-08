@@ -2574,6 +2574,12 @@
         "value": false,
         "variation": 1
     },
+    "routing-revamp": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "ruleset-to-enforce": {
         "flagVersion": 16,
         "trackEvents": false,
