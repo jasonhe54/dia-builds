@@ -1756,6 +1756,12 @@
         "variation": 1
     },
     "groups-inline-close-button-sidebar-enabled": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "groups-rename-button-in-context-menu-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
