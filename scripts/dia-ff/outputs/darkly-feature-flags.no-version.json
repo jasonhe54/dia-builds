@@ -1177,10 +1177,10 @@
         "variation": 1
     },
     "default-browser-perk-state": {
-        "flagVersion": 4,
+        "flagVersion": 7,
         "trackEvents": false,
-        "value": "used",
-        "variation": 2
+        "value": "",
+        "variation": 3
     },
     "default-browser-upsell-dismiss-cooldown-seconds": {
         "flagVersion": 3,
@@ -2155,7 +2155,7 @@
         "variation": 1
     },
     "onboarding-default-browser-perk-reporting-interval": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": 10,
         "variation": 1
@@ -3592,7 +3592,7 @@
         "variation": 1
     },
     "top-sites-icebreaker-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -3736,7 +3736,7 @@
         "variation": 0
     },
     "video-icebreaker-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
