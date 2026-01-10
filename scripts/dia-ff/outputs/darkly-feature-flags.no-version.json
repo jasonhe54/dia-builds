@@ -3090,6 +3090,12 @@
         "value": true,
         "variation": 0
     },
+    "soft-delete-window-restoration-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "split-view-improvements": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3152,6 +3158,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "supertab-live-folder-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "supertab-new-message-transition-enabled": {
         "flagVersion": 3,
