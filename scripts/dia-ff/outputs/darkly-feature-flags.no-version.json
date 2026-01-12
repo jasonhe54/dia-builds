@@ -102,6 +102,24 @@
         "variation": 0
     },
     "aop-suggestions-chat-button-animation-enabled": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "aop-suggestions-edu-hints-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "aop-suggestions-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "aop-suggestions-smart-suggestions-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
@@ -884,6 +902,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "chat-connected-tooltip-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "chat-inline-link-navigation-enabled": {
         "flagVersion": 3,
