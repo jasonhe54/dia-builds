@@ -66,7 +66,7 @@
         "variation": 0
     },
     "allow-deleting-initial-browser-context": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2155,7 +2155,7 @@
         "variation": 1
     },
     "onboarding-default-browser-perk-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
