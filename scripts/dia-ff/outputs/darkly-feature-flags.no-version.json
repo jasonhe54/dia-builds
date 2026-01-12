@@ -2190,12 +2190,6 @@
         "value": false,
         "variation": 1
     },
-    "onboarding-default-browser-perk-reporting-interval": {
-        "flagVersion": 3,
-        "trackEvents": false,
-        "value": 10,
-        "variation": 1
-    },
     "onboarding-default-browser-trial-dialog-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3790,9 +3784,9 @@
         "variation": 1
     },
     "video-icebreaker-jump-count-threshold": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": 0,
+        "value": 1,
         "variation": 1
     },
     "voice-input-ui-updates-enabled": {
