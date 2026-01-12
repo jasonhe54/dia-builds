@@ -101,6 +101,12 @@
         "value": true,
         "variation": 0
     },
+    "aop-suggestions-chat-button-animation-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "app-build-switch-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
