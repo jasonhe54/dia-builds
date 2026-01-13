@@ -1080,6 +1080,12 @@
         "value": true,
         "variation": 0
     },
+    "content-fetch-use-slack-integration": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "content-fetch-use-swift-canvas-integration": {
         "flagVersion": 3,
         "trackEvents": false,
