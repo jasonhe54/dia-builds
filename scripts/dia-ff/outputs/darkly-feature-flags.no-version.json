@@ -1737,6 +1737,12 @@
         "value": false,
         "variation": 1
     },
+    "gpt-5-2-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "gpt-5-non-reasoning-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
