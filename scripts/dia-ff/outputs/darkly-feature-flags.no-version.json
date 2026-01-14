@@ -2412,6 +2412,12 @@
         "value": false,
         "variation": 1
     },
+    "poe-tab-group-name-feedback-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "pop-up-blocker-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3422,6 +3428,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "tab-group-auto-rename-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "tab-group-color-derivation-enabled": {
         "flagVersion": 3,
