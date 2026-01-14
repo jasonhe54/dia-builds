@@ -3142,7 +3142,7 @@
         "variation": 0
     },
     "soft-delete-window-restoration-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
