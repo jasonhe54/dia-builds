@@ -1081,7 +1081,7 @@
         "variation": 0
     },
     "content-fetch-use-slack-integration": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
