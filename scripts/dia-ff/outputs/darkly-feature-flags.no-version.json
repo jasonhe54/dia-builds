@@ -403,7 +403,7 @@
         "variation": 1
     },
     "auto-open-related-links-when-joining-meeting": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1135,7 +1135,7 @@
         "variation": 0
     },
     "create-meeting-tab-group-when-opening-join-link": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1585,7 +1585,7 @@
         "variation": 1
     },
     "end-meeting-when-closing-google-meet-tab": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1960,7 +1960,10 @@
         "variation": 1
     },
     "meeting-tab-group-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
+        "prerequisites": [
+            "tab-groups-enabled"
+        ],
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2847,7 +2850,7 @@
         "variation": 0
     },
     "show-minute-countdown-on-meeting-group": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
