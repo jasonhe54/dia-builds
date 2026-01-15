@@ -2714,6 +2714,12 @@
         "value": true,
         "variation": 0
     },
+    "select-tab-for-auxiliary-window": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "send-email-computer-use-step-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
