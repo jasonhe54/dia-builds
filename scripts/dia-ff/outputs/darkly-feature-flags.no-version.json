@@ -2520,6 +2520,12 @@
         "value": 900,
         "variation": 1
     },
+    "profile-indicator-redesign-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "prompt-packing-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
