@@ -3540,6 +3540,12 @@
         "value": false,
         "variation": 1
     },
+    "tabs-preference-pane-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "talent-brief-skill-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
