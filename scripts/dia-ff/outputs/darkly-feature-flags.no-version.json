@@ -2094,6 +2094,12 @@
         "value": true,
         "variation": 0
     },
+    "new-tab-in-group-shortcut-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "new-tab-page-gradient-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
