@@ -934,7 +934,7 @@
         "variation": 0
     },
     "chat-with-tab-group-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
