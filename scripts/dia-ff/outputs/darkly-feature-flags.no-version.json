@@ -2212,7 +2212,7 @@
         "variation": 1
     },
     "onboarding-combined-memory-chatgpt-step-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
