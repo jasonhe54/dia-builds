@@ -2095,7 +2095,7 @@
         "variation": 1
     },
     "new-tab-page-lighting-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
