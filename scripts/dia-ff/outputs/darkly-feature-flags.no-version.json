@@ -1140,6 +1140,12 @@
         "value": true,
         "variation": 0
     },
+    "crash-report-dialog": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "create-meeting-tab-group-when-opening-join-link": {
         "flagVersion": 3,
         "trackEvents": false,
