@@ -3541,10 +3541,10 @@
         "variation": 1
     },
     "tab-web-app-analytics-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "tabs-preference-pane-enabled": {
         "flagVersion": 2,
