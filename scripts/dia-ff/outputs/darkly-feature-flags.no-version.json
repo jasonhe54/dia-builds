@@ -1750,7 +1750,7 @@
         "variation": 1
     },
     "gpt-5-1-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1
