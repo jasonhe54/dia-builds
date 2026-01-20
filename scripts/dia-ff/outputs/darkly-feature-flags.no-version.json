@@ -315,7 +315,7 @@
         "variation": 0
     },
     "assistant-suggestions-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1235,6 +1235,12 @@
         "trackEvents": false,
         "value": 86400,
         "variation": 0
+    },
+    "dia-mini-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "dia-pro-subscribe-url": {
         "flagVersion": 4,
