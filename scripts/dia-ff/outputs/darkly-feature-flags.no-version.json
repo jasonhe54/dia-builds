@@ -922,7 +922,7 @@
         "variation": 0
     },
     "chat-routing-refactor-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1
