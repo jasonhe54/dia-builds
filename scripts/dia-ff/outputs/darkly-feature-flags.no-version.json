@@ -3865,16 +3865,16 @@
         "variation": 0
     },
     "video-icebreaker-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1
     },
     "video-icebreaker-jump-count-threshold": {
-        "flagVersion": 4,
+        "flagVersion": 6,
         "trackEvents": false,
-        "value": 1,
-        "variation": 1
+        "value": 3,
+        "variation": 2
     },
     "voice-input-ui-updates-enabled": {
         "flagVersion": 3,
