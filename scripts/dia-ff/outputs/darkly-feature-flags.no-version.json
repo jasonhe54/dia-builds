@@ -3865,7 +3865,7 @@
         "variation": 0
     },
     "video-icebreaker-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1
