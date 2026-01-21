@@ -315,7 +315,7 @@
         "variation": 0
     },
     "assistant-suggestions-enabled": {
-        "flagVersion": 6,
+        "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1
