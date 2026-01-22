@@ -1708,7 +1708,7 @@
         "variation": 0
     },
     "force-close-stuck-tabs-and-windows-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
