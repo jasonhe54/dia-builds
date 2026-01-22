@@ -1395,6 +1395,12 @@
         "value": false,
         "variation": 1
     },
+    "emphasize-meeting-countdown-animation": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "enable-adk-text-selection-geometry": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -1633,7 +1639,7 @@
         "variation": 1
     },
     "extension-tab-groups-api-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
