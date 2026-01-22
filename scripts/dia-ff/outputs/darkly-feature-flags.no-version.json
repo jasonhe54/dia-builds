@@ -1762,10 +1762,10 @@
         "variation": 1
     },
     "gpt-5-1-enabled": {
-        "flagVersion": 13,
+        "flagVersion": 14,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "gpt-5-2-enabled": {
         "flagVersion": 2,
