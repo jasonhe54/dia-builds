@@ -1707,6 +1707,12 @@
         "value": true,
         "variation": 0
     },
+    "force-close-stuck-tabs-and-windows-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "form-icebreaker-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
