@@ -1278,6 +1278,12 @@
         "value": true,
         "variation": 0
     },
+    "disable-back-forward-cache": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": true,
+        "variation": 0
+    },
     "dismissed-proactive-suggestions-exclusion-window": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -1622,6 +1628,12 @@
     },
     "extension-side-panel-enabled": {
         "flagVersion": 6,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "extension-tab-groups-api-enabled": {
+        "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1
