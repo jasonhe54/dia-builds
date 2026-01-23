@@ -1396,7 +1396,7 @@
         "variation": 1
     },
     "emphasize-meeting-countdown-animation": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -3923,6 +3923,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "web-content-mention-detection-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "web-content-window-dragging-enabled": {
         "flagVersion": 4,
