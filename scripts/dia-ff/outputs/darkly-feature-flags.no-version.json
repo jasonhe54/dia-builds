@@ -2131,7 +2131,7 @@
         "variation": 0
     },
     "new-tab-in-group-shortcut-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
