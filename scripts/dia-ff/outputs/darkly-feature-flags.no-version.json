@@ -1845,6 +1845,12 @@
         "value": false,
         "variation": 1
     },
+    "groups-inline-close-button-top-bar-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "groups-rename-button-in-context-menu-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
