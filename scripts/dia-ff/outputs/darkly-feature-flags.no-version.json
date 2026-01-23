@@ -102,13 +102,13 @@
         "variation": 0
     },
     "aop-suggestions-chat-button-animation-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
     },
     "aop-suggestions-edu-hints-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
