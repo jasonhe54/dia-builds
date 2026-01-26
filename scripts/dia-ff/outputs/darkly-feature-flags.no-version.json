@@ -315,7 +315,7 @@
         "variation": 0
     },
     "assistant-suggestions-enabled": {
-        "flagVersion": 7,
+        "flagVersion": 8,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -997,10 +997,10 @@
         "variation": 0
     },
     "cmd-click-creates-tab-group": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": true,
-        "variation": 0
+        "value": false,
+        "variation": 1
     },
     "cmd-click-pinned-tab-creates-tab-group": {
         "flagVersion": 2,
@@ -2083,10 +2083,10 @@
         "variation": 1
     },
     "navigation-bar-delete-chat-button-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": true,
-        "variation": 0
+        "value": false,
+        "variation": 1
     },
     "navigation-bar-pin-button-enabled": {
         "flagVersion": 2,
