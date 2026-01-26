@@ -2581,7 +2581,7 @@
         "variation": 1
     },
     "profile-indicator-redesign-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
