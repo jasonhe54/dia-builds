@@ -997,10 +997,10 @@
         "variation": 0
     },
     "cmd-click-creates-tab-group": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "cmd-click-pinned-tab-creates-tab-group": {
         "flagVersion": 2,
@@ -1885,7 +1885,7 @@
         "variation": 1
     },
     "include-groups-in-recently-closed-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2315,6 +2315,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "onboarding-imported-tabs-onboarding-step-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "onboarding-intro-enabled": {
         "flagVersion": 4,
