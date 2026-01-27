@@ -1009,7 +1009,7 @@
         "variation": 1
     },
     "cmd-click-pinned-tab-creates-tab-group": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -3613,7 +3613,7 @@
         "variation": 0
     },
     "tabs-preference-pane-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
