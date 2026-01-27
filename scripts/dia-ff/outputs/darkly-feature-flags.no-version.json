@@ -970,7 +970,7 @@
         "variation": 0
     },
     "chromium-disabled-features": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": "",
         "variation": 1
