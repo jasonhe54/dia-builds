@@ -1584,6 +1584,12 @@
         "value": false,
         "variation": 1
     },
+    "enable-remote-agents": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "enable-supertabs-to-do-generator": {
         "flagVersion": 2,
         "trackEvents": false,
