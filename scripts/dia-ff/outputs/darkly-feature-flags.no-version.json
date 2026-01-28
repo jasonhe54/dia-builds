@@ -4080,6 +4080,18 @@
         "value": false,
         "variation": 1
     },
+    "welcome-back-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "welcome-back-inactivity-threshold": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 3600,
+        "variation": 1
+    },
     "win-detour-user-32-handle-delegated-input-before-os-version": {
         "flagVersion": 2,
         "trackEvents": false,
