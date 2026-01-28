@@ -1104,6 +1104,12 @@
         "value": 5,
         "variation": 2
     },
+    "content-fetch-use-browserless-web-content": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "content-fetch-use-google-sheets-integration": {
         "flagVersion": 3,
         "trackEvents": false,
