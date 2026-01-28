@@ -2487,6 +2487,18 @@
         "value": true,
         "variation": 0
     },
+    "pdf-llm-summarize-images-only": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "pdf-summarization-model": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": "gemini-2.0-flash",
+        "variation": 1
+    },
     "per-chat-personalization-toggle-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
