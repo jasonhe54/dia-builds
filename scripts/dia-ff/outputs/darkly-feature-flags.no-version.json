@@ -320,11 +320,23 @@
         "value": true,
         "variation": 0
     },
+    "assistant-suggestions-background-update-interval-minutes": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 120,
+        "variation": 1
+    },
     "assistant-suggestions-enabled": {
         "flagVersion": 8,
         "trackEvents": false,
         "value": false,
         "variation": 1
+    },
+    "assistant-suggestions-foreground-update-interval-minutes": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": 720,
+        "variation": 0
     },
     "assistant-tab-loading-animation-enabled": {
         "flagVersion": 4,
@@ -1105,7 +1117,7 @@
         "variation": 0
     },
     "content-fetch-use-slack-integration": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -3955,7 +3967,7 @@
         "variation": 0
     },
     "video-icebreaker-enabled": {
-        "flagVersion": 7,
+        "flagVersion": 8,
         "trackEvents": false,
         "value": false,
         "variation": 1
