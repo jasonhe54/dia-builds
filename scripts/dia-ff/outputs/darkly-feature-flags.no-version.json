@@ -988,10 +988,10 @@
         "variation": 0
     },
     "chromium-disabled-features": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": "",
-        "variation": 1
+        "value": "ExtensionManifestV2Disabled,ExtensionManifestV2Unsupported",
+        "variation": 0
     },
     "classification-for-memory-donations-enabled": {
         "flagVersion": 3,
