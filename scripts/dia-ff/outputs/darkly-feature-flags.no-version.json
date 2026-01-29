@@ -321,13 +321,13 @@
         "variation": 0
     },
     "assistant-suggestions-background-update-interval-minutes": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": 120,
-        "variation": 1
+        "value": 1440,
+        "variation": 0
     },
     "assistant-suggestions-enabled": {
-        "flagVersion": 8,
+        "flagVersion": 9,
         "trackEvents": false,
         "value": false,
         "variation": 1
