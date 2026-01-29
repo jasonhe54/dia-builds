@@ -439,7 +439,7 @@
         "variation": 1
     },
     "auto-ungroup-tab-groups-created-via-cmd-click": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -3292,7 +3292,7 @@
         "variation": 0
     },
     "soft-delete-window-restoration-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
         "value": false,
         "variation": 1
