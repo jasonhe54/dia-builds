@@ -2718,6 +2718,12 @@
         "value": true,
         "variation": 0
     },
+    "recent-tab-switcher-grid-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "record-trace-ui-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
