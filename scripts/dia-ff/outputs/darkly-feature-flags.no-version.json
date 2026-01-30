@@ -344,6 +344,12 @@
         "value": "gpt-5.1",
         "variation": 1
     },
+    "assistant-suggestions-reasoning-effort": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": "low",
+        "variation": 1
+    },
     "assistant-tab-loading-animation-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
