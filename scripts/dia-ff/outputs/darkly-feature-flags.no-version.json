@@ -946,7 +946,7 @@
         "variation": 0
     },
     "chat-routing-refactor-enabled": {
-        "flagVersion": 6,
+        "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1
