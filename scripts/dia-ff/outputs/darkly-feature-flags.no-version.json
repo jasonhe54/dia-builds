@@ -338,6 +338,12 @@
         "value": 720,
         "variation": 0
     },
+    "assistant-suggestions-model": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": "gpt-5.1",
+        "variation": 1
+    },
     "assistant-tab-loading-animation-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
