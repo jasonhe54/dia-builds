@@ -988,9 +988,9 @@
         "variation": 0
     },
     "chromium-disabled-features": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
-        "value": "ExtensionManifestV2Disabled,ExtensionManifestV2Unsupported",
+        "value": "ExtensionManifestV2Disabled,ExtensionManifestV2Unsupported,PageActionsMigration",
         "variation": 0
     },
     "classification-for-memory-donations-enabled": {
@@ -2420,6 +2420,12 @@
     },
     "onboarding-restore-tabs-enabled": {
         "flagVersion": 17,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "onboarding-shorten-flow-for-arc-users": {
+        "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1
