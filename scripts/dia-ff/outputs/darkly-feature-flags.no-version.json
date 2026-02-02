@@ -726,6 +726,12 @@
         "value": 18,
         "variation": 1
     },
+    "boost-memory-limit-donation-commit-concurrency": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": true,
+        "variation": 0
+    },
     "boost-memory-mention-bookmarks": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -2518,10 +2524,10 @@
         "variation": 0
     },
     "override-ai-service-free-tier-token-limit": {
-        "flagVersion": 40,
+        "flagVersion": 41,
         "trackEvents": false,
-        "value": 1500000,
-        "variation": 11
+        "value": 2400000,
+        "variation": 9
     },
     "paste-urls-as-attachments": {
         "flagVersion": 3,
