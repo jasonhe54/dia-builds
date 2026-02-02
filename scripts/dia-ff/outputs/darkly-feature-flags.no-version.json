@@ -958,7 +958,7 @@
         "variation": 0
     },
     "chat-routing-refactor-enabled": {
-        "flagVersion": 8,
+        "flagVersion": 9,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2530,16 +2530,16 @@
         "variation": 0
     },
     "pdf-llm-summarize-images-only": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
     },
     "pdf-summarization-model": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": "gemini-2.0-flash",
-        "variation": 1
+        "value": "gemini-2.5-flash",
+        "variation": 0
     },
     "per-chat-personalization-toggle-enabled": {
         "flagVersion": 3,
