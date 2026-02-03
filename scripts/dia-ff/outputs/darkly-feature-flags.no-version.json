@@ -1092,12 +1092,6 @@
         "value": true,
         "variation": 0
     },
-    "command-bar-use-only-chromium-providers": {
-        "flagVersion": 3,
-        "trackEvents": false,
-        "value": false,
-        "variation": 1
-    },
     "compositor-flashing-prevention": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3328,7 +3322,7 @@
         "variation": 0
     },
     "soft-delete-groups-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
