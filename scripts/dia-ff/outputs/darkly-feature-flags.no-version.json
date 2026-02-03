@@ -272,6 +272,12 @@
         "value": "",
         "variation": 1
     },
+    "assistant-groups-suggested-before-tabs-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "assistant-history-attachment-support-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
