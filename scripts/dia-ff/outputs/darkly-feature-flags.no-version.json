@@ -522,6 +522,12 @@
         "value": false,
         "variation": 1
     },
+    "bookmark-bar-explicitly-closed-groups-only": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "bookmark-interstitial-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
@@ -3757,7 +3763,7 @@
         "variation": 1
     },
     "test-sundresh-show-example-menu": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
