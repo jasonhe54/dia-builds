@@ -41,6 +41,12 @@
         "value": true,
         "variation": 0
     },
+    "agents-chat-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "ai-service-chromium-implementation": {
         "flagVersion": 2,
         "trackEvents": false,
