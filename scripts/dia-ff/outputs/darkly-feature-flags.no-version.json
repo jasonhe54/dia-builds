@@ -1827,6 +1827,12 @@
         "value": false,
         "variation": 1
     },
+    "github-live-folder-min-refresh-interval-seconds": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 120,
+        "variation": 2
+    },
     "gmail-full-message-text-integration-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
