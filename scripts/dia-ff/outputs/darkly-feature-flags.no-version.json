@@ -2871,6 +2871,12 @@
         "value": false,
         "variation": 1
     },
+    "scroll-to-new-background-tab-while-favorite-selected-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "search-all-tabs-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3764,6 +3770,12 @@
     },
     "test-sundresh-show-example-menu": {
         "flagVersion": 3,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "test-sundresh-show-example-menu-enabled-2": {
+        "flagVersion": 2,
         "trackEvents": false,
         "value": false,
         "variation": 1
