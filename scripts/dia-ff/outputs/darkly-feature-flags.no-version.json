@@ -2143,7 +2143,7 @@
         "variation": 0
     },
     "native-bookmarks-page-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0
