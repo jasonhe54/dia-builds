@@ -156,7 +156,7 @@
         "variation": 1
     },
     "arc-to-dia-import-v2-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2338,7 +2338,7 @@
         "variation": 0
     },
     "onboarding-chat-from-url-bar-step-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2407,7 +2407,7 @@
         "variation": 0
     },
     "onboarding-imported-tabs-onboarding-step-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2467,7 +2467,7 @@
         "variation": 1
     },
     "onboarding-shorten-flow-for-arc-users": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
