@@ -1840,7 +1840,7 @@
         "variation": 1
     },
     "github-live-folder-min-refresh-interval-seconds": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": 120,
         "variation": 2
