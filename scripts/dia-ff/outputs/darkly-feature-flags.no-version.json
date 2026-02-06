@@ -2608,7 +2608,7 @@
         "variation": 0
     },
     "pin-manually-created-groups-by-default": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
