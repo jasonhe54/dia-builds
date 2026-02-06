@@ -2373,6 +2373,12 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-default-to-youtube-tour": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-dia-hacks-destination-url": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -2417,6 +2423,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "onboarding-import-tab-groups-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "onboarding-imported-tabs-onboarding-step-enabled": {
         "flagVersion": 3,
@@ -2465,6 +2477,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "onboarding-pin-apps-to-all-profiles": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "onboarding-pinned-tabs-enabled": {
         "flagVersion": 4,
