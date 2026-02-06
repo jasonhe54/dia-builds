@@ -1743,6 +1743,12 @@
         "value": false,
         "variation": 1
     },
+    "favorite-cmd-click-grouping-timeout-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "favorites-window-tint-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
