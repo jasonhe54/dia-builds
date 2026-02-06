@@ -285,7 +285,7 @@
         "variation": 1
     },
     "assistant-groups-suggested-before-tabs-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -529,7 +529,7 @@
         "variation": 1
     },
     "bookmark-bar-explicitly-closed-groups-only": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1930,7 +1930,7 @@
         "variation": 1
     },
     "groups-inline-close-button-top-bar-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1975,7 +1975,7 @@
         "variation": 1
     },
     "incognito-dark-appearance-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -2902,7 +2902,7 @@
         "variation": 1
     },
     "scroll-to-new-background-tab-while-favorite-selected-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
