@@ -23,6 +23,7 @@
     "decode-ld": "node ./scripts/dia-ff/launchdarkly-token.js"
   },
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "xml2js": "^0.6.2"
   }
 }
