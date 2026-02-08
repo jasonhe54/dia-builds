@@ -86,8 +86,8 @@
     "allow-deleting-initial-browser-context": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "allow-version-downgrade-in-prototype-canary-transition": {
@@ -135,15 +135,15 @@
     "aop-suggestions-chat-button-animation-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "aop-suggestions-edu-hints-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "aop-suggestions-enabled": {
@@ -334,8 +334,8 @@
     "assistant-groups-suggested-before-tabs-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "assistant-history-attachment-support-enabled": {
@@ -520,15 +520,15 @@
     "auto-close-meet-tabs": {
         "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "auto-open-related-links-when-joining-meeting": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "auto-pin-installed-extensions-enabled": {
@@ -548,8 +548,8 @@
     "auto-ungroup-tab-groups-created-via-cmd-click": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "auto-update-background-delay": {
@@ -618,8 +618,8 @@
     "bookmark-bar-explicitly-closed-groups-only": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "bookmark-interstitial-enabled": {
@@ -632,8 +632,8 @@
     "bookmark-interstitial-full-folder-tree-ui-for-selection-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "bookmarks-in-commandbar": {
@@ -1095,8 +1095,8 @@
     "calendar-meeting-reminder-show-prep-links": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "calendar-selection-enabled": {
@@ -1130,8 +1130,8 @@
     "chat-connected-tooltip-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "chat-inline-link-navigation-enabled": {
@@ -1151,8 +1151,8 @@
     "chat-routing-refactor-enabled": {
         "flagVersion": 9,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "chat-tab-release-notes-enabled": {
@@ -1165,8 +1165,8 @@
     "chat-with-tab-group-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "check-reachability-in-assistant-enabled": {
@@ -1238,15 +1238,15 @@
     "cmd-click-creates-tab-group": {
         "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "cmd-click-pinned-tab-creates-tab-group": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "command-bar-attachment-restoration-enabled": {
@@ -1273,8 +1273,8 @@
     "command-bar-new-document-suggestions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "command-bar-redesign-enabled": {
@@ -1294,15 +1294,15 @@
     "compositor-flashing-prevention": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "confirm-before-closing-meet-tabs": {
         "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "content-fetch-parse-pdf-with-llm": {
@@ -1329,15 +1329,15 @@
     "content-fetch-use-browserless-web-content": {
         "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "content-fetch-use-google-sheets-integration": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "content-fetch-use-integration-controller": {
@@ -1350,8 +1350,8 @@
     "content-fetch-use-slack-integration": {
         "flagVersion": 6,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "content-fetch-use-swift-canvas-integration": {
@@ -1385,8 +1385,8 @@
     "context-scoped-tab-store-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "conversation-starters-to-assistant": {
@@ -1420,8 +1420,8 @@
     "create-meeting-tab-group-when-opening-join-link": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "create-transparent-window-for-dialogs-if-needed": {
@@ -1608,8 +1608,8 @@
     "distillability-service-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
-        "value": true,
-        "variation": 0,
+        "value": false,
+        "variation": 1,
         "version": 3208
     },
     "dont-show-update-dialog-if-user-active": {
@@ -1695,8 +1695,8 @@
     "early-bird-access-enabled": {
         "flagVersion": 12,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "edit-memories-enabled": {
@@ -1709,8 +1709,8 @@
     "emphasize-meeting-countdown-animation": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "enable-adk-text-selection-geometry": {
@@ -1971,8 +1971,8 @@
     "end-meeting-when-closing-google-meet-tab": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "enforce-csp-sandbox-for-downloads": {
@@ -1992,15 +1992,15 @@
     "extension-side-panel-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "extension-tab-groups-api-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "fancy-memory-history-attachments-enabled": {
@@ -2058,8 +2058,8 @@
     "first-assistant-experience-new-tab-suggestions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "first-assistant-experience-new-tab-suggestions-presentation-count": {
@@ -2149,8 +2149,8 @@
     "github-live-folder-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "github-live-folder-min-refresh-interval-seconds": {
@@ -2233,8 +2233,8 @@
     "group-attachment-type-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "grouped-proactive-suggestions-enabled": {
@@ -2254,15 +2254,15 @@
     "groups-inline-close-button-sidebar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "groups-inline-close-button-top-bar-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "groups-rename-button-in-context-menu-enabled": {
@@ -2306,15 +2306,15 @@
     "include-groups-in-recently-closed-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "incognito-dark-appearance-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "info-bar": {
@@ -2456,8 +2456,8 @@
     "meeting-reminder-brand-colors": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "meeting-tab-group-enabled": {
@@ -2466,8 +2466,8 @@
             "tab-groups-enabled"
         ],
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "memory-button-in-url-bar-enabled": {
@@ -2543,15 +2543,15 @@
     "navigation-bar-delete-chat-button-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "navigation-bar-per-split-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "navigation-bar-pin-button-enabled": {
@@ -2613,8 +2613,8 @@
     "new-tab-in-group-shortcut-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "new-tab-page-gradient-enabled": {
@@ -2634,8 +2634,8 @@
     "new-tab-page-lighting-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "new-tab-page-power-up-animation-enabled": {
@@ -2763,15 +2763,15 @@
     "onboarding-combined-memory-chatgpt-step-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "onboarding-default-browser-perk-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "onboarding-default-browser-trial-dialog-enabled": {
@@ -2815,8 +2815,8 @@
     "onboarding-heuristic-based-pinned-tabs": {
         "flagVersion": 7,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "onboarding-import-extensions-enabled": {
@@ -2829,8 +2829,8 @@
     "onboarding-import-pinned-tabs-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "onboarding-import-skip-enabled": {
@@ -2927,8 +2927,8 @@
     "onboarding-shorten-flow-for-arc-users": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "onboarding-show-chat-memory-step": {
@@ -3056,22 +3056,22 @@
     "pin-manually-created-groups-by-default": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "pinned-tab-badge-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "pinned-tab-section-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "poe-tab-group-name-feedback-enabled": {
@@ -3199,8 +3199,8 @@
     "profile-indicator-redesign-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "prompt-packing-enabled": {
@@ -3398,8 +3398,8 @@
     "scroll-to-new-background-tab-while-favorite-selected-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "search-all-tabs-enabled": {
@@ -3438,8 +3438,8 @@
     "select-tab-for-auxiliary-window": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "send-email-computer-use-step-enabled": {
@@ -3609,8 +3609,8 @@
     "show-minute-countdown-on-meeting-group": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "show-response-footers-on-hover-enabled": {
@@ -3931,8 +3931,8 @@
     "slack-activity-step-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "small-window-handling-enabled": {
@@ -3945,8 +3945,8 @@
     "soft-delete-groups-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "soft-delete-window-restoration-enabled": {
@@ -3966,8 +3966,8 @@
     "spotify-mini-player-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "statuspage-help-enabled": {
@@ -4256,8 +4256,8 @@
     "tab-attachment-distilled-html-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
-        "value": true,
-        "variation": 0,
+        "value": false,
+        "variation": 1,
         "version": 3208
     },
     "tab-attachment-prefetch-enabled": {
@@ -4270,15 +4270,15 @@
     "tab-custom-icons-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "tab-favorites-dock-edu-hint-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "tab-favorites-dock-edu-hint-when-zero-favorites-enabled": {
@@ -4298,15 +4298,15 @@
     "tab-group-auto-rename-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "tab-group-color-derivation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "tab-group-sidebar-ui-tweaks-enabled": {
@@ -4319,8 +4319,8 @@
     "tab-groups-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "tab-hover-menu-actions": {
@@ -4368,8 +4368,8 @@
     "tab-search-profile-scoped-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "tab-selection-animation-enabled": {
@@ -4389,8 +4389,8 @@
     "tabs-preference-pane-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "talent-brief-skill-enabled": {
@@ -4410,8 +4410,8 @@
     "tear-down-meeting-group-at-meeting-end": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "terms-of-service-dialogs-enabled": {
@@ -4504,15 +4504,15 @@
     "tools-ui-revision-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "top-band-color-sampling-in-arc-core-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "top-bar-color-enabled": {
@@ -4528,8 +4528,8 @@
             "onboarding-heuristic-based-pinned-tabs"
         ],
         "trackEvents": false,
-        "value": 0.7,
-        "variation": 1,
+        "value": 0.6,
+        "variation": 0,
         "version": 3208
     },
     "top-sites-heuristic-favorite-boost": {
@@ -4538,8 +4538,8 @@
             "onboarding-heuristic-based-pinned-tabs"
         ],
         "trackEvents": false,
-        "value": 1.3,
-        "variation": 1,
+        "value": 1.2,
+        "variation": 0,
         "version": 3208
     },
     "top-sites-heuristic-frequency-weight": {
@@ -4548,8 +4548,8 @@
             "onboarding-heuristic-based-pinned-tabs"
         ],
         "trackEvents": false,
-        "value": 0.7,
-        "variation": 1,
+        "value": 0.6,
+        "variation": 0,
         "version": 3208
     },
     "top-sites-heuristic-recency-half-life": {
@@ -4558,8 +4558,8 @@
             "onboarding-heuristic-based-pinned-tabs"
         ],
         "trackEvents": false,
-        "value": 30,
-        "variation": 1,
+        "value": 7,
+        "variation": 0,
         "version": 3208
     },
     "top-sites-heuristic-recency-weight": {
@@ -4568,8 +4568,8 @@
             "onboarding-heuristic-based-pinned-tabs"
         ],
         "trackEvents": false,
-        "value": 0.7,
-        "variation": 1,
+        "value": 0.6,
+        "variation": 0,
         "version": 3208
     },
     "top-sites-heuristic-time-range": {
@@ -4588,15 +4588,15 @@
             "onboarding-heuristic-based-pinned-tabs"
         ],
         "trackEvents": false,
-        "value": 0.2,
-        "variation": 1,
+        "value": 0.1,
+        "variation": 0,
         "version": 3208
     },
     "top-sites-icebreaker-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "tritone-theme-enabled": {
@@ -4959,8 +4959,8 @@
     "you-tube-transcript-legacy-first": {
         "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1,
+        "value": true,
+        "variation": 0,
         "version": 3208
     },
     "youtube-transcript-enable-html-fallback": {
