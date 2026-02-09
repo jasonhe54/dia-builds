@@ -3406,10 +3406,10 @@
         "variation": 0
     },
     "soft-delete-window-restoration-enabled": {
-        "flagVersion": 6,
+        "flagVersion": 7,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "split-view-improvements": {
         "flagVersion": 3,
