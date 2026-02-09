@@ -1212,6 +1212,12 @@
         "value": true,
         "variation": 0
     },
+    "copy-url-as-markdown-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "crash-report-dialog": {
         "flagVersion": 2,
         "trackEvents": false,
