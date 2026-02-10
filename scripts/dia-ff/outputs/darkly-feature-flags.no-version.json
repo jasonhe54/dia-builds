@@ -1984,10 +1984,10 @@
         "variation": 1
     },
     "gsuite-logged-in-analytics-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "haptic-feedback-on-tab-moved-enabled": {
         "flagVersion": 3,
@@ -2491,10 +2491,10 @@
         "variation": 0
     },
     "onboarding-import-tab-groups-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-imported-tabs-onboarding-step-enabled": {
         "flagVersion": 3,
@@ -2545,10 +2545,10 @@
         "variation": 0
     },
     "onboarding-pin-apps-to-all-profiles": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-pinned-tabs-enabled": {
         "flagVersion": 4,
