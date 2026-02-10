@@ -1959,6 +1959,12 @@
         "value": false,
         "variation": 1
     },
+    "gsuite-logged-in-analytics-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "haptic-feedback-on-tab-moved-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
