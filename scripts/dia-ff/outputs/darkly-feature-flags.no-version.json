@@ -2445,6 +2445,12 @@
         "value": "https://www.youtube.com/watch?v=okcCdFWtFns",
         "variation": 0
     },
+    "onboarding-dia-tour-aop-cta-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-dia-tour-destination-url": {
         "flagVersion": 10,
         "prerequisites": [
