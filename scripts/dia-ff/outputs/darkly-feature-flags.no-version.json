@@ -2361,6 +2361,12 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-arc-custom-note": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-arc-email-prefill-and-note": {
         "flagVersion": 2,
         "trackEvents": false,
