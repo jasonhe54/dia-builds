@@ -1047,6 +1047,30 @@
         "value": true,
         "variation": 0
     },
+    "clean-tabs-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "clean-tabs-inactivity-threshold": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 3600,
+        "variation": 1
+    },
+    "clia-agents-chat-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "clia-local-agent-server-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "close-tabs-tool-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -4252,18 +4276,6 @@
         "flagVersion": 3,
         "trackEvents": false,
         "value": false,
-        "variation": 1
-    },
-    "welcome-back-enabled": {
-        "flagVersion": 2,
-        "trackEvents": false,
-        "value": false,
-        "variation": 1
-    },
-    "welcome-back-inactivity-threshold": {
-        "flagVersion": 4,
-        "trackEvents": false,
-        "value": 3600,
         "variation": 1
     },
     "win-detour-user-32-handle-delegated-input-before-os-version": {
