@@ -2434,10 +2434,10 @@
         "variation": 0
     },
     "onboarding-default-to-youtube-tour": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-dia-hacks-destination-url": {
         "flagVersion": 3,
