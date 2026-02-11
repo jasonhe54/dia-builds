@@ -3454,7 +3454,7 @@
         "variation": 0
     },
     "soft-delete-window-restoration-enabled": {
-        "flagVersion": 7,
+        "flagVersion": 8,
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -3751,7 +3751,7 @@
         "variation": 0
     },
     "tab-group-auto-rename-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0
