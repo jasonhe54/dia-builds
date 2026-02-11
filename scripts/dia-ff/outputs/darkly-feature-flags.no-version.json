@@ -1071,6 +1071,12 @@
         "value": false,
         "variation": 1
     },
+    "clia-mcp-auth-enabled": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "close-tabs-tool-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
