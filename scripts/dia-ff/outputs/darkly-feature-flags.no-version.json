@@ -162,10 +162,10 @@
         "variation": 1
     },
     "arc-to-dia-import-v2-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "archive-hint-dismiss-interval-in-seconds": {
         "flagVersion": 3,
@@ -2497,10 +2497,10 @@
         "variation": 0
     },
     "onboarding-imported-tabs-onboarding-step-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-intro-enabled": {
         "flagVersion": 4,
