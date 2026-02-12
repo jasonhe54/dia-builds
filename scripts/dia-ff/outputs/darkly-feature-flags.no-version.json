@@ -3483,6 +3483,12 @@
         "value": true,
         "variation": 0
     },
+    "spotify-mini-player-music-notes-animation-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "statuspage-help-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
