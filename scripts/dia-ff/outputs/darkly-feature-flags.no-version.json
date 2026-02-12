@@ -3168,10 +3168,10 @@
         "variation": 0
     },
     "sidebar-new-tab-button-overflow-redesign-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "sidebar-power-up-animation-enabled": {
         "flagVersion": 3,
