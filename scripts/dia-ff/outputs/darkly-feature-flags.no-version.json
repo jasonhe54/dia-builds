@@ -2409,6 +2409,12 @@
         "value": false,
         "variation": 1
     },
+    "onboarding-arc-to-dia-preview-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-can-present-disclosure-step": {
         "flagVersion": 12,
         "trackEvents": false,
