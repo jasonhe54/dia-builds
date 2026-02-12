@@ -1065,7 +1065,7 @@
         "value": false,
         "variation": 1
     },
-    "clia-local-agent-server-enabled": {
+    "clia-bundled-agent-server-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
