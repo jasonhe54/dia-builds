@@ -3477,6 +3477,12 @@
         "value": true,
         "variation": 0
     },
+    "split-view-empty-state-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "split-view-improvements": {
         "flagVersion": 3,
         "trackEvents": false,
