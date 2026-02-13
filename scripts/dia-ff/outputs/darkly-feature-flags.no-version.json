@@ -1788,6 +1788,12 @@
         "value": true,
         "variation": 0
     },
+    "fast-profile-switcher-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "favicon-appearance-handling-enabled": {
         "flagVersion": 6,
         "trackEvents": false,
@@ -3100,6 +3106,12 @@
         "trackEvents": false,
         "value": 1,
         "variation": 0
+    },
+    "settings-redesign-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "share-usage-data": {
         "flagVersion": 6,
