@@ -676,10 +676,10 @@
         "variation": 1
     },
     "boost-memory-enabled": {
-        "flagVersion": 13,
+        "flagVersion": 15,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "boost-memory-export-database-early-birds": {
         "flagVersion": 4,
@@ -817,7 +817,10 @@
         "variation": 1
     },
     "boost-memory-per-profile-enabling": {
-        "flagVersion": 5,
+        "flagVersion": 6,
+        "prerequisites": [
+            "boost-memory-enabled"
+        ],
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -3507,17 +3510,11 @@
         "value": true,
         "variation": 0
     },
-    "spotify-mini-player-music-notes-animation-enabled": {
-        "flagVersion": 2,
-        "trackEvents": false,
-        "value": false,
-        "variation": 1
-    },
     "spotify-pinned-tab-animation-style": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": "off",
-        "variation": 0
+        "value": "musicNotes",
+        "variation": 2
     },
     "statuspage-help-enabled": {
         "flagVersion": 2,
