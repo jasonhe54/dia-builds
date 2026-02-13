@@ -2619,6 +2619,12 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-welcome-tabs-tab-group-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "only-show-meeting-reminder-to-invitees": {
         "flagVersion": 2,
         "trackEvents": false,
