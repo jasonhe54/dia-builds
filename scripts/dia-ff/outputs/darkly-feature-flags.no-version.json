@@ -1428,6 +1428,12 @@
         "value": false,
         "variation": 1
     },
+    "dont-show-update-dialog-during-media-capture": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "dont-show-update-dialog-if-user-active": {
         "flagVersion": 6,
         "trackEvents": false,
@@ -3506,6 +3512,12 @@
         "trackEvents": false,
         "value": false,
         "variation": 1
+    },
+    "spotify-pinned-tab-animation-style": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": "off",
+        "variation": 0
     },
     "statuspage-help-enabled": {
         "flagVersion": 2,
