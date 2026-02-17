@@ -1062,6 +1062,12 @@
         "value": 3600,
         "variation": 1
     },
+    "clia-agent-server-ipc": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "clia-agents-chat-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -1081,6 +1087,12 @@
         "variation": 1
     },
     "clia-slack-tools-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "clia-thread-ui-updates-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
@@ -2695,7 +2707,7 @@
         "variation": 0
     },
     "pdf-llm-summarize-images-only": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
