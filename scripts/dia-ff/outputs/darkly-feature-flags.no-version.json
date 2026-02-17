@@ -345,10 +345,10 @@
         "variation": 0
     },
     "assistant-suggestions-enabled": {
-        "flagVersion": 9,
+        "flagVersion": 10,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "assistant-suggestions-foreground-update-interval-minutes": {
         "flagVersion": 3,
@@ -3808,7 +3808,7 @@
         "variation": 0
     },
     "tab-group-auto-rename-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0
