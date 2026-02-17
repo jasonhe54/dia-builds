@@ -357,16 +357,16 @@
         "variation": 0
     },
     "assistant-suggestions-model": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": "gpt-5.1",
-        "variation": 1
+        "value": "gemini-3-flash",
+        "variation": 0
     },
     "assistant-suggestions-reasoning-effort": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": "low",
-        "variation": 1
+        "value": "medium",
+        "variation": 0
     },
     "assistant-tab-loading-animation-enabled": {
         "flagVersion": 4,
