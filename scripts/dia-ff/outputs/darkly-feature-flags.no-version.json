@@ -2682,6 +2682,12 @@
         "value": true,
         "variation": 0
     },
+    "opt-shift-click-to-form-group-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "out-of-process-classification-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
