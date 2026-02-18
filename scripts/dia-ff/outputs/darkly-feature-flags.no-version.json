@@ -2400,6 +2400,18 @@
         "value": true,
         "variation": 0
     },
+    "notion-live-folder-auto-create-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "notion-live-folder-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "oct-2025-onboarding-edu-skill-suggestions-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
