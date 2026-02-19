@@ -1,4 +1,10 @@
 {
+    "account-service-atlassian-org-check-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "account-service-confirm-signUp-operation-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
