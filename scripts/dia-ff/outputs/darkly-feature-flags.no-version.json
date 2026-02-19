@@ -3547,7 +3547,7 @@
         "variation": 0
     },
     "spotify-mini-player-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0
