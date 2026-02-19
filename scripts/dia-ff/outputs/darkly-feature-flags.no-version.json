@@ -3131,6 +3131,12 @@
         "value": true,
         "variation": 0
     },
+    "session-revocation-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "set-as-default-show-follow-up-dialog-after-days": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3247,6 +3253,12 @@
         "trackEvents": false,
         "value": true,
         "variation": 0
+    },
+    "sidebar-toggle-button-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "sidebar-toggle-enabled": {
         "flagVersion": 10,
