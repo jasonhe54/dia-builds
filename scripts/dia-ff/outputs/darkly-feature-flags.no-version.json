@@ -2718,6 +2718,12 @@
         "value": 2400000,
         "variation": 9
     },
+    "paste-and-go-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "paste-urls-as-attachments": {
         "flagVersion": 3,
         "trackEvents": false,
