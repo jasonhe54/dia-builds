@@ -2484,6 +2484,12 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-command-bar-suggestions-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-default-browser-perk-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
