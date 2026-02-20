@@ -113,6 +113,12 @@
         "value": true,
         "variation": 0
     },
+    "animated-navigation-bar-back-forward-reload-icons-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "aop-smart-suggestions-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
