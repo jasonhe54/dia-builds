@@ -2004,6 +2004,12 @@
         "value": true,
         "variation": 0
     },
+    "group-rename-awe-transition-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "grouped-proactive-suggestions-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
