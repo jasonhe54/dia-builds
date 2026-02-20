@@ -2737,10 +2737,10 @@
         "variation": 9
     },
     "paste-and-go-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "paste-urls-as-attachments": {
         "flagVersion": 3,
@@ -3279,10 +3279,10 @@
         "variation": 0
     },
     "sidebar-toggle-button-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "sidebar-toggle-enabled": {
         "flagVersion": 10,
@@ -3583,7 +3583,7 @@
         "variation": 0
     },
     "spotify-mini-player-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0
