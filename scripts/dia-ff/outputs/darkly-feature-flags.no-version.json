@@ -357,7 +357,7 @@
         "variation": 0
     },
     "assistant-suggestions-enabled": {
-        "flagVersion": 14,
+        "flagVersion": 15,
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -3589,7 +3589,7 @@
         "variation": 0
     },
     "spotify-pinned-tab-animation-style": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": "musicNotes",
         "variation": 2
