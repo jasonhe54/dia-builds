@@ -2284,7 +2284,7 @@
         "variation": 0
     },
     "navigation-bar-per-split-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
         "value": true,
         "variation": 0
