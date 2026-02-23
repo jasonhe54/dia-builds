@@ -1347,6 +1347,12 @@
         "value": 100,
         "variation": 0
     },
+    "datadog-traces-system-health-tags-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "debug-sentry-nsexception-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
