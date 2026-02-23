@@ -357,7 +357,7 @@
         "variation": 0
     },
     "assistant-suggestions-enabled": {
-        "flagVersion": 18,
+        "flagVersion": 19,
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -1348,10 +1348,10 @@
         "variation": 0
     },
     "datadog-traces-system-health-tags-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "debug-sentry-nsexception-enabled": {
         "flagVersion": 3,
