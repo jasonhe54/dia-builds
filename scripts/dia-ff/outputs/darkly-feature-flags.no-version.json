@@ -2931,6 +2931,12 @@
         "value": false,
         "variation": 1
     },
+    "prototype-downloads-magnet-animation-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "prototype-site-search": {
         "flagVersion": 2,
         "trackEvents": false,
