@@ -2400,6 +2400,12 @@
         "value": false,
         "variation": 1
     },
+    "new-tabs-at-top-default-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "new-tabs-at-top-setting-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -3180,10 +3186,10 @@
         "variation": 0
     },
     "session-revocation-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "set-as-default-show-follow-up-dialog-after-days": {
         "flagVersion": 3,
