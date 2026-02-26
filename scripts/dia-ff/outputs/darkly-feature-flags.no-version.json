@@ -1719,6 +1719,12 @@
         "value": true,
         "variation": 0
     },
+    "enable-page-content-extraction": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "enable-personality-button-shimmer-effect": {
         "flagVersion": 3,
         "trackEvents": false,
