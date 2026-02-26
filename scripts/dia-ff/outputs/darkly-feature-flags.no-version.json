@@ -1233,6 +1233,12 @@
         "value": true,
         "variation": 0
     },
+    "content-fetch-use-page-content-extraction": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "content-fetch-use-slack-integration": {
         "flagVersion": 6,
         "trackEvents": false,
