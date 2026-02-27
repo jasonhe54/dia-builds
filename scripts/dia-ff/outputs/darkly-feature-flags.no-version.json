@@ -3004,10 +3004,10 @@
         "variation": 0
     },
     "recent-tab-switcher-grid-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "recent-tab-switcher-grid-max-columns": {
         "flagVersion": 2,
