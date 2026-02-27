@@ -2425,7 +2425,7 @@
         "variation": 1
     },
     "new-tabs-at-top-setting-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -2673,6 +2673,12 @@
         "value": true,
         "variation": 0
     },
+    "onboarding-remap-profile-ids-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "onboarding-restore-tabs-enabled": {
         "flagVersion": 17,
         "trackEvents": false,
@@ -2755,10 +2761,10 @@
         "variation": 0
     },
     "opt-shift-click-to-form-group-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "out-of-process-classification-enabled": {
         "flagVersion": 3,
@@ -3079,10 +3085,10 @@
         "variation": 1
     },
     "reset-pinned-tab-url-favicon-hover-affordance-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "ruleset-to-enforce": {
         "flagVersion": 16,
