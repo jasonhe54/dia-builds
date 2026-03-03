@@ -1128,6 +1128,12 @@
         "value": false,
         "variation": 1
     },
+    "clia-todo-ui-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "clia-use-watchtower-gateway": {
         "flagVersion": 2,
         "trackEvents": false,
