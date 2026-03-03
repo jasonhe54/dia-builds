@@ -1173,6 +1173,12 @@
         "value": false,
         "variation": 1
     },
+    "command-bar-force-route-shortcuts-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "command-bar-keyboard-routing-modifier-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -2545,10 +2551,10 @@
         "variation": 0
     },
     "onboarding-command-bar-suggestions-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-default-browser-perk-enabled": {
         "flagVersion": 3,
@@ -2620,10 +2626,10 @@
         "variation": 0
     },
     "onboarding-import-tab-groups-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-imported-tabs-onboarding-step-enabled": {
         "flagVersion": 4,
