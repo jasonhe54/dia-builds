@@ -1068,6 +1068,12 @@
         "value": true,
         "variation": 0
     },
+    "clean-inactive-tabs-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "clean-tabs-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
