@@ -2809,10 +2809,10 @@
         "variation": 0
     },
     "pdf-llm-summarize-images-only": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "pdf-summarization-model": {
         "flagVersion": 3,
