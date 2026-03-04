@@ -1140,6 +1140,12 @@
         "value": false,
         "variation": 1
     },
+    "clia-tool-result-override": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": "",
+        "variation": 0
+    },
     "clia-use-watchtower-gateway": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -3264,6 +3270,12 @@
         "variation": 0
     },
     "settings-redesign-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "share-this-tab-instead-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
