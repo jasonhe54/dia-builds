@@ -1276,10 +1276,10 @@
         "variation": 0
     },
     "content-fetch-use-page-content-extraction": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "content-fetch-use-slack-integration": {
         "flagVersion": 6,
@@ -1768,10 +1768,10 @@
         "variation": 0
     },
     "enable-page-content-extraction": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "enable-personality-button-shimmer-effect": {
         "flagVersion": 3,
@@ -2551,7 +2551,7 @@
         "variation": 1
     },
     "onboarding-arc-to-dia-preview-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -3399,7 +3399,7 @@
         "variation": 0
     },
     "sidebar-upsell-dialog-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": true,
         "variation": 0
