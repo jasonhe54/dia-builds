@@ -2467,7 +2467,7 @@
         "variation": 1
     },
     "new-tabs-at-top-setting-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0
