@@ -1140,6 +1140,12 @@
         "value": false,
         "variation": 1
     },
+    "clia-onboarding-intro-chat-preview": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "clia-slack-tools-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
