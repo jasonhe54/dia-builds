@@ -1222,10 +1222,10 @@
         "variation": 1
     },
     "command-bar-force-route-shortcuts-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "command-bar-keyboard-routing-modifier-enabled": {
         "flagVersion": 2,
