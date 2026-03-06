@@ -2265,6 +2265,12 @@
         "value": true,
         "variation": 0
     },
+    "live-folder-recently-closed-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "load-all-profiles-at-startup": {
         "flagVersion": 14,
         "trackEvents": false,
