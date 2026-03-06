@@ -41,6 +41,12 @@
         "value": true,
         "variation": 0
     },
+    "ad-block-reload-prompt-threshold": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 2,
+        "variation": 1
+    },
     "add-skill-from-url": {
         "flagVersion": 5,
         "trackEvents": false,
