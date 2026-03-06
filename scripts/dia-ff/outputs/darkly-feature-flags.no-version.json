@@ -42,10 +42,10 @@
         "variation": 0
     },
     "ad-block-reload-prompt-threshold": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": 2,
-        "variation": 1
+        "value": 3,
+        "variation": 0
     },
     "add-skill-from-url": {
         "flagVersion": 5,
@@ -1110,12 +1110,6 @@
         "value": false,
         "variation": 1
     },
-    "clia-bundled-agent-server-enabled": {
-        "flagVersion": 2,
-        "trackEvents": false,
-        "value": false,
-        "variation": 1
-    },
     "clia-chat-activation-code": {
         "flagVersion": 9,
         "trackEvents": false,
@@ -1222,7 +1216,7 @@
         "variation": 1
     },
     "command-bar-force-route-shortcuts-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -3974,6 +3968,30 @@
         "trackEvents": false,
         "value": false,
         "variation": 1
+    },
+    "sync-bookmarks-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "sync-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "sync-favorites-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "sync-service-environment": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": "sandbox",
+        "variation": 0
     },
     "tab-attachment-distilled-html-enabled": {
         "flagVersion": 4,
