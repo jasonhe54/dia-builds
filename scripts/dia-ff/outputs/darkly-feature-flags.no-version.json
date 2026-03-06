@@ -1099,7 +1099,7 @@
         "variation": 1
     },
     "clia-agents-chat-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1111,7 +1111,7 @@
         "variation": 1
     },
     "clia-chat-activation-code": {
-        "flagVersion": 10,
+        "flagVersion": 11,
         "trackEvents": false,
         "value": "",
         "variation": 1
@@ -1123,7 +1123,7 @@
         "variation": 1
     },
     "clia-mcp-auth-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1165,7 +1165,7 @@
         "variation": 0
     },
     "clia-use-watchtower-gateway": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
