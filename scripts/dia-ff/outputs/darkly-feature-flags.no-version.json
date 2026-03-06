@@ -1015,7 +1015,7 @@
         "variation": 0
     },
     "chat-suggestions-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1099,7 +1099,7 @@
         "variation": 1
     },
     "clia-agents-chat-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1111,7 +1111,7 @@
         "variation": 1
     },
     "clia-chat-activation-code": {
-        "flagVersion": 9,
+        "flagVersion": 10,
         "trackEvents": false,
         "value": "",
         "variation": 1
@@ -1165,7 +1165,7 @@
         "variation": 0
     },
     "clia-use-watchtower-gateway": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1186,10 +1186,10 @@
         "variation": 0
     },
     "cmd-bar-routing-preference-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "cmd-click-creates-tab-group": {
         "flagVersion": 4,
@@ -1822,7 +1822,7 @@
         "variation": 1
     },
     "enable-remote-agents": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
