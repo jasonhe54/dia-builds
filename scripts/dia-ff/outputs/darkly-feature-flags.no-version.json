@@ -1186,7 +1186,7 @@
         "variation": 0
     },
     "cmd-bar-routing-preference-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": true,
         "variation": 0
