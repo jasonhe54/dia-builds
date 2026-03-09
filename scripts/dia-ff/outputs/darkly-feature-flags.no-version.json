@@ -1135,10 +1135,10 @@
         "variation": 1
     },
     "clia-onboarding-intro-chat-preview": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "clia-slack-tools-enabled": {
         "flagVersion": 2,
@@ -1153,10 +1153,10 @@
         "variation": 1
     },
     "clia-todo-ui-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "clia-tool-result-override": {
         "flagVersion": 2,
@@ -3737,6 +3737,12 @@
         "trackEvents": false,
         "value": "https://diabrowser.com/skills/packs/back-to-school",
         "variation": 0
+    },
+    "suggestions-prefetch-tools-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
     },
     "supertab-dia-timestamp-tag-enabled": {
         "flagVersion": 3,
