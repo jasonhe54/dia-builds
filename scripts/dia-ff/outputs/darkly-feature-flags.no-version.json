@@ -1057,9 +1057,9 @@
         "variation": 0
     },
     "chromium-disabled-features": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
-        "value": "ExtensionManifestV2Disabled,ExtensionManifestV2Unsupported,PageActionsMigration",
+        "value": "ExtensionManifestV2Disabled,ExtensionManifestV2Unsupported,PageActionsMigration,DelayLayerTreeViewDeletionOnLocalSwap",
         "variation": 0
     },
     "classification-for-memory-donations-enabled": {
