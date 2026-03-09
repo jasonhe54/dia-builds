@@ -2029,10 +2029,16 @@
         "variation": 2
     },
     "github-live-folder-post-merge-retention-seconds": {
-        "flagVersion": 2,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": 0,
-        "variation": 1
+        "value": 1800,
+        "variation": 3
+    },
+    "github-live-folder-post-review-retention-seconds": {
+        "flagVersion": 3,
+        "trackEvents": false,
+        "value": 3600,
+        "variation": 0
     },
     "github-live-folder-realtime-updates-enabled": {
         "flagVersion": 2,
@@ -3015,6 +3021,12 @@
         "value": true,
         "variation": 0
     },
+    "profile-reordering-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "prompt-packing-enabled": {
         "flagVersion": 3,
         "trackEvents": false,
@@ -3082,10 +3094,10 @@
         "variation": 0
     },
     "recent-tab-switcher-grid-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "recent-tab-switcher-grid-max-columns": {
         "flagVersion": 2,
