@@ -2740,10 +2740,10 @@
         "variation": 0
     },
     "onboarding-remap-profile-ids-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "onboarding-restore-tabs-enabled": {
         "flagVersion": 17,
