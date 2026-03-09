@@ -1903,10 +1903,10 @@
         "variation": 0
     },
     "fast-profile-switcher-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "favicon-appearance-handling-enabled": {
         "flagVersion": 6,
@@ -2509,6 +2509,12 @@
         "variation": 0
     },
     "new-tabs-menu-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "new-tabs-outside-tab-groups-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
