@@ -2028,6 +2028,12 @@
         "value": 120,
         "variation": 2
     },
+    "github-live-folder-post-merge-retention-seconds": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 0,
+        "variation": 1
+    },
     "github-live-folder-realtime-updates-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -2260,10 +2266,10 @@
         "variation": 0
     },
     "live-folder-recently-closed-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "load-all-profiles-at-startup": {
         "flagVersion": 14,
