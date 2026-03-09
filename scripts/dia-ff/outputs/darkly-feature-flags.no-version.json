@@ -1903,7 +1903,7 @@
         "variation": 0
     },
     "fast-profile-switcher-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
