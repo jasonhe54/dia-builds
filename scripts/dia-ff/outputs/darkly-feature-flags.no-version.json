@@ -3768,6 +3768,12 @@
         "value": false,
         "variation": 1
     },
+    "suggestions-prefetch-memory-insights-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "suggestions-prefetch-tools-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
