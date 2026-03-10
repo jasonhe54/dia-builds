@@ -3762,6 +3762,12 @@
         "value": "https://diabrowser.com/skills/packs/back-to-school",
         "variation": 0
     },
+    "suggestions-expiration-filtering-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "suggestions-prefetch-tools-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
@@ -4012,6 +4018,18 @@
         "variation": 1
     },
     "sync-favorites-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
+    "sync-periodic-interval-seconds-2": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": 60,
+        "variation": 0
+    },
+    "sync-pinned-groups-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
         "value": false,
