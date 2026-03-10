@@ -4017,6 +4017,12 @@
         "value": false,
         "variation": 1
     },
+    "sync-debug-log-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "sync-enabled": {
         "flagVersion": 2,
         "trackEvents": false,
