@@ -2635,10 +2635,10 @@
         "variation": 0
     },
     "onboarding-default-to-youtube-tour": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
-        "value": true,
-        "variation": 0
+        "value": false,
+        "variation": 1
     },
     "onboarding-dia-hacks-destination-url": {
         "flagVersion": 3,
@@ -3763,22 +3763,22 @@
         "variation": 0
     },
     "suggestions-expiration-filtering-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "suggestions-prefetch-memory-insights-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "suggestions-prefetch-tools-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "supertab-dia-timestamp-tag-enabled": {
         "flagVersion": 3,
