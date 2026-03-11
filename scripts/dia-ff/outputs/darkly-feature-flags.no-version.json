@@ -4053,6 +4053,12 @@
         "value": "sandbox",
         "variation": 0
     },
+    "sync-show-permission-call": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "tab-attachment-distilled-html-enabled": {
         "flagVersion": 4,
         "trackEvents": false,
