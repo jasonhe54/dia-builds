@@ -2029,16 +2029,16 @@
         "variation": 2
     },
     "github-live-folder-post-merge-retention-seconds": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
-        "value": 1800,
-        "variation": 3
+        "value": 120,
+        "variation": 4
     },
     "github-live-folder-post-review-retention-seconds": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
-        "value": 3600,
-        "variation": 0
+        "value": 600,
+        "variation": 3
     },
     "github-live-folder-realtime-updates-enabled": {
         "flagVersion": 3,
