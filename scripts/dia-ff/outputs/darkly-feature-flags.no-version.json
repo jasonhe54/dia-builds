@@ -4035,8 +4035,8 @@
         "value": false,
         "variation": 1
     },
-    "sync-periodic-interval-seconds-2": {
-        "flagVersion": 2,
+    "sync-periodic-interval-seconds": {
+        "flagVersion": 8,
         "trackEvents": false,
         "value": 60,
         "variation": 0
