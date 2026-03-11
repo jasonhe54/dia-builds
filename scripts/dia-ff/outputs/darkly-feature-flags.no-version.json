@@ -1087,7 +1087,7 @@
         "variation": 1
     },
     "clean-tabs-inactivity-threshold": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": 3600,
         "variation": 1
