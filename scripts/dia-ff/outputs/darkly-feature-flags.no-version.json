@@ -1111,10 +1111,10 @@
         "variation": 1
     },
     "clia-chat-activation-code": {
-        "flagVersion": 13,
+        "flagVersion": 15,
         "trackEvents": false,
-        "value": "",
-        "variation": 1
+        "value": "deetsman315",
+        "variation": 2
     },
     "clia-employee-onboarding-enabled": {
         "flagVersion": 2,
