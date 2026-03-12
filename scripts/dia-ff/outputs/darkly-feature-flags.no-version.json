@@ -1186,10 +1186,10 @@
         "variation": 0
     },
     "cmd-bar-routing-circuit-breaker-enabled": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "cmd-bar-routing-preference-enabled": {
         "flagVersion": 5,
@@ -1649,12 +1649,6 @@
         "trackEvents": false,
         "value": false,
         "variation": 1
-    },
-    "enable-ai-service-subscriptions-free-tier-cap": {
-        "flagVersion": 23,
-        "trackEvents": false,
-        "value": true,
-        "variation": 0
     },
     "enable-ask-on-page-new-chat-button": {
         "flagVersion": 3,
