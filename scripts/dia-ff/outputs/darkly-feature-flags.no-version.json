@@ -4054,7 +4054,7 @@
         "variation": 0
     },
     "sync-show-permission-call": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
         "value": false,
         "variation": 1
