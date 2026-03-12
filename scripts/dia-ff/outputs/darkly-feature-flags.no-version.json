@@ -1015,7 +1015,7 @@
         "variation": 0
     },
     "chat-suggestions-enabled": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1099,7 +1099,7 @@
         "variation": 1
     },
     "clia-agents-chat-enabled": {
-        "flagVersion": 6,
+        "flagVersion": 7,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1123,10 +1123,10 @@
         "variation": 1
     },
     "clia-mcp-auth-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 6,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "clia-mcp-url-passthrough": {
         "flagVersion": 2,
@@ -1165,7 +1165,7 @@
         "variation": 0
     },
     "clia-use-watchtower-gateway": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
         "value": false,
         "variation": 1
@@ -1822,7 +1822,7 @@
         "variation": 1
     },
     "enable-remote-agents": {
-        "flagVersion": 3,
+        "flagVersion": 4,
         "trackEvents": false,
         "value": false,
         "variation": 1
