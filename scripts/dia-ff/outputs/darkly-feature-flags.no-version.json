@@ -1015,10 +1015,10 @@
         "variation": 0
     },
     "chat-suggestions-enabled": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "chat-tab-release-notes-enabled": {
         "flagVersion": 3,
@@ -1099,10 +1099,10 @@
         "variation": 1
     },
     "clia-agents-chat-enabled": {
-        "flagVersion": 7,
+        "flagVersion": 8,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "clia-artifact-header-harness-enabled": {
         "flagVersion": 2,
@@ -1165,10 +1165,10 @@
         "variation": 0
     },
     "clia-use-watchtower-gateway": {
-        "flagVersion": 5,
+        "flagVersion": 6,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "close-tabs-tool-enabled": {
         "flagVersion": 3,
@@ -1822,10 +1822,10 @@
         "variation": 1
     },
     "enable-remote-agents": {
-        "flagVersion": 4,
+        "flagVersion": 5,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "enable-supertabs-to-do-generator": {
         "flagVersion": 2,
