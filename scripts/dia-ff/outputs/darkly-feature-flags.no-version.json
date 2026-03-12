@@ -1185,6 +1185,12 @@
         "value": true,
         "variation": 0
     },
+    "cmd-bar-routing-circuit-breaker-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "cmd-bar-routing-preference-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
