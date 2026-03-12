@@ -1014,6 +1014,12 @@
         "value": true,
         "variation": 0
     },
+    "chat-suggestions-debug-explanations-enabled": {
+        "flagVersion": 2,
+        "trackEvents": false,
+        "value": false,
+        "variation": 1
+    },
     "chat-suggestions-enabled": {
         "flagVersion": 5,
         "trackEvents": false,
