@@ -1027,7 +1027,10 @@
         "variation": 1
     },
     "chat-suggestions-enabled": {
-        "flagVersion": 5,
+        "flagVersion": 6,
+        "prerequisites": [
+            "clia-agents-chat-enabled"
+        ],
         "trackEvents": false,
         "value": true,
         "variation": 0
@@ -1177,10 +1180,10 @@
         "variation": 0
     },
     "clia-url-provenance": {
-        "flagVersion": 2,
+        "flagVersion": 3,
         "trackEvents": false,
-        "value": false,
-        "variation": 1
+        "value": true,
+        "variation": 0
     },
     "clia-use-watchtower-gateway": {
         "flagVersion": 6,
